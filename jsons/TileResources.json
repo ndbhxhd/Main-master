@@ -6,10 +6,10 @@
             "Grassland",
             "Plains"
         ],
-        "food": 2,
+        "food": 1,
         "improvement": "Pasture",
         "improvementStats": {
-            "production": 2
+            "production": 1
         },
         "uniques": [
             "Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>",
@@ -23,12 +23,12 @@
             "Grassland",
             "Plains"
         ],
-        "food": 2,
+        "food": 1,
         "improvedBy": [
             "Camp"
         ],
         "improvementStats": {
-            "production": 2
+            "production": 1
         },
         "uniques": [
             "Generated on every [15] tiles <in [{Featureless} {Plains}] tiles>",
@@ -76,10 +76,10 @@
         "terrainsCanBeFoundOn": [
             "Jungle"
         ],
-        "food": 2,
+        "food": 1,
         "improvement": "Plantation",
         "improvementStats": {
-            "food": 3
+            "food": 2
         },
         "uniques": [
             "Generated on every [20] tiles <in [Jungle] tiles>"
@@ -93,7 +93,7 @@
             "Flood plains",
             "Desert"
         ],
-        "food": 2,
+        "food": 1,
         "improvement": "Farm",
         "uniques": [
             "Generated on every [30] tiles <in [{Featureless} {Plains}] tiles>",
@@ -125,7 +125,7 @@
         "production": 1,
         "improvement": "Quarry",
         "improvementStats": {
-            "production": 2
+            "production": 1
         },
         "uniques": [
             "Generated on every [20] tiles <in [{non-[Fresh Water]} {Featureless} {Grassland}] tiles>",
@@ -139,9 +139,9 @@
         "terrainsCanBeFoundOn": [
             "Coast"
         ],
-        "food": 2,
+        "food": 1,
         "improvementStats": {
-            "food": 3
+            "food": 1
         },
         "improvement": "Fishing Boats",
         "uniques": [
@@ -158,10 +158,10 @@
             "Hill",
             "Tundra"
         ],
-        "production": 2,
+        "production": 1,
         "improvement": "Pasture",
         "improvementStats": {
-            "production": 3
+            "production": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -197,7 +197,7 @@
             "Hill",
             "Marsh"
         ],
-        "production": 2,
+        "production": 1,
         "improvement": "Mine",
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -238,10 +238,10 @@
             "Forest",
             "Marsh"
         ],
-        "production": 2,
+        "production": 1,
         "improvement": "Mine",
         "improvementStats": {
-            "production": 5
+            "production": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -280,13 +280,13 @@
             "Marsh",
             "Jungle"
         ],
-        "production": 2,
+        "production": 1,
         "improvedBy": [
             "Oil well",
             "Offshore Platform"
         ],
         "improvementStats": {
-            "production": 10
+            "production": 3
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -328,10 +328,10 @@
             "Plains",
             "Forest"
         ],
-        "production": 2,
+        "production": 1,
         "improvement": "Mine",
         "improvementStats": {
-            "production": 8
+            "production": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -369,7 +369,7 @@
         "production": 1,
         "improvement": "Mine",
         "improvementStats": {
-            "production": 5
+            "production": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -408,7 +408,7 @@
         "production": 1,
         "improvement": "Mine",
         "improvementStats": {
-            "production": 5
+            "production": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -446,7 +446,7 @@
         ],
         "improvement": "Mine",
         "improvementStats": {
-            "science": 2
+            "science": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -478,10 +478,10 @@
             "Snow",
             "Forest"
         ],
-        "production": 5,
+        "production": 1,
         "improvement": "Mine",
         "improvementStats": {
-            "production": 7
+            "production": 1
         },
         "uniques": [
             "Generated on every [600] tiles <in [Hill] tiles>",
@@ -509,10 +509,10 @@
             "Hill",
             "Snow"
         ],
-        "production": 6,
+        "production": 1,
         "improvement": "Mine",
         "improvementStats": {
-            "production": 9
+            "production": 1
         },
         "uniques": [
             "Generated on every [500] tiles <in [Hill] tiles>",
@@ -548,7 +548,7 @@
             "Offshore Platform"
         ],
         "improvementStats": {
-            "production": 3
+            "production": 1
         },
         "uniques": [
             "Generated on every [500] tiles <in [Hill] tiles>",
@@ -664,10 +664,10 @@
             "Grassland",
             "Hill"
         ],
-        "gold": 5,
+        "gold": 2,
         "improvementStats": {
-            "gold": 10,
-            "production": 8
+            "gold": 1,
+            "production": 1
         },
         "improvement": "Mine",
         "uniques": [
@@ -689,9 +689,9 @@
             "Grassland",
             "Hill"
         ],
-        "gold": 100,
+        "gold": 2,
         "improvementStats": {
-            "gold": 200,
+            "gold": 1,
             "production": 1
         },
         "improvement": "Mine",
@@ -712,9 +712,9 @@
             "Desert",
             "Hill"
         ],
-        "gold": 80,
+        "gold": 2,
         "improvementStats": {
-            "gold": 150,
+            "gold": 1,
             "production": 1
         },
         "improvement": "Mine",
@@ -742,7 +742,7 @@
         "gold": 2,
         "improvementStats": {
             "gold": 1,
-            "production": 9
+            "production": 1
         },
         "improvement": "Mine",
         "uniques": [
@@ -765,9 +765,9 @@
             "Grassland",
             "Hill"
         ],
-        "gold": 90,
+        "gold": 2,
         "improvementStats": {
-            "gold": 170,
+            "gold": 1,
             "production": 1
         },
         "improvement": "Mine",
@@ -790,9 +790,9 @@
             "Grassland",
             "Hill"
         ],
-        "gold": 85,
+        "gold": 2,
         "improvementStats": {
-            "gold": 180,
+            "gold": 1,
             "production": 1
         },
         "improvement": "Mine",
@@ -815,9 +815,9 @@
             "Grassland",
             "Hill"
         ],
-        "gold": 70,
+        "gold": 2,
         "improvementStats": {
-            "gold": 90,
+            "gold": 1,
             "production": 1
         },
         "improvement": "Mine",
@@ -839,11 +839,11 @@
             "Plains",
             "Hill"
         ],
-        "food": 3,
+        "food": 1,
         "improvement": "Mine",
         "improvementStats": {
             "production": 1,
-            "food": 5
+            "food": 1
         },
         "uniques": [
             "Generated with weight [40] <in [Tundra] Regions>",
@@ -866,8 +866,8 @@
         ],
         "gold": 2,
         "improvementStats": {
-            "faith": 5,
-            "gold": 3
+            "faith": 2,
+            "gold": 1
         },
         "improvement": "Plantation",
         "uniques": [
@@ -947,7 +947,7 @@
         "gold": 2,
         "improvementStats": {
             "gold": 1,
-            "food": 2
+            "food": 1
         },
         "improvement": "Plantation",
         "uniques": [
@@ -973,7 +973,7 @@
         ],
         "gold": 2,
         "improvementStats": {
-            "food": 2,
+            "food": 1,
             "gold": 1
         },
         "improvement": "Plantation",
@@ -1029,7 +1029,7 @@
         "gold": 2,
         "improvementStats": {
             "gold": 1,
-            "production": 5
+            "production": 1
         },
         "improvement": "Plantation",
         "uniques": [
@@ -1059,7 +1059,7 @@
         "gold": 2,
         "improvementStats": {
             "gold": 1,
-            "food": 4
+            "food": 1
         },
         "improvement": "Plantation",
         "uniques": [
@@ -1167,10 +1167,10 @@
             "Jungle",
             "Forest"
         ],
-        "gold": 1,
+        "gold": 2,
         "improvement": "Plantation",
         "improvementStats": {
-            "production": 5
+            "production": 1
         },
         "uniques": [
             "Generated with weight [40] <in [Jungle] Regions>",
@@ -1197,7 +1197,7 @@
         "gold": 2,
         "improvement": "Plantation",
         "improvementStats": {
-            "culture": 8,
+            "culture": 1,
             "gold": 1
         },
         "uniques": [
@@ -1279,9 +1279,9 @@
             "Jungle",
             "Forest"
         ],
-        "food": 2,
+        "food": 1,
         "improvementStats": {
-            "food": 3,
+            "food": 1,
             "gold": 1
         },
         "improvement": "Plantation",
@@ -1365,7 +1365,7 @@
         ],
         "production": 1,
         "improvementStats": {
-            "food": 2,
+            "food": 1,
             "gold": 1
         },
         "improvement": "Fishing Boats",
@@ -1412,10 +1412,10 @@
         "terrainsCanBeFoundOn": [
             "Coast"
         ],
-        "culture": 5,
+        "culture": 1,
         "improvementStats": {
             "food": 1,
-            "gold": 10
+            "gold": 1
         },
         "improvement": "Fishing Boats",
         "uniques": [

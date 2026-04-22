@@ -3,7 +3,7 @@
         "name": "freeCulture",
         "notification": "We have discovered cultural artifacts in the ruins!",
         "uniques": [
-            "Gain [25] [Culture] <(modified by game speed)> <after turn number [15]>"
+            "Gain [20] [Culture] <(modified by game speed)> <after turn number [15]>"
         ]
     },
     {
@@ -46,7 +46,7 @@
         "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
         "uniques": [
             "Only available <when religion is enabled>",
-            "Gain [25] [Faith] <(modified by game speed)> <after turn number [15]>"
+            "Gain [20] [Faith] <(modified by game speed)> <after turn number [15]>"
         ]
     },
     {

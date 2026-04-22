@@ -101,7 +101,7 @@
                     "text": "Apostolic Palace",
                     "uniques": [
                         "Adopt [Apostolic Palace]",
-                        "Comment [[+10 Production, +10 Gold, +10 Food, +10 Science, +10 Culture, +10 Faith] from every [Grand Temple]]",
+                        "Comment [[+5 Production, +5 Gold, +5 Food, +5 Science, +5 Culture, +5 Faith] from every [Grand Temple]]",
                         "Only available <if no Civilization has adopted [Apostolic Palace]> <hidden from users>"
                     ]
                 },
@@ -109,7 +109,7 @@
                     "text": "City of God",
                     "uniques": [
                         "Adopt [City of God]",
-                        "Comment [[+3 Food, +1 Science] from every [Holy site]]",
+                        "Comment [[+2 Food, +1 Science] from every [Holy site]]",
                         "Comment [Free [Great Prophet] appears]",
                         "Only available <if no Civilization has adopted [City of God]> <hidden from users>"
                     ]
@@ -128,7 +128,7 @@
                     "text": "Indulgences",
                     "uniques": [
                         "Adopt [Indulgences]",
-                        "Comment [[+3 Food, +1 Culture, +1 Production, +3 Gold, +1 Faith] [in cities following this religion]]",
+                        "Comment [[+1 Food, +1 Culture, +1 Production, +1 Gold, +1 Faith] [in cities following this religion]]",
                         "Only available <if no Civilization has adopted [Indulgences]> <hidden from users>"
                     ]
                 },
@@ -162,8 +162,8 @@
                     "text": "Swords into Ploughshares",
                     "uniques": [
                         "Adopt [Swords into Ploughshares]",
-                        "Comment [[+3 Food] [in cities following this religion]]",
-                        "Comment [[+30]% growth [in cities following this religion]]",
+                        "Comment [[+1 Food] [in cities following this religion]]",
+                        "Comment [[+20]% growth [in cities following this religion]]",
                         "Only available <if no Civilization has adopted [Swords into Ploughshares]> <hidden from users>"
                     ]
                 },
@@ -171,7 +171,7 @@
                     "text": "Underground Sect",
                     "uniques": [
                         "Adopt [Underground Sect]",
-                        "Comment [[+2 Science] from every [4] global followers [in cities following this religion]]",
+                        "Comment [[+1 Science] from every [4] global followers [in cities following this religion]]",
                         "Only available <if no Civilization has adopted [Underground Sect]> <hidden from users>"
                     ]
                 },
@@ -194,22 +194,22 @@
             "presentation": "Alert",
             "choices": [
                 {
-                    "text": "Autocracy",
+                    "text": "Fascism",
                     "uniques": [
-                        "Adopt [Autocracy]",
-                        "Triggers a [Choose Autocracy] event <hidden from users>",
-                        "Only available <before adopting [Autocracy]>",
-                        "Only available <before adopting [Freedom]>",
+                        "Adopt [Fascism]",
+                        "Triggers a [Choose Fascism] event <hidden from users>",
+                        "Only available <before adopting [Fascism]>",
+                        "Only available <before adopting [Liberalism]>",
                         "Only available <before adopting [Communism]>"
                     ]
                 },
                 {
-                    "text": "Freedom",
+                    "text": "Liberalism",
                     "uniques": [
-                        "Adopt [Freedom]",
-                        "Triggers a [Choose Freedom] event <hidden from users>",
-                        "Only available <before adopting [Autocracy]>",
-                        "Only available <before adopting [Freedom]>",
+                        "Adopt [Liberalism]",
+                        "Triggers a [Choose Liberalism] event <hidden from users>",
+                        "Only available <before adopting [Fascism]>",
+                        "Only available <before adopting [Liberalism]>",
                         "Only available <before adopting [Communism]>"
                     ]
                 },
@@ -218,8 +218,8 @@
                     "uniques": [
                         "Adopt [Communism]",
                         "Triggers a [Choose Communism] event <hidden from users>",
-                        "Only available <before adopting [Autocracy]>",
-                        "Only available <before adopting [Freedom]>",
+                        "Only available <before adopting [Fascism]>",
+                        "Only available <before adopting [Liberalism]>",
                         "Only available <before adopting [Communism]>"
                     ]
                 }
@@ -234,7 +234,7 @@
                     "text": "Hero of the People",
                     "uniques": [
                         "Adopt [Hero of the People]",
-                        "Comment [[+15]% Great Person generation [in all cities]]",
+                        "Comment [[+20]% Great Person generation [in all cities]]",
                         "Only available <before adopting [Hero of the People]>"
                     ]
                 },
@@ -242,7 +242,7 @@
                     "text": "Socialist Realism",
                     "uniques": [
                         "Adopt [Socialist Realism]",
-                        "Comment [[+1 Happiness] from every [Monument]]",
+                        "Comment [[+2 Happiness] from every [Monument]]",
                         "Comment [[+100]% Production when constructing [Monument] buildings [in all cities]]",
                         "Only available <before adopting [Socialist Realism]>"
                     ]
@@ -252,7 +252,7 @@
                     "uniques": [
                         "Adopt [Patriotic War]",
                         "Comment [[[+10]% Strength] [for [Military] units] [when fighting in [Friendly Land] tiles]]",
-                        "Comment [[+1] Movement <for [All] units> <in [Friendly Land] tiles>]",
+                        "Comment [[[+50]% XP gained from combat] [for [non-[Air]] units]]",
                         "Only available <before adopting [Patriotic War]>"
                     ]
                 },
@@ -300,15 +300,15 @@
             ]
         },
         {
-            "name": "Choose Freedom",
-            "text": "Choose an [Freedom] policy:",
+            "name": "Choose Liberalism",
+            "text": "Choose an [Liberalism] policy:",
             "presentation": "Alert",
             "choices": [
                 {
                     "text": "Avant Garde",
                     "uniques": [
                         "Adopt [Avant Garde]",
-                        "Comment [[+30]% Great Person generation [in all cities]]",
+                        "Comment [[+25]% Great Person generation [in all cities]]",
                         "Only available <before adopting [Avant Garde]>"
                     ]
                 },
@@ -316,7 +316,7 @@
                     "text": "Creative Expression",
                     "uniques": [
                         "Adopt [Creative Expression]",
-                        "Comment [[+3 Culture] from every [Great Work]]",
+                        "Comment [[+2 Culture] from every [Great Work]]",
                         "Only available <before adopting [Creative Expression]>"
                     ]
                 },
@@ -324,7 +324,7 @@
                     "text": "Civil Society",
                     "uniques": [
                         "Adopt [Civil Society]",
-                        "Comment [[-70]% Food consumption by specialists [in all cities]]",
+                        "Comment [[-50]% Food consumption by specialists [in all cities]]",
                         "Only available <before adopting [Civil Society]>"
                     ]
                 },
@@ -332,7 +332,7 @@
                     "text": "Volunteer Army",
                     "uniques": [
                         "Adopt [Volunteer Army]",
-                        "Comment [[5] free [Patriots] units appear]",
+                        "Comment [[3] free [Patriots] units appear]",
                         "Comment [[2] units cost no maintenance]",
                         "Comment [[Infantry] units gain the [Morale] promotion]",
                         "Comment [All newly-trained [Infantry] units [in all cities] receive the [Morale] promotion]",
@@ -355,8 +355,8 @@
                         "Comment [[+1 Happiness] from every [Market]]",
                         "Comment [[+1 Happiness] from every [Bank]]",
                         "Comment [[+1 Happiness] from every [Stock Exchange]]",
-                        "Comment [[+30]% [Gold] [in all cities]]",
-                        "Comment [Provides [3] [Trade Route]]",
+                        "Comment [[+10]% [Gold] [in all cities]]",
+                        "Comment [Provides [1] [Trade Route]]",
                         "Only available <before adopting [Capitalism]>"
                     ]
                 },
@@ -364,23 +364,24 @@
                     "text": "Economic Union",
                     "uniques": [
                         "Adopt [Economic Union]",
-                        "Comment [[+20]% [Gold] [in all cities]]",
-                        "Comment [Provides [2] [Trade Route]]",
+                        "Comment [[+10]% [Gold] [in all cities]]",
+                        "Comment [Provides [1] [Trade Route]]",
                         "Only available <before adopting [Economic Union]>"
                     ]
                 }
             ]
         },
         {
-            "name": "Choose Autocracy",
-            "text": "Choose an [Autocracy] policy:",
+            "name": "Choose Fascism",
+            "text": "Choose an [Fascism] policy:",
             "presentation": "Alert",
             "choices": [
                 {
                     "text": "Elite Forces",
                     "uniques": [
                         "Adopt [Elite Forces]",
-                        "Comment [[[+15]% Strength] [for [Military] units]]",
+                        "Comment [[[+10]% Strength] [for [Military] units]]",
+                        "Comment [+10]% Strength <vs [Wounded] units>",
                         "Comment [[[+10] HP when healing] [for [Military] units]]",
                         "Only available <before adopting [Elite Forces]>"
                     ]
@@ -390,7 +391,7 @@
                     "uniques": [
                         "Adopt [Mobilization]",
                         "Comment [[Gold] cost of purchasing [All] units [-35]%]",
-                        "Comment [[[-30]% maintenance costs] [for [All] units]]",
+                        "Comment [[[-25]% maintenance costs] [for [All] units]]",
                         "Only available <before adopting [Mobilization]>"
                     ]
                 },
@@ -443,7 +444,7 @@
         {
             "text": "Convince the remaining population to join one of your cities",
             "uniques": [
-                "[+2] population in a random city"
+                "[+1] population in a random city"
             ]
         },
         {
@@ -468,7 +469,7 @@
             "text": "Study the lost tribe's religion",
             "uniques": [
                 "Only available <when religion is enabled>",
-                "Gain [10] [Faith] <(modified by game speed)>",
+                "Gain [20] [Faith] <(modified by game speed)>",
                 "Only available <after turn number [15]>"
             ]
         },

@@ -6,7 +6,7 @@
         "Desert",
         "Flood plains"
     ],
-    "food": 2,
+    "food": 1,
     "turnsToBuild": 7,
     "techRequired": "Agriculture",
     "uniques": [
@@ -285,7 +285,7 @@
             "Can only be built to improve a resource",
             "Cannot be built on [Water] tiles",
             "[+10 Gold]",
-            "Pillaging this improvement yields approximately [+500 Gold]"
+            "Pillaging this improvement yields approximately [+50 Gold]"
         ],
         "shortcutKey": "W"
     },
@@ -296,8 +296,8 @@
         "uniques": [
             "Can only be built to improve a resource",
             "Can only be built on [Water] tiles",
-            "[+15 Gold]",
-            "Pillaging this improvement yields approximately [+500 Gold]"
+            "[+10 Gold]",
+            "Pillaging this improvement yields approximately [+50 Gold]"
         ],
         "shortcutKey": "P"
     },
@@ -328,8 +328,8 @@
             "Flood plains",
             "Marsh"
         ],
-        "gold": 2,
-        "turnsToBuild": 3,
+        "gold": 1,
+        "turnsToBuild": 5,
         "techRequired": "Guilds",
         "uniques": [
             "[+1 Gold] <after discovering [Economics]>",
@@ -436,7 +436,7 @@
             "[+1 Food] <starting from the [Classical era]>",
             "[+1 Food] <starting from the [Industrial era]>",
             "[+1 Food] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+100 Gold]",
+            "Pillaging this improvement yields approximately [+10 Gold]",
             "Excluded from map editor"
         ]
     },
@@ -455,7 +455,7 @@
             "[+1 Production] <starting from the [Classical era]>",
             "[+1 Production] <starting from the [Industrial era]>",
             "[+1 Production] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+200 Gold]",
+            "Pillaging this improvement yields approximately [+20 Gold]",
             "Excluded from map editor"
         ]
     },
@@ -466,20 +466,20 @@
             "Jungle",
             "Marsh",
             "Oasis"],
-        "gold": 6,
+        "gold": 4,
         "uniques": [
             "All Trade Route",
             "Provides [-1] [Trade Route]",
             "[+2 Gold] <starting from the [Classical era]>",
             "[+2 Gold] <starting from the [Industrial era]>",
             "[+2 Gold] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+800 Gold]",
+            "Pillaging this improvement yields approximately [+50 Gold]",
             "Excluded from map editor"
         ]
     },
     {
         "name": "Sea Trade Route (Food)",
-        "food": 10,
+        "food": 6,
         "terrainsCanBeBuiltOn": ["Coast",
             "Ocean",
             "Atoll"],
@@ -490,13 +490,13 @@
             "[+2 Food] <starting from the [Classical era]>",
             "[+2 Food] <starting from the [Industrial era]>",
             "[+2 Food] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+150 Gold]",
+            "Pillaging this improvement yields approximately [+20 Gold]",
             "Excluded from map editor"
         ]
     },
     {
         "name": "Sea Trade Route (Production)",
-        "production": 8,
+        "production": 6,
         "terrainsCanBeBuiltOn": ["Coast",
             "Ocean",
             "Atoll"],
@@ -507,7 +507,7 @@
             "[+2 Production] <starting from the [Classical era]>",
             "[+2 Production] <starting from the [Industrial era]>",
             "[+2 Production] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+250 Gold]",
+            "Pillaging this improvement yields approximately [+20 Gold]",
             "Excluded from map editor"
         ]
     },
@@ -516,14 +516,14 @@
         "terrainsCanBeBuiltOn": ["Coast",
             "Ocean",
             "Atoll"],
-        "gold": 10,
+        "gold": 6,
         "uniques": [
             "All Trade Route",
             "Provides [-1] [Trade Route]",
             "[+4 Gold] <starting from the [Classical era]>",
             "[+4 Gold] <starting from the [Industrial era]>",
             "[+4 Gold] <starting from the [Modern era]>",
-            "Pillaging this improvement yields approximately [+1200 Gold]",
+            "Pillaging this improvement yields approximately [+50 Gold]",
             "Excluded from map editor"
         ]
     },
@@ -744,7 +744,7 @@
             "[+2 Science] <after discovering [Scientific Theory]>",
             "[+2 Science] <after discovering [Atomic Theory]>",
             "Removes removable features when built",
-            "Pillaging this improvement yields approximately [+200 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
     {
@@ -766,19 +766,19 @@
             "Removes removable features when built",
             "[+2 Culture] <after discovering [Radio]>",
             "[+2 Gold] <after discovering [Electricity]>",
-            "Pillaging this improvement yields approximately [+100 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
     {
         "name": "Manufactory",
         "terrainsCanBeBuiltOn": ["Land"],
         "production": 5,
-        "food": 2,
+        "food": 1,
         "uniques": [
             "Great Improvement",
             "[+3 Production] <after discovering [Chemistry]>",
             "Removes removable features when built",
-            "Pillaging this improvement yields approximately [+500 Gold]"
+            "Pillaging this improvement yields approximately [+50 Gold]"
         ]
     },
     {
@@ -789,7 +789,7 @@
             "Great Improvement",
             "[+3 Production] <after discovering [Pharmaceuticals]>",
             "Removes removable features when built",
-            "Pillaging this improvement yields approximately [+500 Gold]"
+            "Pillaging this improvement yields approximately [+50 Gold]"
         ]
     },
     {
@@ -801,7 +801,7 @@
             "Great Improvement",
             "[+4 Gold] <after discovering [Economics]>",
             "Removes removable features when built",
-            "Pillaging this improvement yields approximately [+800 Gold]"
+            "Pillaging this improvement yields approximately [+50 Gold]"
         ]
     },
     {
@@ -873,14 +873,10 @@
     },
     {
         "name": "Terrorist hideout",
-        "gold": 1,
-        "turnsToBuild": 2,
+        "turnsToBuild": 1,
         "terrainsCanBeBuiltOn": ["Land"],
         "uniques": [
-            "Unpillagable",
-            "Can be built outside your borders",
-            "Provides a random bonus when entered",
-            "Excluded from map editor"
+            "Unpillagable"
         ],
         "civilopediaText": [{
             "text": "Home to Terrorist, will spawn a hostile unit from time to time"

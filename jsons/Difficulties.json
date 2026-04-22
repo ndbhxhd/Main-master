@@ -1,10 +1,10 @@
 [{
     "name": "Prince",
-    "baseHappiness": 5,
+    "baseHappiness": 0,
     "extraHappinessPerLuxury": 0,
     "researchCostModifier": 1,
     "unitCostModifier": 1,
-    "unitSupplyBase": 3,
+    "unitSupplyBase": 0,
     "unitSupplyPerCity": 1,
     "buildingCostModifier": 1,
     "policyCostModifier": 1,
@@ -22,15 +22,15 @@
     "aiUnhappinessModifier": 1,
     "aisExchangeTechs": true,
     "turnBarbariansCanEnterPlayerTiles": 0,
-    "clearBarbarianCampReward": 100
+    "clearBarbarianCampReward": 50
 },
     {
         "name": "AI",
-        "baseHappiness": 5,
+        "baseHappiness": 0,
         "extraHappinessPerLuxury": 0,
         "researchCostModifier": 1,
         "unitCostModifier": 1,
-        "unitSupplyBase": 3,
+        "unitSupplyBase": 0,
         "unitSupplyPerCity": 2,
         "buildingCostModifier": 1,
         "policyCostModifier": 1,
@@ -48,5 +48,5 @@
         "aiUnhappinessModifier": 1,
         "aisExchangeTechs": true,
         "turnBarbariansCanEnterPlayerTiles": 0,
-        "clearBarbarianCampReward": 100
+        "clearBarbarianCampReward": 50
     }]
