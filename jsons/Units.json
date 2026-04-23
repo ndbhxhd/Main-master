@@ -4984,7 +4984,7 @@
         "cost": 21005,
         "requiredTech": "Nanotechnology",
         "requiredResource": ["Aluminum", "Semiconductors", "Composite Materials", "Jet Fuel"],
-        "uniques": [
+        "uniques": [,
             "Damage taken from interception reduced by [170]%",
             "Cannot be carried by [Aircraft Carrier] units"
         ],
