@@ -4604,8 +4604,10 @@
         "range": 3,
         "cost": 650,
         "requiredTech": "Robotics",
-        "requiredResource": ["Aluminum", "Semiconductors", "Marine Gas Turbine Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Semiconductors]",
+            "Consumes [1] [Marine Gas Turbine Fuel]",
             "Can carry [4] [Missile] units",
             "Can see invisible [Naval Submarine] units",
             "Can see invisible [Naval Raider] units",
@@ -4678,8 +4680,9 @@
         "interceptRange": 10,
         "cost": 1550,
         "requiredTech": "Lasers",
-        "requiredResource": ["Aluminum", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Jet Fuel]",
             "[100]% chance to intercept air attacks",
             "[+150]% Strength <vs [Bomber] units>",
             "[+150]% Strength <vs [Helicopter] units>",
@@ -4699,8 +4702,11 @@
         "interceptRange": 12,
         "cost": 12050,
         "requiredTech": "Stealth",
-        "requiredResource": ["Aluminum", "Carbon Fiber", "Composite Materials", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Carbon Fiber]",
+            "Consumes [1] [Composite Materials]",
+            "Consumes [1] [Jet Fuel]",
             "[100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
             "Cannot be carried by [Aircraft Carrier] units",
@@ -4718,8 +4724,11 @@
         "range": 27,
         "cost": 11700,
         "requiredTech": "Stealth",
-        "requiredResource": ["Aluminum", "Carbon Fiber","Composite Materials", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Carbon Fiber]",
+            "Consumes [1] [Composite Materials]",
+            "Consumes [1] [Jet Fuel]",
             "Damage taken from interception reduced by [170]%",
             "Cannot be carried by [Aircraft Carrier] units",
             "Can see over obstacles"
@@ -4737,8 +4746,11 @@
         "interceptRange": 13,
         "cost": 13500,
         "requiredTech": "Stealth",
-        "requiredResource": ["Aluminum", "Carbon Fiber", "Composite Materials", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Carbon Fiber]",
+            "Consumes [1] [Composite Materials]",
+            "Consumes [1] [Jet Fuel]",
             "[100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
             "Cannot be carried by [Aircraft Carrier] units",
@@ -4757,8 +4769,11 @@
         "interceptRange": 13,
         "cost": 13500,
         "requiredTech": "Stealth",
-        "requiredResource": ["Aluminum", "Carbon Fiber", "Composite Materials", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Carbon Fiber]",
+            "Consumes [1] [Composite Materials]",
+            "Consumes [1] [Jet Fuel]",
             "[100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
             "[+200]% Strength <vs [Helicopter] units>"
@@ -4776,8 +4791,11 @@
         "interceptRange": 13,
         "cost": 13500,
         "requiredTech": "Stealth",
-        "requiredResource": ["Aluminum", "Carbon Fiber", "Composite Materials", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Carbon Fiber]",
+            "Consumes [1] [Composite Materials]",
+            "Consumes [1] [Jet Fuel]",
             "[100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
             "Cannot be carried by [Aircraft Carrier] units",
@@ -4797,8 +4815,11 @@
         "interceptRange": 14,
         "cost": 47500,
         "requiredTech": "Nanotechnology",
-        "requiredResource": ["Rare Earth Minerals", "Carbon Fiber", "Composite Materials", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Rare Earth Minerals]",
+            "Consumes [1] [Carbon Fiber]",
+            "Consumes [1] [Composite Materials]",
+            "Consumes [1] [Jet Fuel]",
             "[+100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
             "[+25]% Damage when intercepting",
@@ -4817,8 +4838,13 @@
         "interceptRange": 12,
         "cost": 20150,
         "requiredTech": "Nanotechnology",
-        "requiredResource": ["Aluminum", "Carbon Fiber", "Composite Materials", "Rare Earth Minerals", "Semiconductors", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Semiconductors]",
+            "Consumes [1] [Composite Materials]",
+            "Consumes [1] [Jet Fuel]",
+            "Consumes [1] [Carbon Fiber]",
+            "Consumes [1] [Rare Earth Minerals]",
             "[100]% chance to intercept air attacks",
             "[+150]% Strength <vs [Bomber] units>",
             "[+150]% Strength <vs [Fighter] units>"
@@ -4849,8 +4875,12 @@
         "range": 13,
         "cost": 3000,
         "requiredTech": "Satellites",
-        "requiredResource": ["Aluminum", "Semiconductors", "Composite Materials", "Jet Fuel"],
-        "uniques": ["Cannot attack", "[+13] Sight"]
+        "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Semiconductors]",
+            "Consumes [1] [Composite Materials]",
+            "Consumes [1] [Jet Fuel]",
+            "Cannot attack", "[+13] Sight"]
     },
     {
         "name": "Heavy Cruiser",
@@ -4927,8 +4957,10 @@
         "range": 35,
         "cost": 52175,
         "requiredTech": "Lasers",
-        "requiredResource": ["Aluminum", "Semiconductors", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Semiconductors]",
+            "Consumes [1] [Jet Fuel]",
             "[+100]% Strength <vs cities>",
             "Can see over obstacles",
             "Cannot be carried by [Aircraft Carrier] units"
@@ -4945,8 +4977,11 @@
         "range": 20,
         "cost": 10375,
         "requiredTech": "Radar",
-        "requiredResource": ["Aluminum", "Semiconductors", "Composite Materials", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Semiconductors]",
+            "Consumes [1] [Composite Materials]",
+            "Consumes [1] [Jet Fuel]",
             "[+100]% Strength <vs cities>",
             "Cannot be carried by [Aircraft Carrier] units",
             "Damage taken from interception reduced by [110]%"
@@ -4964,8 +4999,11 @@
         "range": 25,
         "cost": 20500,
         "requiredTech": "Stealth",
-        "requiredResource": ["Aluminum", "Semiconductors", "Composite Materials", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Semiconductors]",
+            "Consumes [1] [Composite Materials]",
+            "Consumes [1] [Jet Fuel]",
             "Damage taken from interception reduced by [150]%",
             "Cannot be carried by [Aircraft Carrier] units",
             "Can see over obstacles"
@@ -4983,8 +5021,11 @@
         "range": 25,
         "cost": 21005,
         "requiredTech": "Nanotechnology",
-        "requiredResource": ["Aluminum", "Semiconductors", "Composite Materials", "Jet Fuel"],
         "uniques": [
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Semiconductors]",
+            "Consumes [1] [Composite Materials]",
+            "Consumes [1] [Jet Fuel]",
             "Damage taken from interception reduced by [170]%",
             "Cannot be carried by [Aircraft Carrier] units"
         ],
