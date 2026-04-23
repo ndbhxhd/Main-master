@@ -1,7 +1,8 @@
-[{
-    "name": "Civilian",
-    "movementType": "Land"
-},
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
     {
         "name": "Icebreaker",
         "movementType": "Water",
@@ -46,8 +47,7 @@
     },
     {
         "name": "Recon",
-        "uniques": ["Ignores terrain cost",
-            "Can see invisible [Land] units"],
+        "uniques": ["Ignores terrain cost", "Can see invisible [Land] units"],
         "movementType": "Land"
     },
     {
@@ -171,15 +171,12 @@
     },
     {
         "name": "Drone",
-        "uniques": ["Land",
-            "Can see over obstacles",
-            "[+2] Sight"],
+        "uniques": ["Land", "Can see over obstacles", "[+2] Sight"],
         "movementType": "Land"
     },
     {
         "name": "Atomic Bomber",
-        "uniques": ["Aircraft",
-            "Self-destructs when attacking"],
+        "uniques": ["Aircraft", "Self-destructs when attacking"],
         "movementType": "Air"
     },
     {
@@ -203,8 +200,7 @@
     {
         "name": "Satellite",
         "movementType": "Air",
-        "uniques": ["Cannot be intercepted",
-            "Satellite"]
+        "uniques": ["Cannot be intercepted", "Satellite"]
     },
     {
         "name": "Trade Plane",
@@ -247,4 +243,5 @@
     {
         "name": "AtomicBomber",
         "movementType": "Air"
-    }]
+    }
+]
