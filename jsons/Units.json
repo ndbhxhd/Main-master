@@ -48,17 +48,16 @@
         "name": "Light Infantry",
         "unitType": "Light Infantry",
         "movement": 2,
-        "strength": 59,
-        "rangedStrength": 64,
+        "strength": 34,
         "range": 1,
         "cost": 225,
         "uniques": [
             "[-20]% Strength <vs [Light Cavalry] units> <when defending>",
             "[-20]% Strength <vs [Heavy Cavalry] units> <when defending>"
         ],
-        "requiredTech": "Pharmaceuticals",
+        "requiredTech": "Rifling",
         "upgradesTo": "Modern Light Infantry",
-        "obsoleteTech": "Telecommunications",
+        "obsoleteTech": "Replaceable Parts",
         "attackSound": "shot"
     },
     {
@@ -80,7 +79,7 @@
         "name": "Modern Heavy Weapons",
         "unitType": "Ranged Heavy",
         "movement": 2,
-        "strength": 90,
+        "strength": 80,
         "rangedStrength": 90,
         "range": 2,
         "cost": 425,
@@ -198,6 +197,33 @@
         ],
         "attackSound": "jetgun"
     },
+    {
+		"name": "Great Galley",
+		"unitType": "Naval Ranged",
+		"movement": 4,
+		"strength": 11,
+		"rangedStrength": 13,
+		"cost": 75,
+		"requiredTech": "Optics",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+    {
+		"name": "Atomic Bomb",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 10,
+		"cost": 600,
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "Uranium",
+		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
+			"Blast radius [1]", "Damage taken from interception reduced by [10]%"],
+		"attackSound": "nuke"
+	},
     {
         "name": "B17",
         "unitType": "Bomber",
@@ -607,23 +633,21 @@
         "requiredResource": "Aluminum",
         "uniques": [
             "Can carry [5] [Missile] units",
-            "Can carry [2] [Nuclear Missile] units",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "missile"
     },
     {
-        "name": "Missile Frigate",
+        "name": "Modern Frigate",
         "unitType": "Naval Ranged",
         "movement": 7,
         "strength": 70,
-        "rangedStrength": 50,
         "range": 3,
         "interceptRange": 1,
         "cost": 375,
         "requiredTech": "Robotics",
         "uniques": [
-            "[80]% chance to intercept air attacks",
+            "[90]% chance to intercept air attacks",
             "Can see invisible [Naval Submarine] units",
             "Withdraws before melee combat",
             "Can see invisible [Naval Raider] units",
@@ -633,17 +657,18 @@
         "attackSound": "missile"
     },
     {
-        "name": "Modern Frigate",
+        "name": "Modern Corvette",
         "unitType": "Naval Ranged",
         "movement": 8,
         "strength": 75,
-        "rangedStrength": 55,
+        "rangedStrength": 65,
+        "interceptRange": 1,
         "range": 1,
         "cost": 425,
         "requiredTech": "Lasers",
         "uniques": [
             "Never appears as a Barbarian unit",
-            "[95]% chance to intercept air attacks",
+            "[80]% chance to intercept air attacks",
             "Can see invisible [Naval Submarine] units",
             "Can see invisible [Naval Raider] units",
             "[+100]% Strength <vs [Naval Submarine] units>",
@@ -974,7 +999,7 @@
     },
     {
         "name": "Coastal Barrage",
-        "unitType": "Siege Ranged",
+        "unitType": "Missile",
         "movement": 0,
         "strength": 40,
         "rangedStrength": 40,
@@ -1097,28 +1122,12 @@
         "attackSound": "cannon"
     },
     {
-        "name": "Modern Corvette",
-        "unitType": "Naval Escort",
-        "movement": 7,
-        "strength": 39,
-        "rangedStrength": 42,
-        "range": 1,
-        "cost": 275,
-        "requiredTech": "Combustion",
-        "uniques": [
-            "[30]% chance to intercept air attacks",
-            "Never appears as a Barbarian unit",
-            "Withdraws before melee combat"
-        ],
-        "hurryCostModifier": 20,
-        "attackSound": "cannon"
-    },
-    {
         "name": "Supply Truck",
         "unitType": "Civilian",
         "movement": 3,
         "uniques": [
-            "Transfer Movement to [Military]"
+            "Transfer Movement to [Military]",
+            "All adjacent units heal [+15] HP when healing"
         ],
         "cost": 450,
         "requiredTech": "Pharmaceuticals"
@@ -1135,7 +1144,7 @@
         "uniques": [
             "Cannot attack",
             "Can carry [3] [Aircraft] units",
-            "Can carry [2] [Missile] units",
+            "Can carry [1] [Counter Missile] units",
             "[70]% chance to intercept air attacks",
             "Never appears as a Barbarian unit"
         ]
@@ -1403,6 +1412,16 @@
         "obsoleteTech": "Radar",
         "attackSound": "shot"
     },
+    {
+		"name": "Medic",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["All adjacent units heal [10] extra HP when healing"],
+		"cost": 275,
+		"requiredTech": "Biology",
+		"upgradesTo": "Supply Truck",
+		"obsoleteTech": "Pharmaceuticals"
+	},
     {
         "name": "Field Cannon",
         "unitType": "Ranged Heavy",
@@ -2216,7 +2235,7 @@
         "uniqueTo": "Barbarians",
         "replaces": "Marine",
         "movement": 2,
-        "strength": 60,
+        "strength": 50,
         "cost": 400,
         "requiredTech": "Pharmaceuticals",
         "promotions": [
@@ -3316,8 +3335,8 @@
         "name": "Cannon",
         "unitType": "Siege Ranged",
         "movement": 2,
-        "strength": 14,
-        "rangedStrength": 20,
+        "strength": 16,
+        "rangedStrength": 22,
         "range": 2,
         "cost": 185,
         "requiredTech": "Chemistry",
@@ -3730,7 +3749,7 @@
         "name": "Carrier",
         "unitType": "Aircraft Carrier",
         "movement": 5,
-        "strength": 0,
+        "strength": 40,
         "cost": 1000,
         "requiredTech": "Electronics",
         "uniques": [
@@ -4443,6 +4462,18 @@
         "attackSound": "tankshot"
     },
     {
+		"name": "Nuke Cannon",
+		"unitType": "Siege Nuke",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 50,
+		"range": 3,
+		"cost": 400,
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "Nuclear weapon of Strength [1]", "Blast radius [0]", "Consumes [1] [Uranium]", "Rough terrain penalty"],
+		"attackSound": "artillery"
+	},
+    {
         "name": "Rocket Artillery",
         "unitType": "Siege Ranged",
         "movement": 2,
@@ -4485,7 +4516,7 @@
         "cost": 510,
         "requiredTech": "Rocketry",
         "uniques": [
-            "[100]% chance to intercept air attacks",
+            "[90]% chance to intercept air attacks",
             "[+150]% Strength <vs [Air] units>",
             "[+150]% Strength <vs [Helicopter] units>",
             "Never appears as a Barbarian unit"
@@ -4563,8 +4594,7 @@
             "Nuclear weapon of Strength [2]",
             "Only available <if [Manhattan Project] is constructed>",
             "Blast radius [2]",
-            "Consumes [2] [Uranium]",
-            "Cannot be purchased"
+            "Consumes [2] [Uranium]"
         ],
         "attackSound": "nuke"
     },
@@ -4620,7 +4650,7 @@
         "name": "Helicopter Gunship",
         "unitType": "Helicopter",
         "movement": 8,
-        "strength": 70,
+        "strength": 65,
         "cost": 510,
         "requiredTech": "Computers",
         "requiredResource": "Aluminum",
@@ -4750,8 +4780,8 @@
     {
         "name": "Mechanized Infantry",
         "unitType": "Light Cavalry",
-        "movement": 3,
-        "strength": 110,
+        "movement": 4,
+        "strength": 90,
         "cost": 650,
         "requiredTech": "Mobile Tactics",
         "uniques": [
@@ -4763,8 +4793,8 @@
         "name": "Missile Cruiser",
         "unitType": "Naval Ranged",
         "movement": 7,
-        "strength": 80,
-        "rangedStrength": 100,
+        "strength": 75,
+        "rangedStrength": 90,
         "range": 3,
         "cost": 650,
         "requiredTech": "Robotics",
