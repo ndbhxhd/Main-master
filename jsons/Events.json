@@ -381,7 +381,7 @@
                     "uniques": [
                         "Adopt [Elite Forces]",
                         "Comment [[[+10]% Strength] [for [Military] units]]",
-                        "Comment [+10]% Strength <vs [Wounded] units>",
+                        "Comment [[+10]% Strength] <vs [Wounded] units>",
                         "Comment [[[+10] HP when healing] [for [Military] units]]",
                         "Only available <before adopting [Elite Forces]>"
                     ]

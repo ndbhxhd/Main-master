@@ -1646,9 +1646,8 @@
         "movement": 2,
         "requiredTech": "Steam Power",
         "uniques": [
-            "Can instantly construct a [Canal] improvement <once> <after which this unit is consumed>"
-        ],
-        "cost": 280
+         "Can instantly construct a [Canal Construction Site] improvement <once> <after which this unit is consumed>"],
+		"cost": 280
     },
     {
         "name": "Pathfinder",
@@ -4824,7 +4823,7 @@
             "[100]% chance to intercept air attacks",
             "Can see invisible [Naval Submarine] units",
             "Can see invisible [Naval Raider] units",
-            "Can carry [8] [Missile] units",kn 
+            "Can carry [8] [Missile] units",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "shipguns"
@@ -5179,7 +5178,7 @@
         "name": "B-21 Raider",
         "unitType": "Bomber",
         "uniqueTo": "The United States of America",
-        "replaces": "Suborbital bomber",
+        "replaces": "Suborbital Bomber",
         "movement": 1,
         "strength": 100,
         "rangedStrength": 97,

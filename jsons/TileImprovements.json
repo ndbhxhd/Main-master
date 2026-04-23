@@ -229,7 +229,7 @@
         "shortcutKey": "S"
     },
     {
-        "name": "Canals",
+        "name": "Canal Construction Site",
         "terrainsCanBeBuiltOn": [
             "Hill",
             "Plains",
