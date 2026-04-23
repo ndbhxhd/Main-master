@@ -4824,7 +4824,7 @@
             "[100]% chance to intercept air attacks",
             "Can see invisible [Naval Submarine] units",
             "Can see invisible [Naval Raider] units",
-            "Can carry [8] [Missile] units",
+            "Can carry [8] [Missile] units",kn 
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "shipguns"
