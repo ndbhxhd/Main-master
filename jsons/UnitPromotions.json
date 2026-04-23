@@ -5,6 +5,7 @@
             "[This Unit] heals [50] HP",
             "Doing so will consume this opportunity to choose a Promotion"
         ],
+        "unitTypes": "Helicopter, Drone, Close Air Support, Bomber, Fighter, Anti-Air, Aircraft Carrier, Naval Submarine, Naval Raider, Naval Escort, Naval Ranged, Naval Melee, Counter Cavalry, Ranged Cavalry, Light Cavalry, Heavy Cavalry, Ranged Support, Ranged Heavy, Siege Ranged, Siege Melee, Recon, Archery, Marines, Light Infantry, Special Forces, Infantry, Mercenary, Paratrooper, Sword",
         "row": 0,
         "column": 0
     },

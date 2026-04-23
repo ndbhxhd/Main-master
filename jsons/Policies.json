@@ -1212,6 +1212,7 @@
                 "name": "Space Procurements",
                 "uniques": [
                     "Provides [-1] [Level 2 Ideology]",
+                    "May buy [Spaceship part] units with [Gold] [in all cities]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
                 ],

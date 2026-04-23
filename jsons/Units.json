@@ -1614,7 +1614,6 @@
         "cost": 25,
         "obsoleteTech": "Steam Power",
         "uniques": [
-            "May upgrade to [Archer] through ruins-like effects",
             "Never appears as a Barbarian unit"
         ],
         "promotions": [
@@ -1658,7 +1657,7 @@
         "obsoleteTech": "Iron Working",
         "upgradesTo": "Swordsman",
         "uniques": [
-            "May upgrade to [Spearman] through ruins-like effects"
+            "May upgrade to [Swordsman] through ruins-like effects"
         ],
         "attackSound": "nonmetalhit",
         "civilopediaText": [
@@ -2641,7 +2640,6 @@
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
-            "[-1] Sight",
             "Never appears as a Barbarian unit"
         ],
         "hurryCostModifier": 20,
@@ -2979,7 +2977,6 @@
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
-            "[-1] Sight",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "throw"
@@ -3113,7 +3110,7 @@
         "name": "Musketman",
         "unitType": "Infantry",
         "movement": 2,
-        "strength": 20,
+        "strength": 24,
         "cost": 150,
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
@@ -3126,7 +3123,7 @@
         "replaces": "Musketman",
         "uniqueTo": "The United States of America",
         "movement": 3,
-        "strength": 25,
+        "strength": 24,
         "cost": 130,
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
@@ -3330,7 +3327,6 @@
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
-            "[-1] Sight",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "cannon"
@@ -3555,7 +3551,6 @@
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
-            "[-1] Sight",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "artillery"
@@ -3735,7 +3730,7 @@
         "name": "Carrier",
         "unitType": "Aircraft Carrier",
         "movement": 5,
-        "strength": 100,
+        "strength": 0,
         "cost": 1000,
         "requiredTech": "Electronics",
         "uniques": [
@@ -3814,8 +3809,8 @@
         "unitType": "Ranged Heavy",
         "range": 1,
         "movement": 2,
-        "strength": 60,
-        "rangedStrength": 60,
+        "strength": 50,
+        "rangedStrength": 50,
         "cost": 385,
         "requiredTech": "Ballistics",
         "upgradesTo": "Bazooka",
@@ -3960,7 +3955,6 @@
             "[100]% chance to intercept air attacks",
             "[+150]% Strength <vs [Bomber] units>",
             "[+150]% Strength <vs [Helicopter] units>",
-            "[+4] Sight",
             "Can see over obstacles"
         ],
         "attackSound": "machinegun"
@@ -4053,7 +4047,7 @@
         "name": "Modern Destroyer",
         "unitType": "Naval Melee",
         "movement": 7,
-        "strength": 135,
+        "strength": 75,
         "interceRange": 3,
         "cost": 425,
         "requiredTech": "Particle Physics",
@@ -4127,11 +4121,10 @@
     {
         "name": "Supercarrier",
         "unitType": "Aircraft Carrier",
-        "movement": 7,
-        "strength": 150,
+        "movement": 6,
+        "strength": 55,
         "cost": 5000,
         "requiredTech": "Robotics",
-        "obsoleteTech": "Smart Materials",
         "uniques": [
             "Can carry [8] [Aircraft] units",
             "Consumes [2] [Uranium]"
@@ -4159,7 +4152,7 @@
         "name": "Advanced Destroyer",
         "unitType": "Naval Melee",
         "movement": 8,
-        "strength": 150,
+        "strength": 120,
         "interceptRange": 4,
         "cost": 5000,
         "requiredTech": "Autonomous Systems",
@@ -4304,7 +4297,7 @@
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
             "[+1] Sight",
-            "Can carry [2] [Missile] units"
+            "Can carry [3] [Missile] units"
         ],
         "attackSound": "torpedo"
     },
@@ -4521,8 +4514,8 @@
         "unitType": "Ranged Heavy",
         "range": 1,
         "movement": 2,
-        "strength": 85,
-        "rangedStrength": 85,
+        "strength": 80,
+        "rangedStrength": 80,
         "cost": 450,
         "requiredTech": "Nuclear Fission",
         "attackSound": "machinegun"
@@ -4627,7 +4620,7 @@
         "name": "Helicopter Gunship",
         "unitType": "Helicopter",
         "movement": 8,
-        "strength": 85,
+        "strength": 70,
         "cost": 510,
         "requiredTech": "Computers",
         "requiredResource": "Aluminum",
@@ -4686,7 +4679,7 @@
         "movement": 6,
         "strength": 50,
         "range": 3,
-        "rangedStrength": 105,
+        "rangedStrength": 85,
         "cost": 810,
         "requiredTech": "Telecommunications",
         "uniques": [
@@ -4843,16 +4836,17 @@
         "name": "Jet Fighter",
         "unitType": "Fighter",
         "movement": 1,
-        "strength": 120,
+        "strength": 75,
         "rangedStrength": 75,
-        "range": 12,
-        "interceptRange": 12,
+        "range": 10,
+        "interceptRange": 10,
         "cost": 1550,
         "requiredTech": "Lasers",
         "requiredResource": "Aluminum, Jet Fuel",
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+150]% Strength <vs [Bomber] units>",
+            "[+150]% Strength <vs [Helicopter] units>",
             "Can see over obstacles"
         ],
         "attackSound": "jetgun"
@@ -5082,9 +5076,9 @@
         "name": "Stealth Bomber",
         "unitType": "Bomber",
         "movement": 2,
-        "strength": 80,
+        "strength": 85,
         "rangedStrength": 90,
-        "range": 25,
+        "range": 20,
         "cost": 700,
         "requiredTech": "Stealth",
         "requiredResource": "Aluminum",
@@ -5172,8 +5166,8 @@
         "name": "Great Artist",
         "unitType": "Civilian",
         "uniques": [
-            "Empire enters a [10]-turn Golden Age <by consuming this unit>",
-            "Instantly provides [2] [Great Work of Art] <by consuming this unit>",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Art] <by consuming this unit>",
             "Is part of Great Person group [Artist]",
             "Great Person - [Culture]",
             "Unbuildable"
@@ -5185,7 +5179,7 @@
         "unitType": "Civilian",
         "uniques": [
             "Can generate a large amount of culture",
-            "Instantly provides [2] [Great Work of Writing] <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
             "Is part of Great Person group [Writer]",
             "Great Person - [Culture]",
             "Unbuildable"
@@ -5268,7 +5262,6 @@
             "Unbuildable",
             "Religious Unit",
             "Only available <when religion is enabled>",
-            "[-1] Sight",
             "Takes your religion over the one in their birth city"
         ],
         "movement": 4,
@@ -5278,32 +5271,23 @@
         "name": "Great General",
         "unitType": "Civilian",
         "uniques": [
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can be earned through combat <for [Land] units>",
             "Great Person - [War]",
             "Unbuildable"
         ],
-        "movement": 5,
-        "strength": 20
-    },
-    {
-        "name": "Commandante General",
-        "uniqueTo": "Gran Colombia",
-        "replaces": "Great General",
-        "unitType": "Civilian",
-        "movement": 5,
-        "strength": 25,
-        "uniques": [
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-            "Great Person - [War]",
-            "Unbuildable"
-        ]
+        "movement": 5
     },
     {
         "name": "Great Admiral",
         "unitType": "Civilian Water",
         "uniques": [
-            "Can instantly construct a [Fishing Boats] improvement <by consuming this unit>",
-            "Great Person - [War]",
+             "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+            "Uncapturable",
+            "Can be earned through combat <for [Water] units>",
+            "Can instantly construct a [Dry Dock] improvement <by consuming this unit>",
+            "Great Person - [Navy]",
             "Unbuildable"
         ],
         "movement": 6
@@ -5313,10 +5297,13 @@
         "uniqueTo": "Mongolia",
         "replaces": "Great General",
         "unitType": "Civilian",
-        "movement": 5,
-        "strength": 20,
+        "movement": 7,
         "uniques": [
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "All adjacent units heal [+15] HP when healing",
+            "[+15] HP when healing",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can be earned through combat <for [Land] units>",
             "Great Person - [War]",
             "Unbuildable"
         ]
@@ -5325,20 +5312,22 @@
         "name": "Missionary",
         "unitType": "Civilian",
         "movement": 4,
+        "cost": 100,
         "uniques": [
-            "Can Spread Religion <for [6] movement> <[2] times> <after which this unit is consumed>",
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
             "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+            "Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
             "Only available <when religion is enabled>",
             "Religious Unit",
             "Takes your religion over the one in their birth city",
-            "Cannot be purchased"
+            "Unbuildable"
         ],
-        "religiousStrength": 1000,
-        "requiredTech": "Theology"
+        "religiousStrength": 1000
     },
     {
         "name": "Inquisitor",
         "unitType": "Civilian",
+        "cost": 100,
         "movement": 3,
         "uniques": [
             "Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
@@ -5346,10 +5335,9 @@
             "Only available <when religion is enabled>",
             "Religious Unit",
             "Takes your religion over the one in their birth city",
-            "Cannot be purchased"
-        ],
-        "religiousStrength": 1000,
-        "requiredTech": "Education"
+            "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Unbuildable"
+        ]
     },
     {
         "name": "Worker",
@@ -5399,13 +5387,67 @@
         ]
     },
     {
-        "name": "Space Shuttle",
+        "name": "SS Booster",
         "unitType": "Civilian",
-        "movement": 1,
+        "movement": 2,
+        "cost": 1500,
+        "requiredTech": "Energy Theory",
+        "requiredResource": "Aluminum",
         "uniques": [
-            "Unbuildable",
-            "Can only be built <if [Apollo Program] is constructed>"
-        ],
-        "requiredTech": "Robotics"
+            "Spaceship part",
+            "Cannot be purchased <before adopting [Space Procurements]>",
+            "Only available <if [Apollo Program] is constructed>",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [3] per Civilization"
+        ]
+    },
+    {
+        "name": "SS Cockpit",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 1500,
+        "requiredTech": "Computronium",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "Spaceship part",
+            "Cannot be purchased <before adopting [Space Procurements]>",
+            "Only available <if [Apollo Program] is constructed>",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [1] per Civilization"
+        ]
+    },
+    {
+        "name": "SS Engine",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 1500,
+        "requiredTech": "Space Colonization",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "Spaceship part",
+            "Cannot be purchased <before adopting [Space Procurements]>",
+            "Only available <if [Apollo Program] is constructed>",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [1] per Civilization"
+        ]
+    },
+    {
+        "name": "SS Stasis Chamber",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 1500,
+        "requiredTech": "Homo Superior",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "Spaceship part",
+            "Cannot be purchased <before adopting [Space Procurements]>",
+            "Only available <if [Apollo Program] is constructed>",
+            "Uncapturable",
+            "Can be added to [The Spaceship] in the Capital",
+            "Limited to [1] per Civilization"
+        ]
     }
 ]
