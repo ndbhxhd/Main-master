@@ -4270,7 +4270,7 @@
     },
     {
         "name": "Nuke Cannon",
-        "unitType": "Siege Nuke",
+        "unitType": "Siege Ranged",
         "movement": 2,
         "strength": 45,
         "rangedStrength": 50,
@@ -4604,7 +4604,7 @@
         "range": 3,
         "cost": 650,
         "requiredTech": "Robotics",
-        "requiredResource": "Aluminum, Semiconductors, Marine Gas Turbine Fuel",
+        "requiredResource": ["Aluminum", "Semiconductors", "Marine Gas Turbine Fuel"],
         "uniques": [
             "Can carry [4] [Missile] units",
             "Can see invisible [Naval Submarine] units",
@@ -4678,7 +4678,7 @@
         "interceptRange": 10,
         "cost": 1550,
         "requiredTech": "Lasers",
-        "requiredResource": "Aluminum, Jet Fuel",
+        "requiredResource": ["Aluminum", "Jet Fuel"],
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+150]% Strength <vs [Bomber] units>",
@@ -4699,7 +4699,7 @@
         "interceptRange": 12,
         "cost": 12050,
         "requiredTech": "Stealth",
-        "requiredResource": "Aluminum, Carbon Fiber, Composite Materials, Jet Fuel",
+        "requiredResource": ["Aluminum", "Carbon Fiber", "Composite Materials", "Jet Fuel"],
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
@@ -4718,7 +4718,7 @@
         "range": 27,
         "cost": 11700,
         "requiredTech": "Stealth",
-        "requiredResource": "Aluminum, Carbon Fiber, Composite Materials, Jet Fuel",
+        "requiredResource": ["Aluminum", "Carbon Fiber","Composite Materials", "Jet Fuel"],
         "uniques": [
             "Damage taken from interception reduced by [170]%",
             "Cannot be carried by [Aircraft Carrier] units",
@@ -4737,7 +4737,7 @@
         "interceptRange": 13,
         "cost": 13500,
         "requiredTech": "Stealth",
-        "requiredResource": "Aluminum, Carbon Fiber, Composite Materials, Jet Fuel",
+        "requiredResource": ["Aluminum", "Carbon Fiber", "Composite Materials", "Jet Fuel"],
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
@@ -4757,7 +4757,7 @@
         "interceptRange": 13,
         "cost": 13500,
         "requiredTech": "Stealth",
-        "requiredResource": "Aluminum, Carbon Fiber, Composite Materials, Jet Fuel",
+        "requiredResource": ["Aluminum", "Carbon Fiber", "Composite Materials", "Jet Fuel"],
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
@@ -4776,7 +4776,7 @@
         "interceptRange": 13,
         "cost": 13500,
         "requiredTech": "Stealth",
-        "requiredResource": "Aluminum, Carbon Fiber, Composite Materials, Jet Fuel",
+        "requiredResource": ["Aluminum", "Carbon Fiber", "Composite Materials", "Jet Fuel"],
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
@@ -4797,7 +4797,7 @@
         "interceptRange": 14,
         "cost": 47500,
         "requiredTech": "Nanotechnology",
-        "requiredResource": "Rare Earth Minerals, Carbon Fiber, Composite Materials, Jet Fuel",
+        "requiredResource": ["Rare Earth Minerals", "Carbon Fiber", "Composite Materials", "Jet Fuel"],
         "uniques": [
             "[+100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
@@ -4817,7 +4817,7 @@
         "interceptRange": 12,
         "cost": 20150,
         "requiredTech": "Nanotechnology",
-        "requiredResource": "Aluminum, Carbon Fiber, Composite Materials, Rare Earth Minerals, Semiconductors, Jet Fuel",
+        "requiredResource": ["Aluminum", "Carbon Fiber", "Composite Materials", "Rare Earth Minerals", "Semiconductors", "Jet Fuel"],
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+150]% Strength <vs [Bomber] units>",
@@ -4849,7 +4849,7 @@
         "range": 13,
         "cost": 3000,
         "requiredTech": "Satellites",
-        "requiredResource": "Aluminum, Semiconductors, Composite Materials, Jet Fuel",
+        "requiredResource": ["Aluminum", "Semiconductors", "Composite Materials", "Jet Fuel"],
         "uniques": ["Cannot attack", "[+13] Sight"]
     },
     {
@@ -4927,7 +4927,7 @@
         "range": 35,
         "cost": 52175,
         "requiredTech": "Lasers",
-        "requiredResource": "Aluminum, Semiconductors, Jet Fuel",
+        "requiredResource": ["Aluminum", "Semiconductors", "Jet Fuel"],
         "uniques": [
             "[+100]% Strength <vs cities>",
             "Can see over obstacles",
@@ -4945,7 +4945,7 @@
         "range": 20,
         "cost": 10375,
         "requiredTech": "Radar",
-        "requiredResource": "Aluminum, Semiconductors, Composite Materials, Jet Fuel",
+        "requiredResource": ["Aluminum", "Semiconductors", "Composite Materials", "Jet Fuel"],
         "uniques": [
             "[+100]% Strength <vs cities>",
             "Cannot be carried by [Aircraft Carrier] units",
@@ -4964,7 +4964,7 @@
         "range": 25,
         "cost": 20500,
         "requiredTech": "Stealth",
-        "requiredResource": "Aluminum, Semiconductors, Composite Materials, Jet Fuel",
+        "requiredResource": ["Aluminum", "Semiconductors", "Composite Materials", "Jet Fuel"],
         "uniques": [
             "Damage taken from interception reduced by [150]%",
             "Cannot be carried by [Aircraft Carrier] units",
@@ -4983,7 +4983,7 @@
         "range": 25,
         "cost": 21005,
         "requiredTech": "Nanotechnology",
-        "requiredResource": "Aluminum, Semiconductors, Composite Materials, Jet Fuel",
+        "requiredResource": ["Aluminum", "Semiconductors", "Composite Materials", "Jet Fuel"],
         "uniques": [
             "Damage taken from interception reduced by [170]%",
             "Cannot be carried by [Aircraft Carrier] units"
