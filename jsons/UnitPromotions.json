@@ -2004,10 +2004,6 @@
         "name": "Loaded"
     },
     {
-        "name": "Relentless Pursuit",
-        "uniques": ["Ignores terrain cost", "Ignores Zone of Control"]
-    },
-    {
         "name": "Combat Pay",
         "uniques": [
             "Earn [100]% of killed [Military] unit's [Strength] as [Gold]"
@@ -2024,14 +2020,14 @@
         "name": "Elite Forces",
         "uniques": [
             "[+10] HP when healing",
-            "[+30]% XP gained from combat",
+            "[+20]% XP gained from combat",
             "[+15] XP gained from combat"
         ]
     },
     {
         "name": "We The People",
         "uniques": [
-            "[+50]% Strength <in [Foreign Land] tiles> <when defending>"
+            "[+12]% Strength <in [Foreign Land] tiles> <when defending>"
         ]
     },
     {
@@ -2052,7 +2048,6 @@
         "uniques": [
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast",
-            "May attack when embarked",
             "May travel on Water tiles without embarking"
         ]
     },
