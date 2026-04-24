@@ -237,7 +237,7 @@
             "Tundra",
             "Snow"
         ],
-        "uniques": ["Turn this tile into a [Coast] tile"]
+        "uniques": ["Turn this tile into a [Coast] tile","Can be built outside your borders"]
     },
     {
         "name": "Airfield",

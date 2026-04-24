@@ -3752,7 +3752,6 @@
         "cost": 500,
         "movement": 4,
         "uniques": [
-            "[+1] Sight <when [Embarked]>",
             "[+100]% Strength <when defending> <when [Embarked]>"
         ],
         "requiredTech": "Electronics",
@@ -3770,7 +3769,6 @@
         "requiredTech": "Mobile Tactics",
         "promotions": ["Amphibious", "Embarkation with Defence"],
         "uniques": [
-            "[+2] Sight <when [Embarked]>",
             "Can transform to [AAV-7 Marine Landing]"
         ],
         "attackSound": "shot"
@@ -4008,7 +4006,7 @@
         "unitType": "Naval Melee",
         "uniqueTo": "The United States of America",
         "movement": 10,
-        "strength": 190,
+        "strength": 90,
         "interceptRange": 4,
         "cost": 11500,
         "requiredTech": "Autonomous Systems",
@@ -4026,7 +4024,7 @@
         "unitType": "Naval Melee",
         "uniqueTo": "The United States of America",
         "movement": 12,
-        "strength": 240,
+        "strength": 135,
         "interceptRange": 5,
         "cost": 21500,
         "requiredTech": "Autonomous Systems",
@@ -4467,6 +4465,7 @@
             "No defensive terrain bonus",
             "Can move after attacking",
             "Unable to capture cities",
+         "May attack when embarked",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "machinegun"
@@ -4486,6 +4485,7 @@
             "No defensive terrain bonus",
             "Can move after attacking",
             "Ignores Zone of Control",
+            "May attack when embarked"
             "Unable to capture cities",
             "Can pass through impassable tiles",
             "May travel on Water tiles without embarking",
