@@ -8,6 +8,7 @@
         "uniques": [
             "Can build [All] improvements on tiles",
             "Can build [Land] improvements on tiles",
+            "Can instantly construct a [Grassland Construction Site] improvement <once> <after which this unit is consumed>",
             "Automation is a primary action"
         ],
         "cost": 48
@@ -267,6 +268,7 @@
     {
         "name": "A-10 Warthog Thunderbolt II",
         "unitType": "Close Air Support",
+        "replaces": "Jet Striker",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 70,
@@ -726,15 +728,16 @@
     {
         "name": "Trade Boat",
         "unitType": "Civilian Water",
-        "movement": 3,
+        "movement": 4,
         "cost": 100,
         "requiredTech": "Sailing",
         "obsoleteTech": "Compass",
         "upgradesTo": "Trade Ship",
         "uniques": [
             "No defensive terrain bonus",
-            "Gain [50] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for all movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
-            "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for all movement> <for [non-[Loaded]] units>"
+            "May enter foreign tiles without open borders",
+            "Gain [50] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for [1] movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
+            "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for [1] movement> <for [non-[Loaded]] units>"
         ]
     },
     {
@@ -1423,35 +1426,37 @@
     {
         "name": "Trade Ship",
         "unitType": "Civilian Water",
-        "movement": 4,
+        "movement": 5,
         "cost": 175,
         "requiredTech": "Compass",
         "obsoleteTech": "Navigation",
         "upgradesTo": "Fluyt",
         "uniques": [
             "No defensive terrain bonus",
-            "Gain [100] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for all movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
-            "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for all movement> <for [non-[Loaded]] units>"
+            "May enter foreign tiles without open borders",
+            "Gain [100] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for [1] movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
+            "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for [1] movement> <for [non-[Loaded]] units>"
         ]
     },
     {
         "name": "Fluyt",
         "unitType": "Civilian Water",
-        "movement": 5,
+        "movement": 6,
         "cost": 225,
         "requiredTech": "Navigation",
         "obsoleteTech": "Steam Power",
         "upgradesTo": "Collier",
         "uniques": [
             "No defensive terrain bonus",
-            "Gain [150] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for all movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
-            "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for all movement> <for [non-[Loaded]] units>"
+            "May enter foreign tiles without open borders",
+            "Gain [150] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for [1] movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
+            "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for [1] movement> <for [non-[Loaded]] units>"
         ]
     },
     {
         "name": "Collier",
         "unitType": "Civilian Water",
-        "movement": 5,
+        "movement": 6,
         "cost": 250,
         "requiredResource": "Coal",
         "requiredTech": "Steam Power",
@@ -1459,20 +1464,22 @@
         "upgradesTo": "Container ship",
         "uniques": [
             "No defensive terrain bonus",
-            "Gain [200] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for all movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
-            "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for all movement> <for [non-[Loaded]] units>"
+            "May enter foreign tiles without open borders",
+            "Gain [200] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for [1] movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
+            "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for [1] movement> <for [non-[Loaded]] units>"
         ]
     },
     {
         "name": "Container ship",
         "unitType": "Civilian Water",
-        "movement": 6,
+        "movement": 7,
         "cost": 260,
         "requiredTech": "Combustion",
         "uniques": [
             "No defensive terrain bonus",
-            "Gain [250] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for all movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
-            "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for all movement> <for [non-[Loaded]] units>"
+            "May enter foreign tiles without open borders",
+            "Gain [250] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for [1] movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
+            "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for [1] movement> <for [non-[Loaded]] units>"
         ]
     },
     {
@@ -1487,6 +1494,7 @@
         "requiredTech": "Flight",
         "uniques": [
             "No defensive terrain bonus",
+            "May enter foreign tiles without open borders",
             "Gain [250] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for all movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
             "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for all movement> <for [non-[Loaded]] units>"
         ]
@@ -1501,6 +1509,7 @@
         "requiredTech": "Radar",
         "uniques": [
             "No defensive terrain bonus",
+            "May enter foreign tiles without open borders",
             "Gain [350] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for all movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
             "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for all movement> <for [non-[Loaded]] units>"
         ]
@@ -3223,6 +3232,7 @@
         "uniques": [
             "Can build [Land] improvements on tiles",
             "[-35]% construction time for [All] improvements",
+            "Can instantly construct a [Grassland Construction Site] improvement <once> <after which this unit is consumed>",
             "[+1] Movement <after discovering [Combustion]>",
             "[+1] Movement <after discovering [Mobile Tactics]>"
         ]

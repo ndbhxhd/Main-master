@@ -60,6 +60,7 @@
     },
     {
         "name": "Civilian Water",
+        "uniques": ["Automation is a primary action"],
         "movementType": "Water"
     },
     {
@@ -205,7 +206,7 @@
     {
         "name": "Trade Plane",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft","Automation is a primary action"]
     },
 
     {

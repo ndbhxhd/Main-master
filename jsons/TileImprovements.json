@@ -240,6 +240,14 @@
         "uniques": ["Turn this tile into a [Coast] tile","Can be built outside your borders"]
     },
     {
+        "name": "Grassland Construction Site",
+        "terrainsCanBeBuiltOn": [
+            "Coast",
+            "Ocean"
+        ],
+        "uniques": ["Turn this tile into a [Grassland] tile","Can be built outside your borders"]
+    },
+    {
         "name": "Airfield",
         "terrainsCanBeBuiltOn": [
             "Plains",
