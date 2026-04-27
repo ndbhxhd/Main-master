@@ -32,19 +32,6 @@
         ]
     },
     {
-        "name": "Modern AT Missile",
-        "unitType": "Counter Cavalry",
-        "movement": 2,
-        "strength": 70,
-        "cost": 425,
-        "requiredTech": "Lasers",
-        "uniques": [
-            "Never appears as a Barbarian unit",
-            "[+150]% Strength <vs [Heavy Cavalry] units>"
-        ],
-        "attackSound": "missile"
-    },
-    {
         "name": "Light Infantry",
         "unitType": "Light Infantry",
         "movement": 2,
@@ -72,7 +59,7 @@
             "[-20]% Strength <vs [Light Cavalry] units> <when defending>",
             "[-20]% Strength <vs [Heavy Cavalry] units> <when defending>"
         ],
-        "requiredTech": "Telecommunications",
+        "requiredTech": "Replaceable Parts",
         "attackSound": "shot"
     },
     {
@@ -337,7 +324,7 @@
         ],
         "attackSound": "torpedo"
     },
-        {
+    {
         "name": "Virginia cl. Submarine",
         "unitType": "Naval Submarine",
         "uniqueTo": "The United States of America",
@@ -536,6 +523,76 @@
         ],
         "upgradesTo": "Experienced Mercenary",
         "obsoleteTech": "Gunpowder",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Experienced Mercenary",
+        "unitType": "Mercenary",
+        "movement": 2,
+        "strength": 21,
+        "cost": 170,
+        "requiredTech": "Gunpowder",
+        "uniques": [
+            "No movement cost to pillage",
+            "Unbuildable",
+            "[+20]% Strength <vs [Heavy Cavalry] units>",
+            "[+20]% Strength <vs [Light Cavalry] units>",
+            "[+20]% Strength <vs [Ranged Cavalry] units> <when attacking>",
+            "[+20]% Strength <vs [Counter Cavalry] units>",
+            "Can move immediately once bought",
+            "[+50]% Strength <vs cities>"
+        ],
+        "obsoleteTech": "Rifling",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Trained Mercenary",
+        "unitType": "Mercenary",
+        "movement": 2,
+        "strength": 21,
+        "cost": 170,
+        "requiredTech": "Military Science",
+        "uniques": [
+            "No movement cost to pillage",
+            "Unbuildable",
+            "[+20]% Strength <vs [Heavy Cavalry] units>",
+            "[+20]% Strength <vs [Light Cavalry] units>",
+            "[+20]% Strength <vs [Ranged Cavalry] units> <when attacking>",
+            "[+20]% Strength <vs [Counter Cavalry] units>",
+            "Can move immediately once bought",
+            "[+50]% Strength <vs cities>"
+        ],
+        "obsoleteTech": "Replaceable Parts",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Modern Mercenaries",
+        "unitType": "Mercenary",
+        "movement": 2,
+        "strength": 55,
+        "cost": 275,
+        "requiredTech": "Pharmaceuticals",
+        "uniques": [
+            "No movement cost to pillage",
+            "Unbuildable",
+            "Can move immediately once bought",
+            "[+50]% Strength <vs cities>"
+        ],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Professional Mercenaries",
+        "unitType": "Mercenary",
+        "movement": 2,
+        "strength": 55,
+        "cost": 275,
+        "requiredTech": "Pharmaceuticals",
+        "uniques": [
+            "No movement cost to pillage",
+            "Unbuildable",
+            "Can move immediately once bought",
+            "[+50]% Strength <vs cities>"
+        ],
         "attackSound": "metalhit"
     },
     {
@@ -826,7 +883,7 @@
         "strength": 70,
         "cost": 300,
         "requiredTech": "Combined Arms",
-        "upgradesTo": "Modern Tank",
+        "upgradesTo": "Advanced Tank",
         "requiredResource": "Oil",
         "uniques": ["Can move after attacking", "No defensive terrain bonus"],
         "attackSound": "tankshot"
@@ -1206,41 +1263,6 @@
         "attackSound": "artillery"
     },
     {
-        "name": "Modern Mercenaries",
-        "unitType": "Mercenary",
-        "movement": 2,
-        "strength": 55,
-        "cost": 275,
-        "requiredTech": "Pharmaceuticals",
-        "uniques": [
-            "No movement cost to pillage",
-            "Unbuildable",
-            "Can move immediately once bought",
-            "[+50]% Strength <vs cities>"
-        ],
-        "attackSound": "metalhit"
-    },
-    {
-        "name": "Experienced Mercenary",
-        "unitType": "Mercenary",
-        "movement": 2,
-        "strength": 21,
-        "cost": 170,
-        "requiredTech": "Gunpowder",
-        "uniques": [
-            "No movement cost to pillage",
-            "Unbuildable",
-            "[+20]% Strength <vs [Heavy Cavalry] units>",
-            "[+20]% Strength <vs [Light Cavalry] units>",
-            "[+20]% Strength <vs [Ranged Cavalry] units> <when attacking>",
-            "[+20]% Strength <vs [Counter Cavalry] units>",
-            "Can move immediately once bought",
-            "[+50]% Strength <vs cities>"
-        ],
-        "obsoleteTech": "Rifling",
-        "attackSound": "metalhit"
-    },
-    {
         "name": "Privateer",
         "unitType": "Naval Raider",
         "movement": 5,
@@ -1422,7 +1444,7 @@
         "name": "Medic",
         "unitType": "Civilian",
         "movement": 2,
-        "uniques": ["All adjacent units heal [10] extra HP when healing"],
+        "uniques": ["All adjacent units heal [+10] HP when healing"],
         "cost": 275,
         "requiredTech": "Biology",
         "upgradesTo": "Supply Truck",
@@ -1539,9 +1561,12 @@
         "movement": 5,
         "requiredTech": "Refrigeration",
         "requiredResource": "Coal",
-        "uniques": ["Can build [Water] improvements on tiles","Can build [Remove Ice] improvements on tiles"]
+        "uniques": [
+            "Can build [Water] improvements on tiles",
+            "Can build [Remove Ice] improvements on tiles"
+        ]
     },
-    
+
     {
         "name": "Capitalist",
         "unitType": "Civilian",
@@ -1636,16 +1661,6 @@
         "uniques": ["Never appears as a Barbarian unit"],
         "promotions": ["Ignore terrain cost"],
         "attackSound": "nonmetalhit"
-    },
-    {
-        "name": "Canal Worker",
-        "unitType": "Civilian",
-        "movement": 2,
-        "requiredTech": "Steam Power",
-        "uniques": [
-            "Can instantly construct a [Canal Construction Site] improvement <once> <after which this unit is consumed>"
-        ],
-        "cost": 280
     },
     {
         "name": "Pathfinder",
@@ -2225,7 +2240,7 @@
         "strength": 70,
         "cost": 375,
         "requiredTech": "Combined Arms",
-        "upgradesTo": "Modern Tank",
+        "upgradesTo": "Advanced Tank",
         "uniques": ["Can move after attacking"],
         "attackSound": "tankshot"
     },
@@ -2348,7 +2363,7 @@
         "name": "Insurgency Battle Tank",
         "unitType": "Heavy Cavalry",
         "uniqueTo": "Barbarians",
-        "replaces": "Modern Tank",
+        "replaces": "Advanced Tank",
         "movement": 5,
         "strength": 100,
         "cost": 425,
@@ -2447,7 +2462,7 @@
         "uniques": [
             "Cannot enter ocean tiles <before discovering [Astronomy]>",
             "May create improvements on water resources",
-            "Can instantly construct a [Grassland Construction Site] improvement <once> <after which this unit is consumed>",
+            "Can instantly construct a [Land Construction Site] improvement <once> <after which this unit is consumed>",
             "Automation is a primary action"
         ]
     },
@@ -3248,6 +3263,7 @@
         "uniques": [
             "Can build [Land] improvements on tiles",
             "[-35]% construction time for [All] improvements",
+            "Can instantly construct a [Artificial Land Construction Site] improvement <once> <after which this unit is consumed>",
             "[+1] Movement <after discovering [Combustion]>",
             "[+1] Movement <after discovering [Mobile Tactics]>"
         ]
@@ -3778,9 +3794,7 @@
         "strength": 100,
         "cost": 500,
         "movement": 4,
-        "uniques": [
-            "[+100]% Strength <when defending> <when [Embarked]>"
-        ],
+        "uniques": ["[+100]% Strength <when defending> <when [Embarked]>"],
         "requiredTech": "Electronics",
         "obsoleteTech": "Mobile Tactics",
         "promotions": ["Amphibious"]
@@ -3795,9 +3809,7 @@
         "cost": 575,
         "requiredTech": "Mobile Tactics",
         "promotions": ["Amphibious", "Embarkation with Defence"],
-        "uniques": [
-            "Can transform to [AAV-7 Marine Landing]"
-        ],
+        "uniques": ["Can transform to [AAV-7 Marine Landing]"],
         "attackSound": "shot"
     },
     {
@@ -3914,8 +3926,6 @@
         "rangedStrength": 90,
         "cost": 425,
         "requiredTech": "The Internet",
-        "upgradesTo": "Hybrid Drone",
-        "obsoleteTech": "Implants",
         "attackSound": "machinegun"
     },
     {
@@ -3938,7 +3948,7 @@
     },
     {
         "name": "Arleigh Burke cl. Destroyer",
-        "replaces": "Modern Destoryer",
+        "replaces": "Modern Destroyer",
         "unitType": "Naval Melee",
         "uniqueTo": "The United States of America",
         "movement": 9,
@@ -4012,7 +4022,7 @@
     {
         "name": "DDGX cl. Destroyer",
         "unitType": "Naval Melee",
-        "replaces": "Advanced Destoryer",
+        "replaces": "Advanced Destroyer",
         "uniqueTo": "The United States of America",
         "movement": 10,
         "strength": 110,
@@ -4140,7 +4150,7 @@
         "cost": 450,
         "requiredTech": "Combined Arms",
         "requiredResource": "Oil",
-        "upgradesTo": "Modern Tank",
+        "upgradesTo": "Advanced Tank",
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -4159,7 +4169,7 @@
         "cost": 450,
         "requiredTech": "Combined Arms",
         "requiredResource": "Oil",
-        "upgradesTo": "Modern Tank",
+        "upgradesTo": "Advanced Tank",
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -4366,10 +4376,10 @@
             "No defensive terrain bonus",
             "Can move after attacking",
             "Unable to capture cities",
-         "May attack when embarked",
-         "Ignores Zone of Control",
-         "Can pass through impassable tiles",
-         "May travel on Water tiles without embarking",
+            "May attack when embarked",
+            "Ignores Zone of Control",
+            "Can pass through impassable tiles",
+            "May travel on Water tiles without embarking",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "machinegun"
@@ -4527,9 +4537,7 @@
         "cost": 1500,
         "requiredTech": "Lasers",
         "requiredResource": "Aluminum",
-        "uniques": [
-            "[+1000]% Strength <vs [Infantry] units>"
-        ],
+        "uniques": ["[+1000]% Strength <vs [Infantry] units>"],
         "attackSound": "tankshot"
     },
     {
@@ -4742,7 +4750,9 @@
             "Consumes [1] [Semiconductors]",
             "Consumes [1] [Composite Materials]",
             "Consumes [1] [Jet Fuel]",
-            "Cannot attack", "[+13] Sight"]
+            "Cannot attack",
+            "[+13] Sight"
+        ]
     },
     {
         "name": "Heavy Cruiser",
@@ -5079,19 +5089,6 @@
         "uniques": [
             "Can build [Archaeological Dig] improvements on tiles",
             "Automation is a primary action"
-        ]
-    },
-    {
-        "name": "Colossus",
-        "unitType": "Civilian",
-        "uniqueTo": "Colossus",
-        "cost": 10000,
-        "strength": 500,
-        "movement": 2,
-        "uniques": [
-            "Unbuildable",
-            "[+1000]% Strength <vs [All] units>",
-            "[+500]% Strength <vs cities>"
         ]
     },
     {

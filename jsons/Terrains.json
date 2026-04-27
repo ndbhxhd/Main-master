@@ -20,6 +20,32 @@
         ]
     },
     {
+        "name": "Canal",
+        "type": "Water",
+        "movementCost": 1,
+        "food": 1,
+        "RGB": [107, 167, 193],
+        "uniques": ["Doesn't generate naturally", "Canal"],
+        "civilopediaText": [
+            {
+                "text": "Technology and evolution do not spare anyone. Now we can have for once some canals that last longer."
+            }
+        ]
+    },
+    {
+        "name": "Artificial Land",
+        "type": "Land",
+        "food": 2,
+        "movementCost": 1,
+        "RGB": [97, 171, 58],
+        "uniques": ["Doesn't generate naturally", "Artificial Land"],
+        "civilopediaText": [
+            {
+                "text": "Technology and evolution do not spare anyone."
+            }
+        ]
+    },
+    {
         "name": "Grassland",
         "type": "Land",
         "food": 2,

@@ -855,7 +855,6 @@
         "gold": 2,
         "uniques": [
             "[+1 Production] from [Forest] tiles [in this city]",
-            "[+15]% Production when constructing [Bio-Titan] units [in this city]",
             "Only available <in cities without a [Ecosanctuary]>",
             "Only available <in cities without a [Genemod Lab]>",
             "Only available <in cities without a [Cloning Lab]>",
@@ -2495,11 +2494,11 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Civil Service",
-        "uniques": ["May buy [Standard Mercenary] units with [Gold] for [1] times their normal Production cost", "May buy [Experienced Mercenary ] units with [Gold] for [1] times their normal Production cost",
+        "uniques": ["May buy [Standard Mercenary] units with [Gold] for [1] times their normal Production cost", "May buy [Experienced Mercenary] units with [Gold] for [1] times their normal Production cost",
         "May buy [Trained Mercenary] units with [Gold] for [1] times their normal Production cost",
         "May buy [Modern Mercenaries] units with [Gold] for [1] times their normal Production cost",
         "May buy [Professional Mercenaries] units with [Gold] for [1] times their normal Production cost",
-        "May buy [PMC] units with [Gold] for [1] times their normal Production cost"]
+        "May buy [PMC] units with [Gold]"]
     },
     {
         "name": "Huey Teocalli",

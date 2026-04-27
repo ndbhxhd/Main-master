@@ -240,14 +240,13 @@
             "Plains",
             "Grassland",
             "Desert",
-            "Beach",
             "Tundra",
             "Snow"
         ],
         "uniques": ["Turn this tile into a [Coast] tile","Can be built outside your borders"]
     },
     {
-        "name": "Grassland Construction Site",
+        "name": "Artificial Land Construction Site",
         "terrainsCanBeBuiltOn": [
             "Coast",
             "Ocean"
@@ -260,7 +259,6 @@
             "Plains",
             "Grassland",
             "Desert",
-            "Beach",
             "Tundra",
             "Snow"
         ],
@@ -333,7 +331,6 @@
             "Plains",
             "Grassland",
             "Desert",
-            "Beach",
             "Hill",
             "Tundra",
             "Forest",
@@ -528,7 +525,6 @@
             "Plains",
             "Grassland",
             "Desert",
-            "Beach",
             "Hill",
             "Tundra",
             "Snow",
@@ -549,7 +545,6 @@
             "Plains",
             "Grassland",
             "Desert",
-            "Beach",
             "Hill",
             "Tundra",
             "Snow",
