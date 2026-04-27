@@ -2494,7 +2494,12 @@
         "cityHealth": 15,
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "requiredTech": "Civil Service"
+        "requiredTech": "Civil Service",
+        "uniques": ["May buy [Standard Mercenary] units with [Gold] for [1] times their normal Production cost", "May buy [Experienced Mercenary ] units with [Gold] for [1] times their normal Production cost",
+        "May buy [Trained Mercenary] units with [Gold] for [1] times their normal Production cost",
+        "May buy [Modern Mercenaries] units with [Gold] for [1] times their normal Production cost",
+        "May buy [Professional Mercenaries] units with [Gold] for [1] times their normal Production cost",
+        "May buy [PMC] units with [Gold] for [1] times their normal Production cost"]
     },
     {
         "name": "Huey Teocalli",

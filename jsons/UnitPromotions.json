@@ -2012,22 +2012,22 @@
     {
         "name": "Spirit of Freedom",
         "uniques": [
-            "[+20]% Strength <when attacking>",
-            "[+20]% Strength <when defending>"
+            "[+10]% Strength <when attacking>",
+            "[+10]% Strength <when defending>"
         ]
     },
     {
         "name": "Elite Forces",
         "uniques": [
-            "[+10] HP when healing",
-            "[+20]% XP gained from combat",
+            "[+5] HP when healing",
+            "[+10]% XP gained from combat",
             "[+15] XP gained from combat"
         ]
     },
     {
         "name": "We The People",
         "uniques": [
-            "[+12]% Strength <in [Foreign Land] tiles> <when defending>"
+            "[+10]% Strength <in [Foreign Land] tiles> <when defending>"
         ]
     },
     {
@@ -2098,7 +2098,7 @@
     },
     {
         "name": "Morale",
-        "uniques": ["[+15]% Strength"]
+        "uniques": ["[+10]% Strength"]
     },
     {
         "name": "Great Generals I",

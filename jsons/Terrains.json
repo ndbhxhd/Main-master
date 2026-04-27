@@ -7,18 +7,6 @@
         "RGB": [45, 108, 145]
     },
     {
-        "name": "Canal",
-        "type": "Water",
-        "movementCost": 1,
-        "RGB": [100, 130, 150],
-        "uniques": ["Doesn't generate naturally", "Canal"],
-        "civilopediaText": [
-            {
-                "text": "Technology and evolution do not spare anyone. Now we can have for once some canals that last longer."
-            }
-        ]
-    },
-    {
         "name": "Coast",
         "type": "Water",
         "food": 1,
@@ -30,13 +18,6 @@
             "Considered [Food] when determining start locations",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
         ]
-    },
-    {
-        "name": "Beach",
-        "type": "Land",
-        "RGB": [235, 220, 180],
-        "movementCost": 1,
-        "defenceBonus": 0
     },
     {
         "name": "Grassland",

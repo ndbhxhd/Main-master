@@ -8,7 +8,6 @@
         "uniques": [
             "Can build [All] improvements on tiles",
             "Can build [Land] improvements on tiles",
-            "Can instantly construct a [Grassland Construction Site] improvement <once> <after which this unit is consumed>",
             "Automation is a primary action"
         ],
         "cost": 48
@@ -257,10 +256,9 @@
         "range": 10,
         "cost": 425,
         "requiredTech": "Lasers",
+        "requiredResource": "Oil",
         "uniques": [
-            "Consumes [1] [Oil]",
-            "Consumes [1] [Aluminum]",
-            "[+50]% Strength <vs [Heavy Cavalry] units>",
+            "[+150]% Strength <vs [Heavy Cavalry] units>",
             "[+150]% Strength <vs [Helicopter] units>"
         ],
         "attackSound": "bombing"
@@ -271,15 +269,14 @@
         "replaces": "Jet Striker",
         "uniqueTo": "The United States of America",
         "movement": 1,
-        "strength": 70,
-        "rangedStrength": 100,
+        "strength": 75,
+        "rangedStrength": 85,
         "range": 10,
-        "cost": 1025,
+        "cost": 2025,
         "requiredTech": "Lasers",
+        "requiredResource": "Oil",
         "uniques": [
-            "Consumes [1] [Oil]",
-            "Consumes [1] [Aluminum]",
-            "[+50]% Strength <vs [Heavy Cavalry] units>",
+            "[+150]% Strength <vs [Heavy Cavalry] units>",
             "[+150]% Strength <vs [Helicopter] units>"
         ],
         "attackSound": "bombing"
@@ -328,6 +325,7 @@
         "movement": 3,
         "strength": 50,
         "rangedStrength": 85,
+        "range": 3,
         "cost": 325,
         "requiredTech": "Telecommunications",
         "uniques": [
@@ -336,6 +334,26 @@
             "Can only attack [Water] tiles",
             "Never appears as a Barbarian unit",
             "Can carry [1] [Guided Missile] units"
+        ],
+        "attackSound": "torpedo"
+    },
+        {
+        "name": "Virginia cl. Submarine",
+        "unitType": "Naval Submarine",
+        "uniqueTo": "The United States of America",
+        "replaces": "Modern Attack Submarine",
+        "movement": 5,
+        "strength": 60,
+        "rangedStrength": 95,
+        "range": 5,
+        "cost": 10600,
+        "requiredTech": "Telecommunications",
+        "requiredResource": "Uranium",
+        "uniques": [
+            "[+75]% Strength <when attacking>",
+            "Can only attack [Water] tiles",
+            "[+2] Sight",
+            "Can carry [4] [Missile] units"
         ],
         "attackSound": "torpedo"
     },
@@ -501,7 +519,7 @@
         "attackSound": "metalhit"
     },
     {
-        "name": "Routiers",
+        "name": "Standard Mercenary",
         "unitType": "Mercenary",
         "movement": 2,
         "strength": 15,
@@ -516,7 +534,7 @@
             "Can move immediately once bought",
             "[+50]% Strength <vs cities>"
         ],
-        "upgradesTo": "Free Company",
+        "upgradesTo": "Experienced Mercenary",
         "obsoleteTech": "Gunpowder",
         "attackSound": "metalhit"
     },
@@ -1203,7 +1221,7 @@
         "attackSound": "metalhit"
     },
     {
-        "name": "Free Company",
+        "name": "Experienced Mercenary",
         "unitType": "Mercenary",
         "movement": 2,
         "strength": 21,
@@ -1519,14 +1537,11 @@
         "unitType": "Icebreaker",
         "cost": 500,
         "movement": 5,
-        "strength": 85,
-        "rangedStrength": 65,
-        "range": 2,
         "requiredTech": "Refrigeration",
         "requiredResource": "Coal",
-        "uniques": ["Withdraws before melee combat <with [60]% chance>"],
-        "attackSound": "shipguns"
+        "uniques": ["Can build [Water] improvements on tiles","Can build [Remove Ice] improvements on tiles"]
     },
+    
     {
         "name": "Capitalist",
         "unitType": "Civilian",
@@ -2432,6 +2447,7 @@
         "uniques": [
             "Cannot enter ocean tiles <before discovering [Astronomy]>",
             "May create improvements on water resources",
+            "Can instantly construct a [Grassland Construction Site] improvement <once> <after which this unit is consumed>",
             "Automation is a primary action"
         ]
     },
@@ -3232,7 +3248,6 @@
         "uniques": [
             "Can build [Land] improvements on tiles",
             "[-35]% construction time for [All] improvements",
-            "Can instantly construct a [Grassland Construction Site] improvement <once> <after which this unit is consumed>",
             "[+1] Movement <after discovering [Combustion]>",
             "[+1] Movement <after discovering [Mobile Tactics]>"
         ]
@@ -3656,6 +3671,7 @@
         "cost": 410,
         "requiredResource": "Oil",
         "requiredTech": "Electronics",
+        "obsoleteTech": "Rocketry",
         "uniques": ["Never appears as a Barbarian unit"],
         "attackSound": "shipguns"
     },
@@ -3664,13 +3680,14 @@
         "unitType": "Naval Ranged",
         "replaces": "Battleship",
         "uniqueTo": "The United States of America",
-        "movement": 4,
+        "movement": 6,
         "strength": 65,
         "rangedStrength": 65,
-        "range": 3,
-        "cost": 500,
+        "range": 4,
+        "cost": 1500,
         "requiredResource": "Oil",
         "requiredTech": "Electronics",
+        "obsoleteTech": "Rocketry",
         "uniques": ["Never appears as a Barbarian unit"],
         "attackSound": "shipguns"
     },
@@ -3914,46 +3931,28 @@
         "uniques": [
             "Can see invisible [Naval Submarine] units",
             "[100]% chance to intercept air attacks",
-            "Withdraws before melee combat",
             "[+100]% Strength <vs [Naval Submarine] units>",
             "Can carry [2] [Missile] units"
         ],
         "attackSound": "shipguns"
     },
     {
-        "name": "Mutant",
-        "unitType": "Infantry",
-        "movement": 3,
-        "strength": 80,
-        "cost": 425,
-        "requiredTech": "Genetic Manipulation",
-        "upgradesTo": "Organic Infantry",
-        "obsoleteTech": "Implants",
-        "uniques": ["Heals [25] damage if it kills a unit"],
-        "attackSound": "machinegun"
-    },
-    {
-        "name": "Power Armor Infantry",
-        "unitType": "Infantry",
-        "movement": 3,
-        "strength": 105,
-        "cost": 475,
-        "requiredTech": "Nanomaterials",
-        "upgradesTo": "Battlesuit",
-        "obsoleteTech": "Adamantium",
-        "attackSound": "machinegun"
-    },
-    {
-        "name": "Railgun Armor",
-        "unitType": "Heavy Cavalry",
-        "movement": 5,
-        "strength": 120,
-        "cost": 525,
-        "requiredTech": "High-Energy Physics",
-        "obsoleteTech": "Adamantium",
-        "requiredResource": "Nanomaterial",
-        "uniques": ["Can move after attacking", "No defensive terrain bonus"],
-        "attackSound": "tankshot"
+        "name": "Arleigh Burke cl. Destroyer",
+        "replaces": "Modern Destoryer",
+        "unitType": "Naval Melee",
+        "uniqueTo": "The United States of America",
+        "movement": 9,
+        "strength": 85,
+        "interceptRange": 4,
+        "cost": 10500,
+        "requiredTech": "Particle Physics",
+        "uniques": [
+            "Can see invisible [Naval Submarine] units",
+            "[100]% chance to intercept air attacks",
+            "[+100]% Strength <vs [Naval Submarine] units>",
+            "Can carry [4] [Missile] units"
+        ],
+        "attackSound": "shipguns"
     },
     {
         "name": "Special Forces",
@@ -3998,102 +3997,35 @@
         "name": "Advanced Destroyer",
         "unitType": "Naval Melee",
         "movement": 8,
-        "strength": 120,
+        "strength": 100,
         "interceptRange": 4,
         "cost": 5000,
         "requiredTech": "Autonomous Systems",
         "uniques": [
             "Can see invisible [Naval Submarine] units",
             "[100]% chance to intercept air attacks",
-            "Withdraws before melee combat",
             "[+100]% Strength <vs [Naval Submarine] units>",
             "Can carry [3] [Missile] units"
         ],
         "attackSound": "shipguns"
     },
     {
-        "name": "Arleigh Burke cl. Destroyer",
-        "unitType": "Naval Melee",
-        "uniqueTo": "The United States of America",
-        "movement": 10,
-        "strength": 90,
-        "interceptRange": 4,
-        "cost": 11500,
-        "requiredTech": "Autonomous Systems",
-        "uniques": [
-            "Can see invisible [Naval Submarine] units",
-            "[100]% chance to intercept air attacks",
-            "Withdraws before melee combat",
-            "[+100]% Strength <vs [Naval Submarine] units>",
-            "Can carry [5] [Missile] units"
-        ],
-        "attackSound": "shipguns"
-    },
-    {
         "name": "DDGX cl. Destroyer",
         "unitType": "Naval Melee",
+        "replaces": "Advanced Destoryer",
         "uniqueTo": "The United States of America",
-        "movement": 12,
-        "strength": 135,
+        "movement": 10,
+        "strength": 110,
         "interceptRange": 5,
-        "cost": 21500,
+        "cost": 15500,
         "requiredTech": "Autonomous Systems",
         "uniques": [
             "Can see invisible [Naval Submarine] units",
             "[100]% chance to intercept air attacks",
-            "Withdraws before melee combat",
             "[+100]% Strength <vs [Naval Submarine] units>",
-            "Can carry [7] [Missile] units"
+            "Can carry [6] [Missile] units"
         ],
         "attackSound": "shipguns"
-    },
-    {
-        "name": "Automaton",
-        "unitType": "Infantry",
-        "movement": 4,
-        "strength": 90,
-        "cost": 525,
-        "requiredTech": "Cognitive Technology",
-        "upgradesTo": "Robot Infantry",
-        "obsoleteTech": "Artificial Intelligence",
-        "attackSound": "machinegun"
-    },
-    {
-        "name": "Battlesuit",
-        "unitType": "Infantry",
-        "movement": 3,
-        "strength": 120,
-        "cost": 775,
-        "requiredTech": "Adamantium",
-        "attackSound": "machinegun"
-    },
-    {
-        "name": "Biodrone",
-        "unitType": "Ranged Cavalry",
-        "range": 4,
-        "movement": 4,
-        "strength": 70,
-        "rangedStrength": 110,
-        "cost": 925,
-        "requiredTech": "Terraforming",
-        "uniques": ["Can move after attacking"],
-        "attackSound": "machinegun"
-    },
-    {
-        "name": "Bio-Titan",
-        "unitType": "Infantry",
-        "movement": 4,
-        "strength": 140,
-        "cost": 1125,
-        "requiredTech": "Terraforming",
-        "uniques": [
-            "Heals [25] damage if it kills a unit",
-            "Ignores terrain cost",
-            "No movement cost to pillage",
-            "Consumes [1] [Nanomaterial]",
-            "Consumes [1] [Uranium]"
-        ],
-        "attackSound": "machinegun"
     },
     {
         "name": "Biotrooper",
@@ -4110,22 +4042,7 @@
         "attackSound": "machinegun"
     },
     {
-        "name": "Chimera",
-        "unitType": "Infantry",
-        "movement": 4,
-        "strength": 80,
-        "cost": 725,
-        "requiredTech": "Designer Lifeforms",
-        "upgradesTo": "Bio-Titan",
-        "obsoleteTech": "Terraforming",
-        "uniques": [
-            "Heals [25] damage if it kills a unit",
-            "Ignores terrain cost"
-        ],
-        "attackSound": "machinegun"
-    },
-    {
-        "name": "Cybersub",
+        "name": "Advanced Submarine",
         "unitType": "Naval Submarine",
         "movement": 8,
         "strength": 75,
@@ -4144,36 +4061,23 @@
         "attackSound": "torpedo"
     },
     {
-        "name": "Drone Fighter",
-        "unitType": "Fighter",
-        "strength": 100,
+        "name": "Columbia cl. Submarine",
+        "replaces": "Advanced Submarine",
+        "unitType": "Naval Submarine",
+        "uniqueTo": "The United States of America",
+        "movement": 10,
+        "strength": 80,
         "rangedStrength": 100,
-        "range": 12,
-        "interceptRange": 12,
-        "cost": 525,
-        "movement": 2,
-        "requiredTech": "Cognitive Technology",
-        "requiredResource": "Nanomaterial",
+        "range": 4,
+        "cost": 20620,
+        "requiredTech": "Neural Interface",
+        "requiredResource": "Uranium",
         "uniques": [
-            "[100]% chance to intercept air attacks",
-            "[+150]% Strength <vs [Bomber] units>",
-            "[+150]% Strength <vs [Helicopter] units>"
+            "[+10] Sight",
+            "Can only attack [Water] tiles",
+            "Can carry [10] [Missile] units"
         ],
-        "attackSound": "jetgun"
-    },
-    {
-        "name": "Hybrid Drone",
-        "unitType": "Drone",
-        "range": 3,
-        "movement": 3,
-        "strength": 65,
-        "rangedStrength": 100,
-        "cost": 525,
-        "requiredTech": "Implants",
-        "upgradesTo": "Biodrone",
-        "obsoleteTech": "Terraforming",
-        "uniques": ["Can move after attacking"],
-        "attackSound": "machinegun"
+        "attackSound": "torpedo"
     },
     {
         "name": "Hypervelocity Missile",
@@ -4186,19 +4090,6 @@
         "requiredTech": "Microscale Engineering",
         "uniques": ["[-100]% maintenance costs"],
         "attackSound": "missile"
-    },
-    {
-        "name": "Organic Infantry",
-        "unitType": "Infantry",
-        "movement": 3,
-        "strength": 100,
-        "cost": 550,
-        "requiredTech": "Implants",
-        "upgradesTo": "Biotrooper",
-        "obsoleteTech": "Biomodification",
-        "uniques": ["May enter foreign tiles without open borders"],
-        "promotions": ["Amphibious"],
-        "attackSound": "machinegun"
     },
     {
         "name": "Robot Infantry",
@@ -4476,6 +4367,9 @@
             "Can move after attacking",
             "Unable to capture cities",
          "May attack when embarked",
+         "Ignores Zone of Control",
+         "Can pass through impassable tiles",
+         "May travel on Water tiles without embarking",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "machinegun"
@@ -4486,8 +4380,8 @@
         "uniqueTo": "The United States of America",
         "replaces": "Helicopter Gunship",
         "movement": 10,
-        "strength": 130,
-        "cost": 3000,
+        "strength": 75,
+        "cost": 2500,
         "requiredTech": "Mobile Tactics",
         "requiredResource": "Aluminum",
         "uniques": [
@@ -4495,11 +4389,11 @@
             "No defensive terrain bonus",
             "Can move after attacking",
             "Ignores Zone of Control",
-            "May attack when embarked"
+            "May attack when embarked",
             "Unable to capture cities",
             "Can pass through impassable tiles",
             "May travel on Water tiles without embarking",
-            "Can carry [4] [Missile] units"
+            "Can carry [2] [Missile] units"
         ],
         "attackSound": "machinegun"
     },
@@ -4535,28 +4429,8 @@
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
             "[+1] Sight",
-            "Can carry [3] [Missile] units",
+            "Can carry [4] [Missile] units",
             "Never appears as a Barbarian unit"
-        ],
-        "attackSound": "torpedo"
-    },
-    {
-        "name": "Virginia cl. Submarine",
-        "unitType": "Naval Submarine",
-        "uniqueTo": "The United States of America",
-        "replaces": "Modern Attack Submarine",
-        "movement": 9,
-        "strength": 120,
-        "rangedStrength": 135,
-        "range": 5,
-        "cost": 13600,
-        "requiredTech": "Particle Physics",
-        "requiredResource": "Uranium",
-        "uniques": [
-            "[+100]% Strength <when attacking>",
-            "Can only attack [Water] tiles",
-            "[+2] Sight",
-            "Can carry [4] [Missile] units"
         ],
         "attackSound": "torpedo"
     },
@@ -4565,32 +4439,16 @@
         "unitType": "Naval Submarine",
         "uniqueTo": "The United States of America",
         "replaces": "Nuclear Submarine",
-        "movement": 8,
-        "strength": 120,
-        "rangedStrength": 100,
+        "movement": 7,
+        "strength": 60,
+        "rangedStrength": 85,
         "range": 4,
-        "cost": 15620,
-        "requiredTech": "Particle Physics",
+        "cost": 20620,
+        "requiredTech": "Telecommunications",
         "requiredResource": "Uranium",
         "uniques": [
             "Can only attack [Water] tiles",
-            "Can carry [8] [Nuclear Missile] units"
-        ],
-        "attackSound": "torpedo"
-    },
-    {
-        "name": "Columbia cl. Submarine",
-        "unitType": "Naval Submarine",
-        "uniqueTo": "The United States of America",
-        "movement": 10,
-        "strength": 120,
-        "rangedStrength": 100,
-        "range": 4,
-        "cost": 18620,
-        "requiredTech": "Nanotechnology",
-        "requiredResource": "Uranium",
-        "uniques": [
-            "Can only attack [Water] tiles",
+            "[+1] Sight",
             "Can carry [8] [Nuclear Missile] units"
         ],
         "attackSound": "torpedo"
@@ -4614,10 +4472,8 @@
         "range": 3,
         "cost": 650,
         "requiredTech": "Robotics",
+        "requiredResource": "Aluminum",
         "uniques": [
-            "Consumes [1] [Aluminum]",
-            "Consumes [1] [Semiconductors]",
-            "Consumes [1] [Marine Gas Turbine Fuel]",
             "Can carry [4] [Missile] units",
             "Can see invisible [Naval Submarine] units",
             "Can see invisible [Naval Raider] units",
@@ -4632,11 +4488,11 @@
         "uniqueTo": "The United States of America",
         "replaces": "Missile Cruiser",
         "movement": 8,
-        "strength": 100,
-        "rangedStrength": 120,
+        "strength": 80,
+        "rangedStrength": 100,
         "range": 4,
-        "cost": 11000,
-        "requiredTech": "Advanced Ballistics",
+        "cost": 15000,
+        "requiredTech": "Robotics",
         "requiredResource": "Aluminum",
         "uniques": [
             "[100]% chance to intercept air attacks",
@@ -4648,7 +4504,7 @@
         "attackSound": "shipguns"
     },
     {
-        "name": "Modern Tank",
+        "name": "Advanced Tank",
         "unitType": "Heavy Cavalry",
         "movement": 5,
         "strength": 100,
@@ -4656,8 +4512,6 @@
         "requiredTech": "Lasers",
         "requiredResource": "Aluminum",
         "uniques": [
-            "Can move after attacking",
-            "No defensive terrain bonus",
             "[+50]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit"
         ],
@@ -4667,16 +4521,14 @@
         "name": "M1 Abrams",
         "unitType": "Heavy Cavalry",
         "uniqueTo": "The United States of America",
-        "replaces": "Modern Tank",
-        "movement": 8,
-        "strength": 120,
-        "cost": 200,
+        "replaces": "Advanced Tank",
+        "movement": 6,
+        "strength": 105,
+        "cost": 1500,
         "requiredTech": "Lasers",
         "requiredResource": "Aluminum",
         "uniques": [
-            "[+1000]% Strength <vs [Infantry] units>",
-            "[+50]% to Flank Attack bonuses",
-            "Can move after attacking"
+            "[+1000]% Strength <vs [Infantry] units>"
         ],
         "attackSound": "tankshot"
     },
@@ -5216,29 +5068,6 @@
             "Takes your religion over the one in their birth city",
             "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
             "Unbuildable"
-        ]
-    },
-    {
-        "name": "Worker",
-        "unitType": "Civilian",
-        "movement": 2,
-        "cost": 70,
-        "uniques": [
-            "Can build [All] improvements on tiles",
-            "Can build [Land] improvements on tiles",
-            "Automation is a primary action"
-        ]
-    },
-    {
-        "name": "Work Boat",
-        "unitType": "Civilian Water",
-        "movement": 4,
-        "cost": 30,
-        "requiredTech": "Sailing",
-        "uniques": [
-            "Cannot enter ocean tiles <before discovering [Astronomy]>",
-            "Can build [Water] improvements on tiles",
-            "Automation is a primary action"
         ]
     },
     {

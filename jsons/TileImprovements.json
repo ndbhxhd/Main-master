@@ -45,6 +45,13 @@
         "shortcutKey": "A"
     },
     {
+		"name": "Remove Ice",
+		"turnsToBuild": 10,
+		"terrainsCanBeBuiltOn": ["Ice"],
+		"techRequired": "Agriculture",
+		"uniques": ["Can be built outside your borders"]
+	},
+    {
         "name": "Communications Array",
         "terrainsCanBeBuiltOn": [
             "Grassland",
