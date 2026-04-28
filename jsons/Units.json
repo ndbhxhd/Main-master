@@ -1076,7 +1076,7 @@
         "strength": 110,
         "cost": 450,
         "requiredTech": "Mobile Tactics",
-        "uniques"["May enter foreign tiles without open borders"],
+        "uniques": ["May enter foreign tiles without open borders"],
         "attackSound": "machinegun"
     },
     {
