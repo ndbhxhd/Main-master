@@ -36,8 +36,7 @@
         "name": "Marines",
         "uniques": [
             "Eliminates combat penalty for attacking over a river",
-            "Eliminates combat penalty for attacking across a coast",
-            "May travel on Water tiles without embarking"
+            "Eliminates combat penalty for attacking across a coast"
         ],
         "movementType": "Land"
     },
@@ -121,6 +120,14 @@
         "name": "Aircraft Carrier",
         "movementType": "Water"
     },
+        {
+        "name": "LHD",
+        "movementType": "Water"
+    },
+            {
+        "name": "LHA",
+        "movementType": "Water"
+    },
     {
         "name": "Anti-Air",
         "uniques": [
@@ -132,8 +139,8 @@
     },
     {
         "name": "Counter Missile",
-        "uniques": ["Cannot intercept [Aircraft] units"],
-        "movementType": "Air"
+        "uniques": ["Cannot intercept [Aircraft] units", "Cannot intercept [non-[Missile]] units"],
+        "movementType": "Land"
     },
     {
         "name": "Fighter",
@@ -147,7 +154,8 @@
     },
     {
         "name": "Bomber",
-        "uniques": ["Aircraft"],
+        "uniques": ["Aircraft", "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units","Cannot be carried by [Aircraft Carrier] units"],
         "movementType": "Air"
     },
     {

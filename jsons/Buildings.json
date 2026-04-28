@@ -3911,8 +3911,22 @@
             "Only available <when espionage is enabled>",
             "Gain an extra spy",
             "Promotes all spies [1] time(s)",
-            "[-10]% enemy spy effectiveness [in all cities]",
-            "Cost increases by [30] per owned city"
+            "[-10]% enemy spy effectiveness [in all cities]"
+        ],
+        "requiredTech": "Radio"
+    },
+        {
+        "name": "Central Intelligence Agency",
+        "replaces": "National Intelligence Agency",
+        "uniqueTo": "The United States of America",
+        "cost": 150,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <when espionage is enabled>",
+            "Gain an extra spy",
+            "Promotes all spies [2] time(s)",
+            "[-20]% enemy spy effectiveness [in all cities]"
         ],
         "requiredTech": "Radio"
     },
@@ -4092,7 +4106,7 @@
             "Great Engineer": 2
         },
         "uniques": [
-            "[-40]% Gold cost of upgrading <for [Military] units>"
+            "[+10]% Strength <for [All] units>"
         ],
         "requiredTech": "Combined Arms",
         "quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"

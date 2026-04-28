@@ -22,7 +22,7 @@
     "aiUnhappinessModifier": 1,
     "aisExchangeTechs": true,
     "turnBarbariansCanEnterPlayerTiles": 0,
-    "clearBarbarianCampReward": 50
+    "clearBarbarianCampReward": 100
 },
     {
         "name": "AI",
@@ -31,7 +31,7 @@
         "researchCostModifier": 1,
         "unitCostModifier": 1,
         "unitSupplyBase": 0,
-        "unitSupplyPerCity": 2,
+        "unitSupplyPerCity": 1,
         "buildingCostModifier": 1,
         "policyCostModifier": 1,
         "unhappinessModifier": 1,
@@ -48,5 +48,5 @@
         "aiUnhappinessModifier": 1,
         "aisExchangeTechs": true,
         "turnBarbariansCanEnterPlayerTiles": 0,
-        "clearBarbarianCampReward": 50
+        "clearBarbarianCampReward": 100
     }]

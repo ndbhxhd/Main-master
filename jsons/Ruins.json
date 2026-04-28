@@ -284,7 +284,7 @@
         "name": "reveal nearby Barbarian camps",
         "notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
         "uniques": [
-            "Reveal up to [All] [Terrorist hideout] within a [10] tile radius"
+            "Reveal up to [All] [Barbarian encampment] within a [10] tile radius"
         ]
     },
     {
@@ -376,7 +376,7 @@
         "name": "ULTIMATE strategic maps",
         "notification": "We recover complete regional charts and enemy traces!",
         "uniques": [
-            "Reveal up to [All] [Terrorist hideout] within a [10] tile radius",
+            "Reveal up to [All] [Barbarian encampment] within a [10] tile radius",
             "Reveal up to [All] [Luxury resource] within a [10] tile radius",
             "Reveal up to [All] [Bonus resource] within a [10] tile radius"
         ]

@@ -264,6 +264,8 @@
         "requiredResource": "Oil",
         "uniques": [
             "[+150]% Strength <vs [Heavy Cavalry] units>",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
             "[+150]% Strength <vs [Helicopter] units>"
         ],
         "attackSound": "bombing"
@@ -716,7 +718,7 @@
     },
     {
         "name": "Modern Frigate",
-        "unitType": "Naval Ranged",
+        "unitType": "Naval Melee",
         "movement": 7,
         "strength": 70,
         "range": 3,
@@ -726,33 +728,108 @@
         "uniques": [
             "[90]% chance to intercept air attacks",
             "Can see invisible [Naval Submarine] units",
-            "Withdraws before melee combat",
+            "Can carry [1] [Missile] units",
             "Can see invisible [Naval Raider] units",
             "[+100]% Strength <vs [Naval Submarine] units>",
             "Never appears as a Barbarian unit"
         ],
-        "attackSound": "missile"
+        "attackSound": "shipguns"
+    },
+        {
+        "name": "Constellation cl. Frigate",
+        "unitType": "Naval Melee",
+        "replaces": "Modern Frigate",
+        "uniqueTo": "The United States of America",
+        "movement": 7,
+        "strength": 80,
+        "range": 3,
+        "interceptRange": 3,
+        "cost": 2075,
+        "requiredTech": "Robotics",
+        "uniques": [
+            "[95]% chance to intercept air attacks",
+            "Can see invisible [Naval Submarine] units",
+            "Can carry [2] [Missile] units",
+            "Can see invisible [Naval Raider] units",
+            "[+100]% Strength <vs [Naval Submarine] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "shipguns"
+    },
+    {
+        "name": "FF(X) Frigate",
+        "unitType": "Naval Melee",
+        "uniqueTo": "The United States of America",
+        "movement": 7,
+        "strength": 75,
+        "cost": 1075,
+        "requiredTech": "Robotics",
+        "uniques": [
+            "Can carry [1] [Missile] units",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "shipguns"
     },
     {
         "name": "Modern Corvette",
-        "unitType": "Naval Ranged",
+        "unitType": "Naval Melee",
         "movement": 8,
         "strength": 75,
-        "rangedStrength": 65,
         "interceptRange": 1,
-        "range": 1,
         "cost": 425,
         "requiredTech": "Lasers",
         "uniques": [
             "Never appears as a Barbarian unit",
             "[80]% chance to intercept air attacks",
             "Can see invisible [Naval Submarine] units",
+            "Can carry [1] [Missile] units",
             "Can see invisible [Naval Raider] units",
-            "[+100]% Strength <vs [Naval Submarine] units>",
-            "Withdraws before melee combat"
+            "[+100]% Strength <vs [Naval Submarine] units>"
         ],
         "hurryCostModifier": 20,
-        "attackSound": "cannon"
+        "attackSound": "shipguns"
+    },
+    {
+        "name": "Freedom cl. Littoral Combat Ship",
+        "unitType": "Naval Melee",
+        "replaces": "Modern Corvette",
+        "uniqueTo": "The United States of America",
+        "movement": 9,
+        "strength": 80,
+        "interceptRange": 1,
+        "cost": 1525,
+        "requiredTech": "Lasers",
+        "uniques": [
+            "Never appears as a Barbarian unit",
+            "[70]% chance to intercept air attacks",
+            "Can see invisible [Naval Submarine] units",
+            "Can see invisible [Naval Raider] units",
+            "Can carry [1] [Missile] units",
+            "[+100]% Strength <vs [Naval Submarine] units>"
+        ],
+        "hurryCostModifier": 20,
+        "attackSound": "shipguns"
+    },
+        {
+        "name": "Independence cl. Littoral Combat Ship",
+        "unitType": "Naval Melee",
+        "uniqueTo": "The United States of America",
+        "movement": 8,
+        "strength": 77,
+        "interceptRange": 2,
+        "cost": 1025,
+        "requiredTech": "Lasers",
+        "uniques": [
+            "Never appears as a Barbarian unit",
+            "[70]% chance to intercept air attacks",
+            "Can see invisible [Naval Submarine] units",
+            "Can see invisible [Naval Raider] units",
+            "[+15]% Strength bonus for [Helicopter] units within [5] tiles",
+            "Can carry [1] [Missile] units",
+            "[+100]% Strength <vs [Naval Submarine] units>"
+        ],
+        "hurryCostModifier": 20,
+        "attackSound": "shipguns"
     },
     {
         "name": "Jet Interceptor",
@@ -767,6 +844,8 @@
         "requiredResource": "Oil",
         "uniques": [
             "[100]% chance to intercept air attacks",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
             "[+150]% Strength <vs [Bomber] units>",
             "[+150]% Strength <vs [Atomic Bomber] units>",
             "[+50]% Strength <vs [Close Air Support] units>",
@@ -826,7 +905,7 @@
         "cost": 375,
         "requiredTech": "Radar",
         "requiredResource": "Oil",
-        "upgradesTo": "Jet Fighter",
+        "upgradesTo": "Jet Striker",
         "obsoleteTech": "Lasers",
         "uniques": [
             "[50]% chance to intercept air attacks",
@@ -836,6 +915,26 @@
             "[+50]% Strength <vs [Ranged Cavalry] units>"
         ],
         "attackSound": "machinegun"
+    },
+        {
+        "name": "A1 Skyraider",
+        "unitType": "Close Air Support",
+        "replaces": "Fighter-Bomber",
+        "uniqueTo": "The United States of America",
+        "movement": 1,
+        "strength": 45,
+        "rangedStrength": 70,
+        "range": 8,
+        "cost": 1075,
+        "requiredTech": "Radar",
+        "requiredResource": "Oil",
+        "obsoleteTech": "Lasers",
+        "uniques": [
+            "[+50]% Strength <vs [Light Cavalry] units>",
+            "[+50]% Strength <vs [Heavy Cavalry] units>",
+            "[+50]% Strength <vs [Ranged Cavalry] units>"
+        ],
+        "attackSound": "bombing"
     },
     {
         "name": "Torpedo Bomber",
@@ -949,6 +1048,17 @@
         "requiredTech": "Telecommunications",
         "attackSound": "machinegun"
     },
+     {
+        "name": "US National Guard",
+        "unitType": "Infantry",
+        "uniqueTo":"The United States of America",
+        "movement": 2,
+        "strength": 80,
+        "cost": 425,
+        "requiredTech": "Telecommunications",
+        "uniques": ["[+25]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
+        "attackSound": "shot"
+    },
     {
         "name": "Modern Marine",
         "unitType": "Marines",
@@ -956,6 +1066,17 @@
         "strength": 70,
         "cost": 450,
         "requiredTech": "Mobile Tactics",
+        "attackSound": "machinegun"
+    },
+        {
+        "name": "Marine Raiders",
+        "uniqueTo": "The United States of America",
+        "unitType": "Marines",
+        "movement": 2,
+        "strength": 110,
+        "cost": 450,
+        "requiredTech": "Mobile Tactics",
+        "uniques"["May enter foreign tiles without open borders"],
         "attackSound": "machinegun"
     },
     {
@@ -1058,6 +1179,26 @@
         "movement": 3,
         "strength": 50,
         "rangedStrength": 52,
+        "range": 3,
+        "cost": 300,
+        "requiredTech": "Replaceable Parts",
+        "requiredResource": "Coal",
+        "upgradesTo": "Battleship",
+        "obsoleteTech": "Electronics",
+        "uniques": [
+            "Double movement in [Coast]",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "shipguns"
+    },
+        {
+        "name": "New York cl. Battleship",
+        "replaces": "Dreadnought",
+        "uniqueTo": "The United States of America",
+        "unitType": "Naval Ranged",
+        "movement": 3,
+        "strength": 50,
+        "rangedStrength": 62,
         "range": 3,
         "cost": 300,
         "requiredTech": "Replaceable Parts",
@@ -3645,6 +3786,34 @@
         ]
     },
     {
+        "name": "Wasp cl. Amphibious Assault Ship",
+        "uniqueTo":"The United States of America",
+        "unitType": "LHD",
+        "movement": 5,
+        "strength": 40,
+        "cost": 8800,
+        "requiredTech": "Electronics",
+        "uniques": [
+            "Cannot attack",
+            "[+15]% Strength bonus for [Marine] units within [3] tiles",
+            "Can carry [4] [Aircraft] units"
+        ]
+    },
+    {
+        "name": "America cl. Amphibious Assault Ship",
+        "uniqueTo":"The United States of America",
+        "unitType": "LHA",
+        "movement": 4,
+        "strength": 40,
+        "cost": 18000,
+        "requiredTech": "Electronics",
+        "uniques": [
+            "Cannot attack",
+            "Can carry [6] [Aircraft] units",
+            "[+15]% Strength bonus for [Aircraft] units within [2] tiles"
+        ]
+    },
+    {
         "name": "Nimitz cl. Carrier",
         "unitType": "Aircraft Carrier",
         "uniqueTo": "The United States of America",
@@ -3692,7 +3861,7 @@
         "attackSound": "shipguns"
     },
     {
-        "name": "Iowa cl. battleship",
+        "name": "Iowa cl. Battleship",
         "unitType": "Naval Ranged",
         "replaces": "Battleship",
         "uniqueTo": "The United States of America",
@@ -3768,10 +3937,26 @@
         "uniques": [
             "Can see invisible [Naval Submarine] units",
             "[100]% chance to intercept air attacks",
-            "Can move after attacking",
-            "Withdraws before melee combat",
+            "[+100]% Strength <vs [Naval Submarine] units>"
+        ],
+        "attackSound": "shipguns"
+    },
+     {
+        "name": "Allen M. Sumner cl. Destroyer",
+        "replaces": "Destroyer",
+        "uniqueTo":"The United States of America",
+        "unitType": "Naval Melee",
+        "movement": 8,
+        "strength": 70,
+        "interceptRange": 2,
+        "cost": 420,
+        "requiredTech": "Combustion",
+        "obsoleteTech": "Lasers",
+        "uniques": [
+            "Can see invisible [Naval Submarine] units",
+            "[100]% chance to intercept air attacks",
             "[+100]% Strength <vs [Naval Submarine] units>",
-            "[-50]% Damage when intercepting"
+            "[-30]% Damage when intercepting"
         ],
         "attackSound": "shipguns"
     },
@@ -3793,7 +3978,7 @@
         "replaces": "Marine",
         "strength": 90,
         "cost": 500,
-        "movement": 4,
+        "movement": 3,
         "uniques": ["[+100]% Strength <when defending> <when [Embarked]>"],
         "requiredTech": "Electronics",
         "obsoleteTech": "Mobile Tactics",
@@ -3804,21 +3989,21 @@
         "unitType": "Marines",
         "uniqueTo": "The United States of America",
         "replaces": "Modern Marine",
-        "movement": 4,
-        "strength": 110,
+        "movement": 3,
+        "strength": 100,
         "cost": 575,
         "requiredTech": "Mobile Tactics",
         "promotions": ["Amphibious", "Embarkation with Defence"],
-        "uniques": ["Can transform to [AAV-7 Marine Landing]"],
+        "uniques": ["Can transform to [Amphibious Combat Vehicle]"],
         "attackSound": "shot"
     },
     {
-        "name": "AAV-7 Marine Landing",
+        "name": "Amphibious Combat Vehicle",
         "unitType": "Marines",
         "uniqueTo": "The United States of America",
-        "movement": 6,
+        "movement": 4,
         "strength": 105,
-        "cost": 650,
+        "cost": 575,
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "May travel on Water tiles without embarking",
@@ -3966,14 +4151,24 @@
     },
     {
         "name": "Special Forces",
-        "unitType": "Paratrooper",
+        "unitType": "Special Forces",
         "movement": 3,
         "strength": 85,
         "cost": 450,
         "requiredTech": "Globalization",
         "obsoleteTech": "Nanotechnology",
         "uniques": ["May enter foreign tiles without open borders"],
-        "promotions": ["Amphibious"],
+        "attackSound": "machinegun"
+    },
+        {
+        "name": "Green Beret",
+        "unitType": "Special Forces",
+        "movement": 3,
+        "strength": 95,
+        "cost": 450,
+        "requiredTech": "Globalization",
+        "obsoleteTech": "Nanotechnology",
+        "uniques": ["May enter foreign tiles without open borders","[+15]% Strength <on foreign continents>", "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles"],
         "attackSound": "machinegun"
     },
     {
@@ -4102,6 +4297,33 @@
         "attackSound": "missile"
     },
     {
+        "name": "Tomahawk Missile",
+        "replaces": "Hypervelocity Missile",
+        "uniqueTo":"The United States of America",
+        "unitType": "Missile",
+        "strength": 60,
+        "movement": 1,
+        "rangedStrength": 130,
+        "range": 10,
+        "cost": 2550,
+        "requiredTech": "Microscale Engineering",
+        "uniques": ["[-50]% maintenance costs", "[+150]% Strength <vs [Land] units>"],
+        "attackSound": "missile"
+    },
+        {
+        "name": "AGM-158C LRASM Missile",
+        "uniqueTo":"The United States of America",
+        "unitType": "Missile",
+        "strength": 60,
+        "movement": 1,
+        "rangedStrength": 130,
+        "range": 10,
+        "cost": 2550,
+        "requiredTech": "Microscale Engineering",
+        "uniques": ["[-50]% maintenance costs", "[+150]% Strength <vs [Water] units>"],
+        "attackSound": "missile"
+    },
+    {
         "name": "Robot Infantry",
         "unitType": "Infantry",
         "movement": 4,
@@ -4178,25 +4400,6 @@
         "attackSound": "tankshot"
     },
     {
-        "name": "Nuke Cannon",
-        "unitType": "Siege Ranged",
-        "movement": 2,
-        "strength": 45,
-        "rangedStrength": 50,
-        "range": 3,
-        "cost": 400,
-        "requiredTech": "Nuclear Fission",
-        "uniques": [
-            "No defensive terrain bonus",
-            "Never appears as a Barbarian unit",
-            "Nuclear weapon of Strength [1]",
-            "Blast radius [0]",
-            "Consumes [1] [Uranium]",
-            "Rough terrain penalty"
-        ],
-        "attackSound": "artillery"
-    },
-    {
         "name": "Rocket Artillery",
         "unitType": "Siege Ranged",
         "movement": 2,
@@ -4247,14 +4450,14 @@
         "attackSound": "missile"
     },
     {
-        "name": "Patriot SAM System",
+        "name": "MIM-104 Patriot",
         "unitType": "Anti-Air",
         "uniqueTo": "The United States of America",
         "replaces": "Mobile SAM",
         "movement": 3,
-        "strength": 85,
+        "strength": 75,
         "interceptRange": 3,
-        "cost": 550,
+        "cost": 4350,
         "requiredTech": "Rocketry",
         "uniques": [
             "[100]% chance to intercept air attacks",
@@ -4263,6 +4466,30 @@
         ],
         "attackSound": "shot"
     },
+    	{
+		"name": "Theatre Defense System",
+		"unitType": "Counter Missile",
+		"movement": 3,
+		"interceptRange": 4,
+		"strength": 65,
+		"cost": 425,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["[80]% chance to intercept air attacks", "Never appears as a Barbarian unit", "Comment [Only intercepts missiles]", "Consumes [2] [Aluminum]"],
+		"attackSound": "missile"
+	},
+    	{
+		"name": "THAAD",
+        "replaces": "Theatre Defense System",
+        "uniqueTo": "The United States of America",
+		"unitType": "Counter Missile",
+		"movement": 3,
+		"interceptRange": 4,
+		"strength": 75,
+		"cost": 12025,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["[100]% chance to intercept air attacks", "Never appears as a Barbarian unit", "Comment [Only intercepts missiles]", "Consumes [2] [Aluminum]"],
+		"attackSound": "missile"
+	},
     {
         "name": "Bazooka",
         "unitType": "Ranged Heavy",
@@ -4287,20 +4514,6 @@
         "attackSound": "missile"
     },
     {
-        "name": "ATACMS",
-        "unitType": "Missile",
-        "uniqueTo": "The United States of America",
-        "replaces": "Guided Missile",
-        "movement": 1,
-        "strength": 135,
-        "rangedStrength": 135,
-        "range": 10,
-        "cost": 2000,
-        "requiredTech": "Advanced Ballistics",
-        "uniques": ["[-60]% maintenance costs"],
-        "attackSound": "missile"
-    },
-    {
         "name": "Nuke",
         "unitType": "Nuclear Missile",
         "movement": 1,
@@ -4313,6 +4526,31 @@
             "Nuclear weapon of Strength [2]",
             "Only available <if [Manhattan Project] is constructed>",
             "Blast radius [2]",
+            "Cannot be carried by [Aircraft Carrier] units",
+            "Cannot be carried by [Naval Submarine] units",
+            "Consumes [2] [Uranium]"
+        ],
+        "attackSound": "nuke"
+    },
+    {
+        "name": "Minuteman III",
+        "unitType": "Nuclear Missile",
+        "replaces": "Nuke",
+        "uniqueTo": "The United States of America",
+        "movement": 1,
+        "strength": 300,
+        "rangedStrength": 300,
+        "range": 24,
+        "cost": 15000,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": [
+            "Nuclear weapon of Strength [3]",
+            "Only available <if [Manhattan Project] is constructed>",
+            "Blast radius [3]",
+            "[+100]% maintenance costs",
+            "Cannot be carried by [Aircraft Carrier] units","Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
+            "Cannot be carried by [Naval Submarine] units",
             "Consumes [2] [Uranium]"
         ],
         "attackSound": "nuke"
@@ -4332,7 +4570,7 @@
     },
     {
         "name": "Nuclear Hypersonic Missile",
-        "unitType": "Missile",
+        "unitType": "Nuclear Missile",
         "cost": 10000,
         "strength": 500,
         "rangedStrength": 500,
@@ -4343,7 +4581,30 @@
             "Blast radius [2]",
             "Only available <if [Manhattan Project] is constructed>",
             "Cannot be carried by [Aircraft Carrier] units",
+            "Cannot be carried by [Naval Submarine] units",
             "Consumes [3] [Aluminum]",
+            "Consumes [5] [Uranium]"
+        ]
+    },
+        {
+        "name": "Sentinel",
+        "unitType": "Nuclear Missile",
+        "replaces": "Nuclear Hypersonic Missile",
+        "uniqueTo": "The United States of America",
+        "cost": 25000,
+        "strength": 600,
+        "rangedStrength": 600,
+        "range": 37,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": [
+            "Nuclear weapon of Strength [3]",
+            "Blast radius [5]",
+            "Only available <if [Manhattan Project] is constructed>",
+            "Cannot be carried by [Aircraft Carrier] units",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
+            "Cannot be carried by [Naval Submarine] units",
+            "[+200]% maintenance costs",
             "Consumes [5] [Uranium]"
         ]
     },
@@ -4357,8 +4618,7 @@
         "requiredTech": "Advanced Ballistics",
         "requiredResource": "Uranium",
         "uniques": [
-            "Nuclear weapon of Strength [1]",
-            "Blast radius [0]",
+            "Nuclear weapon of Strength [2]",
             "Only available <if [Manhattan Project] is constructed>"
         ],
         "attackSound": "missile"
@@ -4572,6 +4832,8 @@
         "requiredTech": "Stealth",
         "uniques": [
             "[100]% chance to intercept air attacks",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
             "[+200]% Strength <vs [Bomber] units>",
             "Cannot be carried by [Aircraft Carrier] units",
             "Can see over obstacles"
@@ -4590,6 +4852,8 @@
         "requiredTech": "Stealth",
         "uniques": [
             "Damage taken from interception reduced by [170]%",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
             "Cannot be carried by [Aircraft Carrier] units",
             "Can see over obstacles"
         ],
@@ -4609,6 +4873,8 @@
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
             "Cannot be carried by [Aircraft Carrier] units",
             "[+200]% Strength <vs [Helicopter] units>"
         ],
@@ -4628,6 +4894,8 @@
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
             "[+200]% Strength <vs [Helicopter] units>"
         ],
         "attackSound": "jetgun"
@@ -4667,6 +4935,8 @@
             "[+100]% chance to intercept air attacks",
             "[+200]% Strength <vs [Bomber] units>",
             "[+25]% Damage when intercepting",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
             "Cannot be carried by [Aircraft Carrier] units"
         ],
         "attackSound": "jetgun"
@@ -4684,6 +4954,8 @@
         "requiredTech": "Nanotechnology",
         "uniques": [
             "[100]% chance to intercept air attacks",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
             "[+150]% Strength <vs [Bomber] units>",
             "[+150]% Strength <vs [Fighter] units>"
         ],
@@ -4715,7 +4987,8 @@
         "requiredTech": "Satellites",
         "uniques": [
             "Cannot attack",
-            "[+13] Sight"
+            "[+13] Sight", "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units"
         ]
     },
     {
