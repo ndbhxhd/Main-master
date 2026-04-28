@@ -22,8 +22,8 @@
         "minimumWarDuration": 1,
         "Allow raze holy city": true,
         "Allow raze capital": true,
-        "Can convert gold to science with sliders",
-        "Can trade civilization introductions for [500] Gold"
+        "Can convert gold to science with sliders": true,
+        "Can trade civilization introductions for [500] Gold": true
     },
     "isBaseRuleset": true
 }
