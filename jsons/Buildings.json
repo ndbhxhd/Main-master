@@ -2498,7 +2498,7 @@
         "May buy [Trained Mercenary] units with [Gold] for [1] times their normal Production cost",
         "May buy [Modern Mercenaries] units with [Gold] for [1] times their normal Production cost",
         "May buy [Professional Mercenaries] units with [Gold] for [1] times their normal Production cost",
-        "May buy [PMC] units with [Gold]"]
+        "May buy [PMC] units with [Gold] for [1] times their normal Production cost"]
     },
     {
         "name": "Huey Teocalli",

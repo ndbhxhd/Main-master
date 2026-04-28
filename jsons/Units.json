@@ -2462,7 +2462,7 @@
         "uniques": [
             "Cannot enter ocean tiles <before discovering [Astronomy]>",
             "May create improvements on water resources",
-            "Can instantly construct a [Land Construction Site] improvement <once> <after which this unit is consumed>",
+            "Can instantly construct a [Artificial Lands Construction Site] improvement <once> <after which this unit is consumed>",
             "Automation is a primary action"
         ]
     },
@@ -3263,7 +3263,7 @@
         "uniques": [
             "Can build [Land] improvements on tiles",
             "[-35]% construction time for [All] improvements",
-            "Can instantly construct a [Artificial Land Construction Site] improvement <once> <after which this unit is consumed>",
+            "Can instantly construct a [Canal Construction Site] improvement <once> <after which this unit is consumed>",
             "[+1] Movement <after discovering [Combustion]>",
             "[+1] Movement <after discovering [Mobile Tactics]>"
         ]

@@ -15,15 +15,15 @@
         "scoreFromPopulation": 4,
         "scoreFromWonders": 25,
         "maxXPfromBarbarians": 10000,
-        "minimalCityDistance": 1,
-        "minimalCityDistanceOnDifferentContinents": 1,
-        "cityWorkRange": 6,
-        "cityExpandRange": 6,
+        "minimalCityDistance": 8,
+        "minimalCityDistanceOnDifferentContinents": 8,
+        "cityWorkRange": 3,
+        "cityExpandRange": 3,
         "minimumWarDuration": 1,
         "Allow raze holy city": true,
         "Allow raze capital": true,
-        "Can convert gold to science with sliders": true,
-        "Can trade civilization introductions for [500] Gold": true
+        "Can convert gold to science with sliders",
+        "Can trade civilization introductions for [500] Gold"
     },
     "isBaseRuleset": true
 }

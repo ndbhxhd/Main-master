@@ -134,9 +134,9 @@
             {
                 "name": "Meritocracy",
                 "uniques": [
-                    "[+15]% [Gold] from Trade Routes",
+                    "[+20]% [Gold] from Trade Routes",
                     "[+1 Happiness] [in all cities connected to capital]",
-                    "[-7]% Unhappiness from [Population] [in all non-occupied cities]",
+                    "[-10]% Unhappiness from [Population] [in all non-occupied cities]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Citizenship"],
@@ -175,7 +175,6 @@
         "name": "Honor",
         "era": "Ancient era",
         "uniques": [
-            "[+5]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
             "Comment [Unlocks [Temple of Artemis]]",
             "Provides [1] [Policies]"
@@ -234,7 +233,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+100]% Production when constructing [Heroic Epic] wonders [in all cities]",
-                    "[+3 Production, +3 Gold, +3 Culture, +3 Happiness] from every [Heroic Epic]",
+                    "[+4 Production, +4 Gold, +4 Culture, +4 Happiness] from every [Heroic Epic]",
                     "[50]% XP gained from combat <for [non-[Air]] units>",
                     "Provides [1] [Policies]"
                 ],
@@ -287,10 +286,10 @@
             {
                 "name": "Theocracy",
                 "uniques": [
-                    "[+27]% [Gold] from every [Grand Temple]",
+                    "[+37]% [Gold] from every [Grand Temple]",
                     "[+1 Gold] from every [Temple]",
                     "[+1 Gold] from every [Shrine]",
-                    "[+2 Gold] from every [Holy site]",
+                    "[+3 Gold] from every [Holy site]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -313,7 +312,7 @@
                 "name": "Religious Tolerance",
                 "uniques": [
                     "[+1 Culture, +1 Faith] [in all cities]",
-                    "[+20]% [Science] from every [Grand Temple]",
+                    "[+27]% [Science] from every [Grand Temple]",
                     "[+2 Science] from every [Temple]",
                     "Provides [1] [Policies]"
                 ],
@@ -326,7 +325,7 @@
                 "uniques": [
                     "Free [Great Prophet] appears",
                     "Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
-                    "[+1 Food, +3 Culture] from every [Holy site]",
+                    "[+3 Food, +3 Culture] from every [Holy site]",
                     "Provides a [Garden] in your first [4] cities for free",
                     "May buy [Piety Complete Building] buildings for [1875] [Faith] [in capital] <(modified by game speed)> <hidden from users> <starting from the [Industrial era]>",
                     "Comment [May buy [{non-[Great Scientist]} {Great Person}] units for [1875] [Faith] [in capital] [(modified by game speed)] [once] [starting from the [Industrial era]]]"
@@ -467,7 +466,7 @@
             {
                 "name": "Philanthropy",
                 "uniques": [
-                    "Gifts of Gold to City-States generate [15]% more Influence",
+                    "Gifts of Gold to City-States generate [25]% more Influence",
                     "[-30]% City-State Influence degradation",
                     "Provides [1] [Policies]"
                 ],
@@ -583,7 +582,7 @@
         "uniques": [
             "[Great Merchant] is earned [30]% faster",
             "Comment [Unlocks [Big Ben]]",
-            "[+5]% [Gold] [in capital]",
+            "[+20]% [Gold] [in capital]",
             "Provides [1] [Policies]"
         ],
         "era": "Medieval era",
@@ -591,9 +590,9 @@
             {
                 "name": "Silk Road",
                 "uniques": [
-                    "[+50]% Production when constructing [Market] buildings [in all cities]",
-                    "[+50]% Production when constructing [Bank] buildings [in all cities]",
-                    "[+50]% Production when constructing [Stock Exchange] buildings [in all cities]",
+                    "[+20]% [Gold] from Trade Routes",
+                    "[+25]% Yield from every [Land Trade Route (Gold)]",
+                    "[+25]% Yield from every [Sea Trade Route (Gold)]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -608,9 +607,9 @@
             {
                 "name": "Entrepreneurship",
                 "uniques": [
-                    "[-25]% maintenance on road & railroads",
-                    "[-25]% maintenance cost for [all] buildings [in all cities]",
-                    "Provides [1] [Trade Route]",
+                    "[-35]% maintenance on road & railroads",
+                    "[-30]% maintenance cost for [all] buildings [in all cities]",
+                    "Provides [2] [Trade Route]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Silk Road"],
@@ -633,11 +632,11 @@
             {
                 "name": "Capitalism",
                 "uniques": [
-                    "[+1 Food, +2 Gold] from every [Customs house]",
+                    "[+1 Food, +4 Gold] from every [Customs house]",
                     "[+4 Production, +4 Culture, +4 Happiness] from every [East India Company]",
-                    "[+10]% [Gold] [in all cities]",
+                    "[+20]% [Gold] [in all cities]",
                     "[+50]% [Production] [in all cities]",
-                    "[-1 Happiness] per [5] population [in all cities]",
+                    "[-1 Happiness] per [3] population [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Mercantilism"],
@@ -659,7 +658,7 @@
         "name": "Rationalism",
         "era": "Renaissance era",
         "uniques": [
-            "[Great Scientist] is earned [15]% faster",
+            "[Great Scientist] is earned [20]% faster",
             "Comment [Unlocks [Porcelain Tower]]",
             "Provides [1] [Policies]"
         ],
@@ -682,8 +681,8 @@
                 "uniques": [
                     "[+1 Science] from every [Trading post]",
                     "[+1 Science] from every [Chateau]",
-                    "[+3 Science] from every [Customs house]",
-                    "[+5 Science] from every [Academy]",
+                    "[+4 Science] from every [Customs house]",
+                    "[+4 Science] from every [Academy]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -692,11 +691,7 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+50]% Production when constructing [Library] buildings [in all cities]",
-                    "[+50]% Production when constructing [University] buildings [in all cities]",
-                    "[+50]% Production when constructing [Observatory] buildings [in all cities]",
-                    "[+50]% Production when constructing [Public School] buildings [in all cities]",
-                    "[+50]% Production when constructing [Research Lab] buildings [in all cities]",
+                    "[+30]% Production when constructing [Military] units [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -796,7 +791,7 @@
             {
                 "name": "Party Leadership",
                 "uniques": [
-                    "[+2 Food, +2 Gold, +1 Production, +2 Science] [in all cities]",
+                    "[+2 Food, +2 Gold, +2 Production, +2 Science] [in all cities]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -991,7 +986,7 @@
                 "name": "Volunteer Army",
                 "uniques": [
                     "[3] free [Infantry] units appear",
-                    "[2] units cost no maintenance",
+                    "[3] units cost no maintenance",
                     "[Infantry] units gain the [Morale] promotion",
                     "All newly-trained [Infantry] units [in all cities] receive the [Morale] promotion",
                     "Provides [1] [Level 1 Ideology]",
@@ -1028,8 +1023,8 @@
             {
                 "name": "Economic Union",
                 "uniques": [
-                    "[+10]% [Gold] [in all cities]",
-                    "Provides [1] [Trade Route]",
+                    "[+25]% [Gold] [in all cities]",
+                    "Provides [2] [Trade Route]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1056,9 +1051,9 @@
                     "[Great Artist] is earned [35]% faster",
                     "[Great Writer] is earned [35]% faster",
                     "[Great Musician] is earned [35]% faster",
-                    "[+10]% [Gold] <in cities with a [Zoo]>",
-                    "[+10]% [Gold] <in cities with a [Museum]>",
-                    "[+10]% [Gold] <in cities with a [Broadcast Tower]>",
+                    "[+20]% [Gold] <in cities with a [Zoo]>",
+                    "[+20]% [Gold] <in cities with a [Museum]>",
+                    "[+20]% [Gold] <in cities with a [Broadcast Tower]>",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -1193,7 +1188,7 @@
                 "name": "Mobilization",
                 "uniques": [
                     "[Gold] cost of purchasing [All] units [-35]%",
-                    "[-25]% maintenance costs <for [All] units>",
+                    "[-35]% maintenance costs <for [All] units>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1320,7 +1315,7 @@
             {
                 "name": "Total War",
                 "uniques": [
-                    "[+30]% Production when constructing [Military] units [in all cities]",
+                    "[+35]% Production when constructing [Military] units [in all cities]",
                     "New [Military] units start with [30] XP [in all cities]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
@@ -1370,7 +1365,7 @@
             {
                 "name": "Clausewitz's Legacy",
                 "uniques": [
-                    "[+15]% Strength <for [All] units> <for [60] turns>",
+                    "[+25]% Strength <for [All] units> <for [60] turns>",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"

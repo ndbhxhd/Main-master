@@ -33,12 +33,12 @@
         ]
     },
     {
-        "name": "Artificial Land",
+        "name": "Artificial Lands",
         "type": "Land",
         "food": 2,
         "movementCost": 1,
         "RGB": [97, 171, 58],
-        "uniques": ["Doesn't generate naturally", "Artificial Land"],
+        "uniques": ["Doesn't generate naturally", "Artificial Lands"],
         "civilopediaText": [
             {
                 "text": "Technology and evolution do not spare anyone."

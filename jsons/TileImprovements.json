@@ -246,7 +246,7 @@
         "uniques": ["Turn this tile into a [Coast] tile","Can be built outside your borders"]
     },
     {
-        "name": "Artificial Land Construction Site",
+        "name": "Artificial Lands Construction Site",
         "terrainsCanBeBuiltOn": [
             "Coast",
             "Ocean"
@@ -433,30 +433,30 @@
     },
     {
         "name": "Land Trade Route (Food)",
-        "food": 3,
+        "food": 6,
         "terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle", "Marsh", "Oasis"],
         "uniques": [
             "All Trade Route",
             "Provides [-1] [Trade Route]",
             "[-3 Food] <in cities without a [Granary]>",
-            "[+1 Food] <starting from the [Classical era]>",
-            "[+1 Food] <starting from the [Industrial era]>",
-            "[+1 Food] <starting from the [Modern era]>",
+            "[+2 Food] <starting from the [Classical era]>",
+            "[+2 Food] <starting from the [Industrial era]>",
+            "[+2 Food] <starting from the [Modern era]>",
             "Pillaging this improvement yields approximately [+10 Gold]",
             "Excluded from map editor"
         ]
     },
     {
         "name": "Land Trade Route (Production)",
-        "production": 3,
+        "production": 6,
         "terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle", "Marsh", "Oasis"],
         "uniques": [
             "All Trade Route",
             "Provides [-1] [Trade Route]",
             "[-3 Production] <in cities without a [Workshop]>",
-            "[+1 Production] <starting from the [Classical era]>",
-            "[+1 Production] <starting from the [Industrial era]>",
-            "[+1 Production] <starting from the [Modern era]>",
+            "[+2 Production] <starting from the [Classical era]>",
+            "[+2 Production] <starting from the [Industrial era]>",
+            "[+2 Production] <starting from the [Modern era]>",
             "Pillaging this improvement yields approximately [+20 Gold]",
             "Excluded from map editor"
         ]
@@ -464,13 +464,13 @@
     {
         "name": "Land Trade Route (Gold)",
         "terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle", "Marsh", "Oasis"],
-        "gold": 4,
+        "gold": 16,
         "uniques": [
             "All Trade Route",
             "Provides [-1] [Trade Route]",
-            "[+2 Gold] <starting from the [Classical era]>",
-            "[+2 Gold] <starting from the [Industrial era]>",
-            "[+2 Gold] <starting from the [Modern era]>",
+            "[+4 Gold] <starting from the [Classical era]>",
+            "[+4 Gold] <starting from the [Industrial era]>",
+            "[+4 Gold] <starting from the [Modern era]>",
             "Pillaging this improvement yields approximately [+50 Gold]",
             "Excluded from map editor"
         ]
@@ -508,7 +508,7 @@
     {
         "name": "Sea Trade Route (Gold)",
         "terrainsCanBeBuiltOn": ["Coast", "Ocean", "Atoll"],
-        "gold": 6,
+        "gold": 12,
         "uniques": [
             "All Trade Route",
             "Provides [-1] [Trade Route]",
