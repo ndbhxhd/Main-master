@@ -333,7 +333,7 @@
                     "uniques": [
                         "Adopt [Volunteer Army]",
                         "Comment [[3] free [Patriots] units appear]",
-                        "Comment [[2] units cost no maintenance]",
+                        "Comment [[3] units cost no maintenance]",
                         "Comment [[Infantry] units gain the [Morale] promotion]",
                         "Comment [All newly-trained [Infantry] units [in all cities] receive the [Morale] promotion]",
                         "Only available <before adopting [Volunteer Army]>"
@@ -349,9 +349,9 @@
                     ]
                 },
                 {
-                    "text": "Capitalism",
+                    "text": "Protectionism",
                     "uniques": [
-                        "Adopt [Capitalism]",
+                        "Adopt [Protectionism]",
                         "Comment [[+1 Happiness] from every [Market]]",
                         "Comment [[+1 Happiness] from every [Bank]]",
                         "Comment [[+1 Happiness] from every [Stock Exchange]]",
@@ -364,8 +364,8 @@
                     "text": "Economic Union",
                     "uniques": [
                         "Adopt [Economic Union]",
-                        "Comment [[+10]% [Gold] [in all cities]]",
-                        "Comment [Provides [1] [Trade Route]]",
+                        "Comment [[+25]% [Gold] [in all cities]]",
+                        "Comment [Provides [2] [Trade Route]]",
                         "Only available <before adopting [Economic Union]>"
                     ]
                 }
@@ -972,9 +972,9 @@
                 {
                     "text": "Damn.",
                     "uniques": [
-                        "[-50]% [Gold] [in all cities] <for [5] turns>",
-                        "[-50 Gold] [in all cities] <for [10] turns>",
-                        "[-10 Happiness] [in all cities] <for [5] turns>"
+                        "[-100]% [Gold] [in all cities] <for [10] turns>",
+                        "[-500 Gold] [in all cities] <for [10] turns>",
+                        "[-10 Happiness] [in all cities] <for [10] turns>"
                     ]
                 }
             ]
@@ -986,8 +986,8 @@
                 {
                     "text": "Great!",
                     "uniques": [
-                        "[+35]% [Gold] [in all cities] <for [5] turns>",
-                        "[+30 Gold] [in all cities] <for [10] turns>",
+                        "[+75]% [Gold] [in all cities] <for [5] turns>",
+                        "[+75 Gold] [in all cities] <for [10] turns>",
                         "[+10 Happiness] [in all cities] <for [5] turns>"
                     ]
                 }

@@ -2830,6 +2830,7 @@
     {
         "name": "US Naval Academy",
         "uniqueTo": "The United States of America",
+        "replaces": "Armory",
         "cost": 300,
         "maintenance": 2,
         "uniques": [

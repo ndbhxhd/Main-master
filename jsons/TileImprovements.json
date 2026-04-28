@@ -852,13 +852,13 @@
         ]
     },
     {
-        "name": "Terrorist hideout",
+        "name": "Barbarian encampment",
         "turnsToBuild": 1,
         "terrainsCanBeBuiltOn": ["Land"],
         "uniques": ["Unpillagable"],
         "civilopediaText": [
             {
-                "text": "Home to Terrorist, will spawn a hostile unit from time to time"
+                "text": "Home to Barbarians encampment, will spawn a hostile unit from time to time"
             }
         ]
     }

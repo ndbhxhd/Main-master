@@ -5686,9 +5686,7 @@
             "[+2] Sight <for [Scout] units>",
             "[+2] Movement <for [Scout] units>",
             "[+50]% Strength <for [All] units>",
-            "[Scout] units gain the [Seek and Capture] promotion",
-            "[+10]% Strength <within [2] tiles of a [Terrorist hideout]>",
-            "[+15]% Strength <in [Terrorist hideout] tiles> <for [Melee] units>"
+            "[Scout] units gain the [Seek and Capture] promotion"
         ]
     }
 ]
