@@ -112,9 +112,8 @@
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "May Paradrop to [Land] tiles up to [35] tiles away <in [{Friendly} {Land}] tiles>",
-            "[+15]% Strength <when fighting in [Snow] tiles>","[+15]% Strength <when fighting in [Tundra] tiles>"],
-            "Never appears as a Barbarian unit"
-        ],
+            "[+15]% Strength <when fighting in [Snow] tiles>","[+15]% Strength <when fighting in [Tundra] tiles>",
+            "Never appears as a Barbarian unit"],
         "attackSound": "shot"
     },
     {
