@@ -83,7 +83,36 @@
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "May Paradrop to [Land] tiles up to [20] tiles away <in [{Friendly} {Land}] tiles>",
-            "Ignores terrain cost",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "shot"
+    },
+        {
+        "name": "82nd Airborne Division IRF",
+        "unitType": "Paratrooper",
+        "replaces": "Modern Paratrooper",
+        "uniqueTo": "The United States of America",
+        "movement": 3,
+        "strength": 80,
+        "cost": 450,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "May Paradrop to [Land] tiles up to [45] tiles away <in [{Friendly} {Land}] tiles>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "shot"
+    },
+    {
+        "name": "11th Airborne Division",
+        "unitType": "Paratrooper",
+        "uniqueTo": "The United States of America",
+        "movement": 3,
+        "strength": 80,
+        "cost": 450,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "May Paradrop to [Land] tiles up to [35] tiles away <in [{Friendly} {Land}] tiles>",
+            "[+15]% Strength <when fighting in [Snow] tiles>","[+15]% Strength <when fighting in [Tundra] tiles>"],
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "shot"
@@ -169,6 +198,7 @@
         "interceptRange": 10,
         "cost": 375,
         "requiredTech": "Combined Arms",
+        "obsoleteTech": "Lasers",
         "requiredResource": "Oil",
         "upgradesTo": "Jet Interceptor",
         "uniques": [
@@ -226,6 +256,7 @@
         "range": 10,
         "cost": 375,
         "requiredTech": "Radar",
+        "obsoleteTech": "Lasers",
         "requiredResource": "Oil",
         "upgradesTo": "Jet Bomber",
         "uniques": [
@@ -267,6 +298,24 @@
             "Cannot be carried by [LHD] units",
             "Cannot be carried by [LHA] units",
             "[+150]% Strength <vs [Helicopter] units>"
+        ],
+        "attackSound": "bombing"
+    },
+     {
+        "name": "OA-1K Skyraider II",
+        "unitType": "Close Air Support",
+        "uniqueTo": "The United States of America",
+        "movement": 1,
+        "strength": 75,
+        "rangedStrength": 90,
+        "range": 10,
+        "cost": 3025,
+        "requiredTech": "Globalization",
+        "uniques": [
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
+            "Cannot be carried by [Aircraft Carrier] units",
+            "[+15] Sight"
         ],
         "attackSound": "bombing"
     },
@@ -414,6 +463,7 @@
         "strength": 10,
         "cost": 50,
         "requiredTech": "Trapping",
+        "obsoleteTech": "Physics",
         "requiredResource": "Ivory",
         "upgradesTo": "Armored Elephant",
         "uniques": [
@@ -448,6 +498,7 @@
         "strength": 14,
         "cost": 90,
         "requiredTech": "Horseback Riding",
+        "obsoleteTech": "Chivalry",
         "upgradesTo": "Knight",
         "requiredResource": "Iron",
         "uniques": [
@@ -674,6 +725,7 @@
         "strength": 18,
         "cost": 120,
         "requiredTech": "Chivalry",
+        "obsoleteTech": "Gunpowder",
         "upgradesTo": "Cavalry",
         "requiredResource": "Horses",
         "uniques": [
@@ -856,15 +908,30 @@
     {
         "name": "UAV",
         "unitType": "Drone",
-        "movement": 1,
+        "movement": 3,
         "strength": 50,
         "rangedStrength": 70,
         "range": 10,
-        "interceptRange": 8,
         "cost": 375,
-        "requiredTech": "Robotics",
+        "requiredTech": "Telecommunications",
         "requiredResource": "Aluminum",
-        "attackSound": "jetgun"
+        "uniques":["[+10] Sight"],
+        "attackSound": "missile"
+    },
+    {
+        "name": "MQ-9 Reaper",
+        "replaces": "UAV",
+        "uniqueTo": "The United States of America",
+        "unitType": "Drone",
+        "movement": 5,
+        "strength": 50,
+        "rangedStrength": 80,
+        "range": 17,
+        "cost": 375,
+        "requiredTech": "Telecommunications",
+        "requiredResource": "Aluminum",
+        "uniques":["[+17] Sight"],
+        "attackSound": "missile"
     },
     {
         "name": "Jet Bomber",
@@ -962,6 +1029,7 @@
         "strength": 60,
         "cost": 375,
         "requiredTech": "Combined Arms",
+        "obsoleteTech": "Mobile Tactics",
         "upgradesTo": "Modern Tank Destroyer",
         "requiredResource": "Oil",
         "uniques": [
@@ -1263,6 +1331,7 @@
         "range": 2,
         "cost": 375,
         "requiredTech": "Combustion",
+        "obsoleteTech": "Robotics",
         "uniques": [
             "[60]% chance to intercept air attacks",
             "Never appears as a Barbarian unit",
@@ -1280,6 +1349,7 @@
         "range": 3,
         "cost": 375,
         "requiredTech": "Ballistics",
+        "obsoleteTech": "Rocketry",
         "upgradesTo": "Rocket Artillery",
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
@@ -1297,6 +1367,7 @@
         "rangedStrength": 60,
         "cost": 400,
         "requiredTech": "Ballistics",
+        "obsoleteTech": "Mobile Tactics",
         "upgradesTo": "Modern Self Propelled Gun",
         "requiredResource": "Oil",
         "uniques": [
@@ -1326,6 +1397,7 @@
         "range": 1,
         "cost": 275,
         "requiredTech": "Combustion",
+        "obsoleteTech": "Lasers",
         "upgradesTo": "Modern Corvette",
         "uniques": [
             "[30]% chance to intercept air attacks",
@@ -1357,8 +1429,7 @@
         "requiredResource": "Uranium",
         "uniques": [
             "Cannot attack",
-            "Can carry [3] [Aircraft] units",
-            "Can carry [1] [Counter Missile] units",
+            "Can carry [6] [Aircraft] units",
             "[70]% chance to intercept air attacks",
             "Never appears as a Barbarian unit"
         ]
@@ -1387,6 +1458,7 @@
         "rangedStrength": 70,
         "cost": 375,
         "requiredTech": "Rocketry",
+        "obsoleteTech": "Lasers",
         "upgradesTo": "Modern Heavy Weapons",
         "attackSound": "machinegun"
     },
@@ -1490,6 +1562,7 @@
         "strength": 25,
         "cost": 200,
         "requiredTech": "Metallurgy",
+        "obsoleteTech": "Combustion",
         "upgradesTo": "Landship",
         "requiredResource": "Iron",
         "uniques": [
@@ -1510,6 +1583,7 @@
         "range": 2,
         "cost": 200,
         "requiredTech": "Metallurgy",
+        "obsoleteTech": "Ballistics",
         "requiredResource": "Horses",
         "upgradesTo": "Self Propelled Gun",
         "uniques": [
@@ -3251,17 +3325,6 @@
         "attackSound": "shot"
     },
     {
-        "name": "Privateer",
-        "unitType": "Naval Melee",
-        "movement": 5,
-        "strength": 27,
-        "cost": 150,
-        "requiredTech": "Navigation",
-        "upgradesTo": "Destroyer",
-        "uniques": ["Can move after attacking"],
-        "attackSound": "cannon"
-    },
-    {
         "name": "Frigate",
         "unitType": "Naval Ranged",
         "movement": 6,
@@ -3288,6 +3351,7 @@
         "cost": 185,
         "requiredResource": "Iron",
         "requiredTech": "Navigation",
+        "obsoleteTech": "Electronics",
         "promotions": ["Extra Sight"],
         "hurryCostModifier": 20,
         "attackSound": "cannon"
@@ -3617,7 +3681,9 @@
         "rangedStrength": 60,
         "cost": 360,
         "requiredTech": "Refrigeration",
+        "obsoleteTech": "Telecommunications",
         "upgradesTo": "Nuclear Submarine",
+        
         "uniques": [
             "Can move after attacking",
             "[+75]% Strength <when attacking>",
@@ -3782,7 +3848,7 @@
         "uniques": [
             "Cannot attack",
             "Consumes [2] [Oil]",
-            "Can carry [5] [Aircraft] units"
+            "Can carry [4] [Aircraft] units"
         ]
     },
     {
@@ -3817,7 +3883,7 @@
         "name": "Nimitz cl. Carrier",
         "unitType": "Aircraft Carrier",
         "uniqueTo": "The United States of America",
-        "replaces": "Carrier",
+        "replaces": "Nuclear Carrier",
         "movement": 7,
         "strength": 170,
         "cost": 30000,
@@ -4021,6 +4087,7 @@
         "interceptRange": 8,
         "cost": 450,
         "requiredTech": "Radar",
+        "obsoleteTech": "Lasers",
         "requiredResource": "Oil",
         "upgradesTo": "Jet Fighter",
         "uniques": [
@@ -4056,7 +4123,7 @@
             "No movement cost to pillage",
             "Never appears as a Barbarian unit"
         ],
-        "obsoleteTech": "Nanotechnology",
+        "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"
     },
     {
@@ -4067,22 +4134,21 @@
         "cost": 425,
         "requiredTech": "The Internet",
         "uniques": [
-            "No movement cost to pillage",
             "May Paradrop to [Land] tiles up to [25] tiles away <in [{Friendly} {Land}] tiles>"
         ],
         "attackSound": "machinegun"
     },
     {
-        "name": "US Airborne Forces",
+        "name": "75th Ranger Regiment",
         "unitType": "Paratrooper",
         "uniqueTo": "The United States of America",
+        "replaces": "Airborne Forces",
         "movement": 3,
-        "strength": 85,
+        "strength": 95,
         "cost": 425,
         "requiredTech": "The Internet",
         "uniques": [
-            "No movement cost to pillage",
-            "May Paradrop to [Land] tiles up to [40] tiles away <in [{Friendly} {Land}] tiles>"
+            "May Paradrop to [Land] tiles up to [35] tiles away <in [{Friendly} {Land}] tiles>", "[+2] Sight"
         ],
         "attackSound": "machinegun"
     },
@@ -4101,17 +4167,6 @@
             "Can carry [4] [Missile] units"
         ],
         "attackSound": "shipguns"
-    },
-    {
-        "name": "Drone UAV",
-        "unitType": "Drone",
-        "range": 2,
-        "movement": 2,
-        "strength": 60,
-        "rangedStrength": 90,
-        "cost": 425,
-        "requiredTech": "The Internet",
-        "attackSound": "machinegun"
     },
     {
         "name": "Modern Destroyer",
@@ -4156,18 +4211,18 @@
         "strength": 85,
         "cost": 450,
         "requiredTech": "Globalization",
-        "obsoleteTech": "Nanotechnology",
         "uniques": ["May enter foreign tiles without open borders"],
         "attackSound": "machinegun"
     },
         {
         "name": "Green Beret",
         "unitType": "Special Forces",
+        "replaces": "Special Forces",
+        "uniqueTo": "The United States of America",
         "movement": 3,
         "strength": 95,
         "cost": 450,
         "requiredTech": "Globalization",
-        "obsoleteTech": "Nanotechnology",
         "uniques": ["May enter foreign tiles without open borders","[+15]% Strength <on foreign continents>", "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles"],
         "attackSound": "machinegun"
     },
@@ -4292,7 +4347,7 @@
         "rangedStrength": 120,
         "range": 12,
         "cost": 250,
-        "requiredTech": "Microscale Engineering",
+        "requiredTech": "Advanced Ballistics",
         "uniques": ["[-100]% maintenance costs"],
         "attackSound": "missile"
     },
@@ -4306,7 +4361,7 @@
         "rangedStrength": 130,
         "range": 10,
         "cost": 2550,
-        "requiredTech": "Microscale Engineering",
+        "requiredTech": "Advanced Ballistics",
         "uniques": ["[-50]% maintenance costs", "[+150]% Strength <vs [Land] units>"],
         "attackSound": "missile"
     },
@@ -4319,7 +4374,7 @@
         "rangedStrength": 130,
         "range": 10,
         "cost": 2550,
-        "requiredTech": "Microscale Engineering",
+        "requiredTech": "Advanced Ballistics",
         "uniques": ["[-50]% maintenance costs", "[+150]% Strength <vs [Water] units>"],
         "attackSound": "missile"
     },
@@ -4356,8 +4411,9 @@
         "movement": 2,
         "strength": 50,
         "cost": 360,
-        "requiredTech": "Combined Arms",
-        "upgradesTo": "Helicopter Gunship",
+        "requiredTech": "Ballistics",
+        "upgradesTo": "Tank Destroyer",
+        "obsoleteTech": "Combined Arms",
         "uniques": [
             "[+200]% Strength <vs [Heavy Cavalry] units>",
             "Never appears as a Barbarian unit"
@@ -4371,6 +4427,7 @@
         "strength": 70,
         "cost": 450,
         "requiredTech": "Combined Arms",
+        "obsoleteTech": "Lasers",
         "requiredResource": "Oil",
         "upgradesTo": "Advanced Tank",
         "uniques": [
@@ -4499,6 +4556,8 @@
         "rangedStrength": 80,
         "cost": 450,
         "requiredTech": "Nuclear Fission",
+        "upgradesTo": "Modern AT Missile",
+        "obsoleteTech": "Lasers",
         "attackSound": "machinegun"
     },
     {
@@ -4507,10 +4566,22 @@
         "movement": 1,
         "strength": 125,
         "rangedStrength": 125,
-        "range": 8,
+        "range": 9,
         "cost": 150,
         "requiredTech": "Advanced Ballistics",
         "uniques": ["[-100]% maintenance costs"],
+        "attackSound": "missile"
+    },
+        {
+        "name": "AGM-158D JASSM-XR",
+        "unitType": "Missile",
+        "movement": 1,
+        "strength": 125,
+        "rangedStrength": 125,
+        "range": 12,
+        "cost": 1150,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": ["[-80]% maintenance costs", "[+100]% Strength <vs [Land] units>"],
         "attackSound": "missile"
     },
     {
@@ -4819,6 +4890,72 @@
         "attackSound": "jetgun"
     },
     {
+        "name": "F-16C/D Fighting Falcon",
+        "unitType": "Fighter",
+        "replaces": "Jet Interceptor",
+        "uniqueTo": "The United States of America",
+        "movement": 1,
+        "strength": 80,
+        "rangedStrength": 80,
+        "range": 13,
+        "interceptRange": 13,
+        "cost": 7050,
+        "requiredTech": "Lasers",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+150]% Strength <vs [Bomber] units>",
+            "[+150]% Strength <vs [Helicopter] units>",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
+            "Cannot be carried by [Aircraft Carrier] units",
+            "Can see over obstacles"
+        ],
+        "attackSound": "jetgun"
+    },
+    {
+        "name": "F-15EX Eagle II",
+        "unitType": "Fighter",
+        "uniqueTo":"The United States of America",
+        "movement": 1,
+        "strength": 95,
+        "rangedStrength": 95,
+        "range": 16,
+        "interceptRange": 16,
+        "cost": 9500,
+        "requiredTech": "Lasers",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+150]% Strength <vs [Bomber] units>",
+            "[+150]% Strength <vs [Helicopter] units>",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
+            "Cannot be carried by [Aircraft Carrier] units",
+            "Can see over obstacles"
+        ],
+        "attackSound": "jetgun"
+    },
+    {
+        "name": "F/A-18E/F Super Hornet",
+        "unitType": "Fighter",
+        "uniqueTo": "The United States of America",
+        "movement": 1,
+        "strength": 85,
+        "rangedStrength": 85,
+        "range": 10,
+        "interceptRange": 10,
+        "cost": 7550,
+        "requiredTech": "Lasers",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+150]% Strength <vs [Bomber] units>",
+            "[+150]% Strength <vs [Helicopter] units>",
+              "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
+            "Can see over obstacles"
+        ],
+        "attackSound": "jetgun"
+    },
+    {
         "name": "F-22 Raptor",
         "unitType": "Fighter",
         "uniqueTo": "The United States of America",
@@ -4987,7 +5124,7 @@
         "requiredTech": "Satellites",
         "uniques": [
             "Cannot attack",
-            "[+13] Sight", "Cannot be carried by [LHD] units",
+            "[+20] Sight", "Cannot be carried by [LHD] units",
             "Cannot be carried by [LHA] units"
         ]
     },
