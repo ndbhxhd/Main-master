@@ -511,7 +511,7 @@
         "unitTypes": ["Heavy Cavalry"]
     },
     {
-        "name": "Shock and Awe",
+        "name": "Shock",
         "uniques": [
             "[-20]% Strength for enemy [Land] units in adjacent [All] tiles"
         ],
@@ -2008,19 +2008,31 @@
         ]
     },
     {
-        "name": "Spirit of Freedom",
+        "name": "Shock and Awe",
         "uniques": [
-            "[+10]% Strength <when attacking>",
-            "[+10]% Strength <when defending>"
+            "[+50]% Strength",
+            "[1] additional attacks per turn",
+            "[-50]% Strength for enemy [Military] units in adjacent [All] tiles"
+        ]
+    },
+    {
+        "name": "Absolute Resolve",
+        "uniques": [
+            "[+50]% Strength <when attacking>",
+            "[+50]% Strength <when defending>"
         ]
     },
     {
         "name": "Elite Forces",
         "uniques": [
-            "[+5] HP when healing",
+            "[+10] HP when healing",
             "[+10]% XP gained from combat",
             "[+15] XP gained from combat"
         ]
+    },
+    {
+        "name": "Foreign Security",
+        "uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>"]
     },
     {
         "name": "We The People",
@@ -2284,7 +2296,7 @@
         ]
     },
     {
-        "name": " Terrorist Strength",
+        "name": "Terrorist Strength",
         "uniques": [
             "May capture killed [Military] units <with [90]% chance>",
             "Can upgrade to [Explorer]"

@@ -120,6 +120,7 @@
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "May Paradrop to [Land] tiles up to [45] tiles away <in [{Friendly} {Land}] tiles>",
+            "[1] additional attacks per turn",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "shot"
