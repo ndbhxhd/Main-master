@@ -1993,10 +1993,8 @@
         "unitTypes": ["Drone"]
     },
     {
-        "name": "Enhanced AI Control",
-        "uniques": ["[+30]% Strength", "[+4] Range"],
-        "prerequisites": ["Air Cover Support", "Stealth Coating"],
-        "unitTypes": ["Drone"]
+        "name": "AI Control",
+        "uniques": ["[+50]% Strength", "[+4] Range"]
     },
     {
         "name": "Loaded"
@@ -2011,8 +2009,7 @@
         "name": "Shock and Awe",
         "uniques": [
             "[+100]% Strength",
-            "[1] additional attacks per turn",
-            "[-100]% Strength for enemy [Military] units"
+            "[1] additional attacks per turn"
         ]
     },
     {
