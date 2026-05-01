@@ -19,6 +19,14 @@
         ],
         "shortcutKey": "F"
     },
+        {
+        "name": "Site",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "uniques": [
+            "Can be built outside your borders",
+            "Gain control over [all] tiles in a [1]-tile radius"
+        ]
+    },
     {
         "name": "Arcology",
         "terrainsCanBeBuiltOn": [

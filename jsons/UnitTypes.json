@@ -4,6 +4,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Silo",
+        "movementType": "Land"
+    },
+    {
         "name": "Icebreaker",
         "movementType": "Water",
         "uniques": ["Can enter ice tiles"]

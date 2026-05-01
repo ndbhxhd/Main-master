@@ -8,6 +8,7 @@
         "uniques": [
             "Can build [All] improvements on tiles",
             "Can build [Land] improvements on tiles",
+            "Can instantly construct a [Canal Construction Site] improvement <once> <after which this unit is consumed>",
             "Automation is a primary action"
         ],
         "cost": 48
@@ -21,7 +22,7 @@
 		"requiredTech": "Currency"
 	},
     {
-        "name": "Airfield Ground Unit",
+        "name": "Military Airfield Ground Unit",
         "unitType": "Civilian",
         "movement": 3,
         "cost": 600,
@@ -39,6 +40,19 @@
             }
         ]
     },
+    {
+		"name": "Missile Silo",
+		"unitType": "Silo",
+		"movement": 0,
+		"strength": 100,
+        "cost": 100,
+		"requiredTech": "Rocketry",
+		"uniques": [
+			"Cannot move", "Uncapturable", "Unbuildable", "Cannot be purchased",
+			"Can carry [1] [Nuclear Missile] units",
+			"Invisible to others",
+			"[-100]% maintenance costs"]
+	},
     {
         "name": "Light Infantry",
         "unitType": "Light Infantry",
@@ -398,6 +412,7 @@
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
             "[+2] Sight",
+            "Invisible to others",
             "Can carry [4] [Missile] units"
         ],
         "attackSound": "torpedo"
@@ -3476,6 +3491,8 @@
             "Can build [Land] improvements on tiles",
             "[-35]% construction time for [All] improvements",
             "Can instantly construct a [Canal Construction Site] improvement <once> <after which this unit is consumed>",
+            "Can instantly construct a [Site] improvement <by consuming this unit>",
+            "Can transform to [Missile Silo] <after discovering [Rocketry]>",
             "[+1] Movement <after discovering [Combustion]>",
             "[+1] Movement <after discovering [Mobile Tactics]>"
         ]
@@ -4338,6 +4355,7 @@
         "requiredResource": "Uranium",
         "uniques": [
             "[+10] Sight",
+            "Invisible to others",
             "Can only attack [Water] tiles",
             "Can carry [10] [Missile] units"
         ],
@@ -4796,6 +4814,7 @@
         "uniques": [
             "Can only attack [Water] tiles",
             "[+1] Sight",
+            "Invisible to others",
             "Can carry [8] [Nuclear Missile] units"
         ],
         "attackSound": "torpedo"
