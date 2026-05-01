@@ -2574,7 +2574,7 @@
         "culture": 1,
         "isWonder": true,
         "uniques": [
-            "[+30]% [Gold] from Trade Routes",
+            "[+50]% [Gold] from Trade Routes",
             "Must have an owned [Mountain] within [3] tiles"
         ],
         "requiredTech": "Guilds",

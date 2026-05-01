@@ -2010,16 +2010,16 @@
     {
         "name": "Shock and Awe",
         "uniques": [
-            "[+50]% Strength",
+            "[+100]% Strength",
             "[1] additional attacks per turn",
-            "[-50]% Strength for enemy [Military] units in adjacent [All] tiles"
+            "[-100]% Strength for enemy [Military] units"
         ]
     },
     {
         "name": "Absolute Resolve",
         "uniques": [
-            "[+50]% Strength <when attacking>",
-            "[+50]% Strength <when defending>"
+            "[+100]% Strength <when attacking>",
+            "[+100]% Strength <when defending>"
         ]
     },
     {
@@ -2032,7 +2032,7 @@
     },
     {
         "name": "Foreign Security",
-        "uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>"]
+        "uniques": ["[+50]% Strength <when fighting in [Foreign Land] tiles>"]
     },
     {
         "name": "We The People",
