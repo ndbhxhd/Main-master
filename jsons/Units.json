@@ -44,9 +44,28 @@
         ]
     },
     {
+        "name": "Military Silo Ground Unit",
+        "unitType": "Civilian",
+        "movement": 3,
+        "cost": 600,
+        "requiredResource": "Oil",
+        "requiredTech": "Rocketry",
+        "uniques": [
+            "Can carry [0] [Nuclear Missile] units",
+            "Can build [Nuclear Missile Silo] improvements on tiles",
+            "Can carry [1] extra [Nuclear Missile] units <in [Airfield] tiles> <hidden from users>",
+            "Comment [Allows an airfield to be loaded with aircrafts when standing on one]"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Remarks from mod creator: This is not a moving aircraft carrier on land, but it builds Airfield tiles, and allows Airfield tiles to be loaded with new air units. Moving this unit away from airfield will leave the aircraft onto the airfield tile."
+            }
+        ]
+    },
+    {
         "name": "Missile Silo",
         "unitType": "Silo",
-        "movement": 0,
+        "movement": 1,
         "strength": 100,
         "cost": 100,
         "requiredTech": "Rocketry",
@@ -55,7 +74,7 @@
             "Uncapturable",
             "Unbuildable",
             "Cannot be purchased",
-            "Can carry [1] [Nuclear Missile] units",
+            "Can carry [1] [Nuclear Missile] unit",
             "Invisible to others",
             "[-100]% maintenance costs"
         ]
@@ -350,7 +369,7 @@
             "Cannot be carried by [LHD] units",
             "Cannot be carried by [LHA] units",
             "Cannot be carried by [Aircraft Carrier] units",
-            "[+15] Sight"
+            "[+7] Sight"
         ],
         "attackSound": "bombing"
     },
@@ -4778,6 +4797,20 @@
         "attackSound": "machinegun"
     },
     {
+        "name": "Drone",
+        "unitType": "Air Drone",
+        "movement": 1,
+        "strength": 125,
+        "rangedStrength": 105,
+        "range": 9,
+        "cost": 70,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": [
+            "[-100]% maintenance costs"
+        ],
+        "attackSound": "missile"
+    },
+    {
         "name": "Guided Missile",
         "unitType": "Missile",
         "movement": 1,
@@ -5033,6 +5066,32 @@
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "tankshot"
+    },
+    {
+        "name": "Missile Launcher",
+        "unitType": "Missile Launcher",
+        "movement": 2,
+        "strength": 60,
+        "cost": 375,
+        "requiredTech": "Rocketry",
+        "uniques": [
+            "Cannot attack",
+            "Can carry [4] [Missile] units",
+            "Never appears as a Barbarian unit"
+        ]
+    },
+    {
+        "name": "Drone Launcher",
+        "unitType": "Drone Launcher",
+        "movement": 2,
+        "strength": 60,
+        "cost": 375,
+        "requiredTech": "Robotics",
+        "uniques": [
+            "Cannot attack",
+            "Can carry [6] [Air Drone] units",
+            "Never appears as a Barbarian unit"
+        ]
     },
     {
         "name": "Missile Cruiser",

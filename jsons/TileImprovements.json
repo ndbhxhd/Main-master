@@ -19,9 +19,11 @@
         ],
         "shortcutKey": "F"
     },
-        {
+    {
         "name": "Site",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "uniques": [
             "Can be built outside your borders",
             "Gain control over [all] tiles in a [1]-tile radius"
@@ -53,12 +55,16 @@
         "shortcutKey": "A"
     },
     {
-		"name": "Remove Ice",
-		"turnsToBuild": 10,
-		"terrainsCanBeBuiltOn": ["Ice"],
-		"techRequired": "Agriculture",
-		"uniques": ["Can be built outside your borders"]
-	},
+        "name": "Remove Ice",
+        "turnsToBuild": 10,
+        "terrainsCanBeBuiltOn": [
+            "Ice"
+        ],
+        "techRequired": "Agriculture",
+        "uniques": [
+            "Can be built outside your borders"
+        ]
+    },
     {
         "name": "Communications Array",
         "terrainsCanBeBuiltOn": [
@@ -160,7 +166,12 @@
     },
     {
         "name": "Hydroponics Dome",
-        "terrainsCanBeBuiltOn": ["Desert", "Tundra", "Snow", "Forest"],
+        "terrainsCanBeBuiltOn": [
+            "Desert",
+            "Tundra",
+            "Snow",
+            "Forest"
+        ],
         "production": 1,
         "food": 2,
         "turnsToBuild": 7,
@@ -251,7 +262,10 @@
             "Tundra",
             "Snow"
         ],
-        "uniques": ["Turn this tile into a [Coast] tile","Can be built outside your borders"]
+        "uniques": [
+            "Turn this tile into a [Coast] tile",
+            "Can be built outside your borders"
+        ]
     },
     {
         "name": "Artificial Lands Construction Site",
@@ -259,7 +273,10 @@
             "Coast",
             "Ocean"
         ],
-        "uniques": ["Turn this tile into a [Grassland] tile","Can be built outside your borders"]
+        "uniques": [
+            "Turn this tile into a [Grassland] tile",
+            "Can be built outside your borders"
+        ]
     },
     {
         "name": "Airfield",
@@ -272,7 +289,34 @@
         ],
         "turnsToBuild": 10,
         "techRequired": "Radar",
-        "uniques": ["Can be built outside your borders"],
+        "uniques": [
+            "Can be built outside your borders"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Requires a Airfield Ground Unit on the tile to allow it to be loaded with new air units."
+            },
+            {
+                "text": "Airfield Ground Unit",
+                "link": "Units/Airfield Ground Unit"
+            }
+        ]
+    },
+    {
+        "name": "Nuclear Missile Silo",
+        "terrainsCanBeBuiltOn": [
+            "Plains",
+            "Grassland",
+            "Desert",
+            "Tundra",
+            "Snow"
+        ],
+        "turnsToBuild": 10,
+        "techRequired": "Rocketry",
+        "uniques": [
+            "Can be built outside your borders",
+            "Invisible to others"
+        ],
         "civilopediaText": [
             {
                 "text": "Requires a Airfield Ground Unit on the tile to allow it to be loaded with new air units."
@@ -285,7 +329,9 @@
     },
     {
         "name": "Lumber mill",
-        "terrainsCanBeBuiltOn": ["Forest"],
+        "terrainsCanBeBuiltOn": [
+            "Forest"
+        ],
         "production": 1,
         "turnsToBuild": 5,
         "techRequired": "Bronze Working",
@@ -322,7 +368,9 @@
     },
     {
         "name": "Mine",
-        "terrainsCanBeBuiltOn": ["Hill"],
+        "terrainsCanBeBuiltOn": [
+            "Hill"
+        ],
         "turnsToBuild": 7,
         "techRequired": "Mining",
         "uniques": [
@@ -404,7 +452,9 @@
     {
         "name": "Fishing Boats",
         "turnsToBuild": 3,
-        "terrainsCanBeBuiltOn": ["Coast"],
+        "terrainsCanBeBuiltOn": [
+            "Coast"
+        ],
         "techRequired": "Sailing",
         "uniques": [
             "[+1 Gold] <after discovering [Compass]>",
@@ -442,7 +492,13 @@
     {
         "name": "Land Trade Route (Food)",
         "food": 6,
-        "terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle", "Marsh", "Oasis"],
+        "terrainsCanBeBuiltOn": [
+            "Land",
+            "Forest",
+            "Jungle",
+            "Marsh",
+            "Oasis"
+        ],
         "uniques": [
             "All Trade Route",
             "Provides [-1] [Trade Route]",
@@ -457,7 +513,13 @@
     {
         "name": "Land Trade Route (Production)",
         "production": 6,
-        "terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle", "Marsh", "Oasis"],
+        "terrainsCanBeBuiltOn": [
+            "Land",
+            "Forest",
+            "Jungle",
+            "Marsh",
+            "Oasis"
+        ],
         "uniques": [
             "All Trade Route",
             "Provides [-1] [Trade Route]",
@@ -471,7 +533,13 @@
     },
     {
         "name": "Land Trade Route (Gold)",
-        "terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle", "Marsh", "Oasis"],
+        "terrainsCanBeBuiltOn": [
+            "Land",
+            "Forest",
+            "Jungle",
+            "Marsh",
+            "Oasis"
+        ],
         "gold": 16,
         "uniques": [
             "All Trade Route",
@@ -486,7 +554,11 @@
     {
         "name": "Sea Trade Route (Food)",
         "food": 6,
-        "terrainsCanBeBuiltOn": ["Coast", "Ocean", "Atoll"],
+        "terrainsCanBeBuiltOn": [
+            "Coast",
+            "Ocean",
+            "Atoll"
+        ],
         "uniques": [
             "All Trade Route",
             "Provides [-1] [Trade Route]",
@@ -501,7 +573,11 @@
     {
         "name": "Sea Trade Route (Production)",
         "production": 6,
-        "terrainsCanBeBuiltOn": ["Coast", "Ocean", "Atoll"],
+        "terrainsCanBeBuiltOn": [
+            "Coast",
+            "Ocean",
+            "Atoll"
+        ],
         "uniques": [
             "All Trade Route",
             "Provides [-1] [Trade Route]",
@@ -515,7 +591,11 @@
     },
     {
         "name": "Sea Trade Route (Gold)",
-        "terrainsCanBeBuiltOn": ["Coast", "Ocean", "Atoll"],
+        "terrainsCanBeBuiltOn": [
+            "Coast",
+            "Ocean",
+            "Atoll"
+        ],
         "gold": 12,
         "uniques": [
             "All Trade Route",
@@ -568,7 +648,9 @@
     },
     {
         "name": "Road",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "turnsToBuild": 2,
         "techRequired": "The Wheel",
         "uniques": [
@@ -592,7 +674,9 @@
     },
     {
         "name": "Railroad",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "turnsToBuild": 3,
         "techRequired": "Railroads",
         "uniques": [
@@ -652,38 +736,80 @@
     },
     {
         "name": "Remove Land Trade Route (Production)",
-        "terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle", "Marsh", "Oasis"],
-        "uniques": ["Excluded from map editor"],
+        "terrainsCanBeBuiltOn": [
+            "Land",
+            "Forest",
+            "Jungle",
+            "Marsh",
+            "Oasis"
+        ],
+        "uniques": [
+            "Excluded from map editor"
+        ],
         "turnsToBuild": 0
     },
     {
         "name": "Remove Land Trade Route (Food)",
-        "terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle", "Marsh", "Oasis"],
-        "uniques": ["Excluded from map editor"],
+        "terrainsCanBeBuiltOn": [
+            "Land",
+            "Forest",
+            "Jungle",
+            "Marsh",
+            "Oasis"
+        ],
+        "uniques": [
+            "Excluded from map editor"
+        ],
         "turnsToBuild": 0
     },
     {
         "name": "Remove Land Trade Route (Gold)",
-        "terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle", "Marsh", "Oasis"],
-        "uniques": ["Excluded from map editor"],
+        "terrainsCanBeBuiltOn": [
+            "Land",
+            "Forest",
+            "Jungle",
+            "Marsh",
+            "Oasis"
+        ],
+        "uniques": [
+            "Excluded from map editor"
+        ],
         "turnsToBuild": 0
     },
     {
         "name": "Remove Sea Trade Route (Production)",
-        "terrainsCanBeBuiltOn": ["Coast", "Ocean", "Atoll"],
-        "uniques": ["Excluded from map editor"],
+        "terrainsCanBeBuiltOn": [
+            "Coast",
+            "Ocean",
+            "Atoll"
+        ],
+        "uniques": [
+            "Excluded from map editor"
+        ],
         "turnsToBuild": 0
     },
     {
         "name": "Remove Sea Trade Route (Food)",
-        "terrainsCanBeBuiltOn": ["Coast", "Ocean", "Atoll"],
-        "uniques": ["Excluded from map editor"],
+        "terrainsCanBeBuiltOn": [
+            "Coast",
+            "Ocean",
+            "Atoll"
+        ],
+        "uniques": [
+            "Excluded from map editor"
+        ],
         "turnsToBuild": 0
     },
     {
         "name": "Remove Sea Trade Route (Gold)",
-        "terrainsCanBeBuiltOn": ["Coast", "Ocean", "Atoll"],
-        "uniques": ["Excluded from map editor"],
+        "terrainsCanBeBuiltOn": [
+            "Coast",
+            "Ocean",
+            "Atoll"
+        ],
+        "uniques": [
+            "Excluded from map editor"
+        ],
         "turnsToBuild": 0
     },
     {
@@ -712,10 +838,15 @@
     },
     {
         "name": "Repair",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "turnsToBuild": 2,
         "shortcutKey": "E",
-        "uniques": ["Unbuildable", "Excluded from map editor"],
+        "uniques": [
+            "Unbuildable",
+            "Excluded from map editor"
+        ],
         "civilopediaText": [
             {
                 "text": "Repairs a pillaged Improvement or Route"
@@ -724,7 +855,9 @@
     },
     {
         "name": "Academy",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "science": 5,
         "uniques": [
             "Great Improvement",
@@ -736,7 +869,9 @@
     },
     {
         "name": "Holy site",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "faith": 5,
         "uniques": [
             "Great Improvement",
@@ -746,7 +881,9 @@
     },
     {
         "name": "Landmark",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "culture": 5,
         "uniques": [
             "Great Improvement",
@@ -758,7 +895,9 @@
     },
     {
         "name": "Manufactory",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "production": 5,
         "food": 1,
         "uniques": [
@@ -770,7 +909,9 @@
     },
     {
         "name": "Dry Dock",
-        "terrainsCanBeBuiltOn": ["Coast"],
+        "terrainsCanBeBuiltOn": [
+            "Coast"
+        ],
         "production": 5,
         "uniques": [
             "Great Improvement",
@@ -781,7 +922,9 @@
     },
     {
         "name": "Customs house",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "gold": 5,
         "uniques": [
             "Improves [Luxury] resource in this tile",
@@ -793,7 +936,9 @@
     },
     {
         "name": "Citadel",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "uniques": [
             "Great Improvement",
             "Gives a defensive bonus of [100]%",
@@ -806,7 +951,9 @@
     {
         "name": "Chateau",
         "uniqueTo": "France",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "gold": 1,
         "culture": 2,
         "science": 2,
@@ -823,7 +970,9 @@
     },
     {
         "name": "Ancient ruins",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "uniques": [
             "Unpillagable",
             "Provides a random bonus when entered",
@@ -832,8 +981,13 @@
     },
     {
         "name": "City ruins",
-        "terrainsCanBeBuiltOn": ["Land"],
-        "uniques": ["Unpillagable", "Unbuildable"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
+        "uniques": [
+            "Unpillagable",
+            "Unbuildable"
+        ],
         "civilopediaText": [
             {
                 "text": "A bleak reminder of the destruction wreaked by War"
@@ -842,7 +996,9 @@
     },
     {
         "name": "City center",
-        "terrainsCanBeBuiltOn": ["Land"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
         "uniques": [
             "Ensures a minimum tile yield of [+2 Food, +3 Production] <in [Hill] tiles>",
             "Ensures a minimum tile yield of [+3 Food, +2 Production] <in tiles without [Hill]>",
@@ -862,8 +1018,12 @@
     {
         "name": "Barbarian encampment",
         "turnsToBuild": 1,
-        "terrainsCanBeBuiltOn": ["Land"],
-        "uniques": ["Unpillagable"],
+        "terrainsCanBeBuiltOn": [
+            "Land"
+        ],
+        "uniques": [
+            "Unpillagable"
+        ],
         "civilopediaText": [
             {
                 "text": "Home to Barbarians encampment, will spawn a hostile unit from time to time"

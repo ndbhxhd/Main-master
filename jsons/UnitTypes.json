@@ -10,7 +10,9 @@
     {
         "name": "Icebreaker",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles"]
+        "uniques": [
+            "Can enter ice tiles"
+        ]
     },
     {
         "name": "Sword",
@@ -50,7 +52,10 @@
     },
     {
         "name": "Recon",
-        "uniques": ["Ignores terrain cost", "Can see invisible [Land] units"],
+        "uniques": [
+            "Ignores terrain cost",
+            "Can see invisible [Land] units"
+        ],
         "movementType": "Land"
     },
     {
@@ -63,7 +68,9 @@
     },
     {
         "name": "Civilian Water",
-        "uniques": ["Automation is a primary action"],
+        "uniques": [
+            "Automation is a primary action"
+        ],
         "movementType": "Water"
     },
     {
@@ -124,11 +131,27 @@
         "name": "Aircraft Carrier",
         "movementType": "Water"
     },
-        {
+    {
+        "name": "Drone Launcher",
+        "movementType": "Land"
+    },
+    {
+        "name": "Missile Launcher",
+        "movementType": "Land"
+    },
+    {
+        "name": "Air Drone",
+        "uniques": [
+            "Air",
+            "Self-destructs when attacking"
+        ],
+        "movementType": "Air"
+    },
+    {
         "name": "LHD",
         "movementType": "Water"
     },
-            {
+    {
         "name": "LHA",
         "movementType": "Water"
     },
@@ -143,7 +166,10 @@
     },
     {
         "name": "Counter Missile",
-        "uniques": ["Cannot intercept [Aircraft] units", "Cannot intercept [non-[Missile]] units"],
+        "uniques": [
+            "Cannot intercept [Aircraft] units",
+            "Cannot intercept [non-[Missile]] units"
+        ],
         "movementType": "Land"
     },
     {
@@ -158,8 +184,12 @@
     },
     {
         "name": "Bomber",
-        "uniques": ["Aircraft", "Cannot be carried by [LHD] units",
-            "Cannot be carried by [LHA] units","Cannot be carried by [Aircraft Carrier] units"],
+        "uniques": [
+            "Aircraft",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
+            "Cannot be carried by [Aircraft Carrier] units"
+        ],
         "movementType": "Air"
     },
     {
@@ -184,23 +214,34 @@
     },
     {
         "name": "Drone",
-        "uniques": ["Land", "Can see over obstacles", "[+2] Sight"],
+        "uniques": [
+            "Land",
+            "Can see over obstacles",
+            "[+2] Sight"
+        ],
         "movementType": "Land"
     },
     {
         "name": "Atomic Bomber",
-        "uniques": ["Aircraft", "Self-destructs when attacking"],
+        "uniques": [
+            "Aircraft",
+            "Self-destructs when attacking"
+        ],
         "movementType": "Air"
     },
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking"]
+        "uniques": [
+            "Self-destructs when attacking"
+        ]
     },
     {
         "name": "Nuclear Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking"]
+        "uniques": [
+            "Self-destructs when attacking"
+        ]
     },
     {
         "name": "Helicopter",
@@ -213,14 +254,19 @@
     {
         "name": "Satellite",
         "movementType": "Air",
-        "uniques": ["Cannot be intercepted", "Satellite"]
+        "uniques": [
+            "Cannot be intercepted",
+            "Satellite"
+        ]
     },
     {
         "name": "Trade Plane",
         "movementType": "Air",
-        "uniques": ["Aircraft","Automation is a primary action"]
+        "uniques": [
+            "Aircraft",
+            "Automation is a primary action"
+        ]
     },
-
     {
         "name": "Melee",
         "movementType": "Land"
