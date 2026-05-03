@@ -1,4 +1,3 @@
-
 [
     {
         "name": "Spectator",
@@ -135,7 +134,7 @@
             "River",
             "Hill"
         ],
-        "preferredVictoryType": "Domination",
+        "preferredVictoryType": "Scientific",
         "startIntroPart1": "From the Atlantic’s tempestuous surf to the Pacific’s tranquil horizon, America stands as a beacon of resolve.",
         "startIntroPart2": "Under the stewardship of Donald J Trump, we shall forge an empire unrivaled in ambition and might.",
         "declaringWar": "America declares war! Our foes shall taste the full vigor of our resolve.",
