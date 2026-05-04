@@ -4829,7 +4829,7 @@
     },
     {
         "name": "Kamikaze Drone",
-        "unitType": "Kamikaze Drone",
+        "unitType": "Loitering Munitions",
         "movement": 1,
         "strength": 125,
         "rangedStrength": 105,
