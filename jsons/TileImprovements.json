@@ -314,8 +314,7 @@
         "turnsToBuild": 10,
         "techRequired": "Rocketry",
         "uniques": [
-            "Can be built outside your borders",
-            "Invisible to others"
+            "Can be built outside your borders"
         ],
         "civilopediaText": [
             {

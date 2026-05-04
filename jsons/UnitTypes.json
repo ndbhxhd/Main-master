@@ -86,6 +86,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Infantry Transport",
+        "movementType": "Land"
+    },
+    {
         "name": "Light Cavalry",
         "movementType": "Land"
     },
@@ -140,9 +144,9 @@
         "movementType": "Land"
     },
     {
-        "name": "Air Drone",
+        "name": "Loitering Munitions",
         "uniques": [
-            "Air",
+            "Kamikaze Drone",
             "Self-destructs when attacking"
         ],
         "movementType": "Air"

@@ -35,6 +35,7 @@
             "Can carry [0] [Aircraft] units",
             "Can build [Airfield] improvements on tiles",
             "Can carry [6] extra [Aircraft] units <in [Airfield] tiles> <hidden from users>",
+            "May enter foreign tiles without open borders",
             "Comment [Allows an airfield to be loaded with aircrafts when standing on one]"
         ],
         "civilopediaText": [
@@ -74,7 +75,7 @@
             "Uncapturable",
             "Unbuildable",
             "Cannot be purchased",
-            "Can carry [1] [Nuclear Missile] unit",
+            "Can carry [1] [Nuclear Missile] units",
             "Invisible to others",
             "[-100]% maintenance costs"
         ]
@@ -4438,6 +4439,21 @@
         "attackSound": "shipguns"
     },
     {
+        "name": "Intelligence Support Activity",
+        "unitType": "Special Forces",
+        "uniqueTo": "The United States of America",
+        "movement": 3,
+        "strength": 105,
+        "cost": 450,
+        "requiredTech": "Globalization",
+        "uniques": [
+            "May enter foreign tiles without open borders",
+            "[+4] Sight",
+            "Invisible to others"
+        ],
+        "attackSound": "machinegun"
+    },
+    {
         "name": "Special Forces",
         "unitType": "Special Forces",
         "movement": 3,
@@ -4461,6 +4477,21 @@
         "uniques": [
             "May enter foreign tiles without open borders",
             "[+15]% Strength <on foreign continents>",
+            "[+25]% Strength bonus for [{Military} {Land}] units within [2] tiles"
+        ],
+        "attackSound": "machinegun"
+    },
+    {
+        "name": "Navy SEALs",
+        "unitType": "Special Forces",
+        "replaces": "Special Forces",
+        "uniqueTo": "The United States of America",
+        "movement": 3,
+        "strength": 130,
+        "cost": 450,
+        "requiredTech": "Globalization",
+        "uniques": [
+            "May enter foreign tiles without open borders",
             "[+25]% Strength bonus for [{Military} {Land}] units within [2] tiles"
         ],
         "attackSound": "machinegun"
@@ -4797,11 +4828,27 @@
         "attackSound": "machinegun"
     },
     {
-        "name": "Drone",
-        "unitType": "Air Drone",
+        "name": "Kamikaze Drone",
+        "unitType": "Kamikaze Drone",
         "movement": 1,
         "strength": 125,
         "rangedStrength": 105,
+        "range": 9,
+        "cost": 70,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": [
+            "[-100]% maintenance costs"
+        ],
+        "attackSound": "missile"
+    },
+    {
+        "name": "LUCAS Drone",
+        "unitType": "Loitering Munitions",
+        "uniqueTo": "The United States of America",
+        "replaces": "Kamikaze Drone",
+        "movement": 1,
+        "strength": 125,
+        "rangedStrength": 125,
         "range": 9,
         "cost": 70,
         "requiredTech": "Advanced Ballistics",
@@ -4857,6 +4904,25 @@
             "Cannot be carried by [Aircraft Carrier] units",
             "Cannot be carried by [Naval Submarine] units",
             "Consumes [2] [Uranium]"
+        ],
+        "attackSound": "nuke"
+    },
+    {
+        "name": "Trident II",
+        "unitType": "Nuclear Missile",
+        "uniqueTo": "The United States of America",
+        "movement": 1,
+        "strength": 300,
+        "rangedStrength": 300,
+        "range": 10,
+        "cost": 1300,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": [
+            "Nuclear weapon of Strength [2]",
+            "Only available <if [Manhattan Project] is constructed>",
+            "Blast radius [2]",
+            "Cannot be carried by [Aircraft Carrier] units",
+            "Consumes [1] [Uranium]"
         ],
         "attackSound": "nuke"
     },
@@ -5017,6 +5083,58 @@
         "attackSound": "machinegun"
     },
     {
+        "name": "CH-47 Chinook",
+        "unitType": "Helicopter",
+        "uniqueTo": "The United States of America",
+        "movement": 10,
+        "strength": 110,
+        "cost": 200,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "No defensive terrain bonus",
+            "Cannot attack",
+            "Ignores Zone of Control",
+            "Can pass through impassable tiles",
+            "May travel on Water tiles without embarking"
+        ],
+        "attackSound": "machinegun"
+    },
+    {
+        "name": "MH-6R Little Bird",
+        "unitType": "Helicopter",
+        "uniqueTo": "The United States of America",
+        "movement": 10,
+        "strength": 110,
+        "cost": 200,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "No defensive terrain bonus",
+            "Cannot attack",
+            "Ignores Zone of Control",
+            "Can pass through impassable tiles",
+            "May travel on Water tiles without embarking"
+        ],
+        "attackSound": "machinegun"
+    },
+    {
+        "name": "160th Special Operations Aviation Regiment (Night Stalkers)",
+        "unitType": "Helicopter",
+        "uniqueTo": "The United States of America",
+        "movement": 10,
+        "strength": 110,
+        "cost": 200,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "No defensive terrain bonus",
+            "Can carry [6] [Special Forces] units",
+            "Cannot attack",
+            "Ignores Zone of Control",
+            "Can pass through impassable tiles",
+            "May travel on Water tiles without embarking"
+        ],
+        "attackSound": "machinegun"
+    },
+    {
         "name": "Nuclear Submarine",
         "unitType": "Naval Submarine",
         "movement": 6,
@@ -5056,10 +5174,37 @@
         "attackSound": "torpedo"
     },
     {
+        "name": "Infantry Squad Vehicle (ISV)",
+        "unitType": "Infantry Transport",
+        "movement": 4,
+        "strength": 100,
+        "cost": 650,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "Cannot attack",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
         "name": "Mechanized Infantry",
         "unitType": "Light Cavalry",
         "movement": 4,
         "strength": 90,
+        "cost": 650,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "M2 Bradley (Infantry Fighting Vehicle)",
+        "unitType": "Light Cavalry",
+        "uniqueTo": "The United States of America",
+        "replaces": "Mechanized Infantry",
+        "movement": 4,
+        "strength": 100,
         "cost": 650,
         "requiredTech": "Mobile Tactics",
         "uniques": [
@@ -5089,7 +5234,7 @@
         "requiredTech": "Robotics",
         "uniques": [
             "Cannot attack",
-            "Can carry [6] [Air Drone] units",
+            "Can carry [6] [Kamikaze Drone] units",
             "Never appears as a Barbarian unit"
         ]
     },
@@ -5464,11 +5609,23 @@
         "strength": 130,
         "cost": 500,
         "requiredTech": "Mobile Tactics",
-        "promotions": [
-            "Ignore terrain cost"
-        ],
         "uniques": [
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "May enter foreign tiles without open borders"
+        ],
+        "attackSound": "shot"
+    },
+    {
+        "name": "DEVGRU (SEAL Team 6)",
+        "unitType": "Special Forces",
+        "uniqueTo": "The United States of America",
+        "movement": 3,
+        "strength": 130,
+        "cost": 500,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "Never appears as a Barbarian unit",
+            "May enter foreign tiles without open borders"
         ],
         "attackSound": "shot"
     },
