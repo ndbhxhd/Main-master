@@ -355,7 +355,7 @@
             "Provides [-150] [War Weariness] <when above [50] [War Weariness]> <every [1] turns> <when not at war> <for [City-States] Civilizations>",
             "Provides [-50] [War Weariness] <when above [50] [War Weariness]> <every [1] turns> <when at war> <for [City-States] Civilizations>",
             "Provides [-100] [War Weariness] <when above [500] [War Weariness]> <for [3] turns> <when not at war>",
-            "Instantly provides [250] [War Weariness] <upon declaring war with a major Civilization>",
+            "Instantly provides [250] [War Weariness] <upon declaring war on [Major] Civilizations>",
             "Provides [-25] [War Weariness] <upon declaring friendship> <for [1] turns>",
             "Provides [-20] [War Weariness] <upon declaring friendship> <for [2] turns>",
             "Provides [-15] [War Weariness] <upon declaring friendship> <for [3] turns>",
@@ -374,7 +374,7 @@
             "Can be purchased for [0] [Gold] [in annexed cities]",
             "Provides [-10] [War Weariness] <when above [0] [War Weariness]> <every [1] turns> <when not at war>",
             "Provides [-5] [War Weariness] <when above [500] [War Weariness]> <every [1] turns> <when at war>",
-            "Instantly provides [75] [War Weariness] <upon declaring war with a major Civilization>"
+            "Instantly provides [75] [War Weariness] <upon declaring war on [Major] Civilizations>"
         ]
     },
     {

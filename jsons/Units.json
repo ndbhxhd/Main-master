@@ -5022,7 +5022,7 @@
     {
         "name": "Sentinel",
         "unitType": "Nuclear Missile",
-        "replaces": "Nuclear Hypersonic Missile",
+        "replaces": "Thermonuclear ICBM",
         "uniqueTo": "The United States of America",
         "cost": 1300,
         "strength": 600,
