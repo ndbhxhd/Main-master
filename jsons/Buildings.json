@@ -350,16 +350,18 @@
         "uniques": [
             "Unsellable",
             "Comment [Only when all buildings in this package have not been built, this package is available.]",
-            "Only available <in cities without a [Physic Lab]>",
-            "Only available <in cities without a [Chemistry Lab]>",
-            "Only available <in cities without a [Bio Lab]>",
-            "Gain a free [Physic Lab] [in this city]",
-            "Gain a free [Chemistry Lab] [in this city]",
-            "Gain a free [Bio Lab] [in this city]",
+            "Only available <in cities without a [Barracks]>",
+            "Only available <in cities without a [Colosseum]>",
+            "Only available <in cities without a [Zoo]>",
+            "Gain a free [Barracks] [in this city]",
+            "Gain a free [Colosseum] [in this city]",
+            "Gain a free [Zoo] [in this city]",
             "[+300]% weight to this choice for AI decisions <hidden from users>"
         ],
-        "requiredTech": 
-            "Construction"
+        "requiredTech": [
+            "Construction",
+            "Electricity"
+        ]
     },
     {
         "name": "Classical Expansion",
