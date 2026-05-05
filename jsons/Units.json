@@ -75,7 +75,7 @@
             "Uncapturable",
             "Unbuildable",
             "Cannot be purchased",
-            "Can carry [1] [Nuclear Missile] units",
+            "Can carry [4] [Nuclear Missile] units",
             "Invisible to others",
             "[-100]% maintenance costs"
         ]
@@ -1208,13 +1208,17 @@
     {
         "name": "Marine Raiders",
         "uniqueTo": "The United States of America",
-        "unitType": "Marines",
+        "unitType": "Special Operations Forces",
         "movement": 2,
         "strength": 110,
         "cost": 450,
         "requiredTech": "Mobile Tactics",
         "uniques": [
-            "May enter foreign tiles without open borders"
+            "[+75]% Strength <when attacking>",
+            "[+2] Sight",
+            "[+25]% Strength <vs [Barbarian] units>",
+            "Eliminates combat penalty for attacking over a river",
+            "Eliminates combat penalty for attacking across a coast"
         ],
         "attackSound": "machinegun"
     },
@@ -4361,7 +4365,7 @@
     },
     {
         "name": "Airborne Forces",
-        "unitType": "Paratrooper",
+        "unitType": "Special Operations Forces",
         "movement": 3,
         "strength": 105,
         "cost": 425,
@@ -4373,7 +4377,7 @@
     },
     {
         "name": "75th Ranger Regiment",
-        "unitType": "Paratrooper",
+        "unitType": "Special Operations Forces",
         "uniqueTo": "The United States of America",
         "replaces": "Airborne Forces",
         "movement": 3,
@@ -4382,7 +4386,26 @@
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "May Paradrop to [Land] tiles up to [35] tiles away <in [{Friendly} {Land}] tiles>",
-            "[+2] Sight"
+            "[+1] Sight",
+            "[1] additional attacks per turn",
+            "[+75]% Strength <when attacking>"
+        ],
+        "attackSound": "machinegun"
+    },
+    {
+        "name": "Regimental Reconnaissance Company (RRC)",
+        "unitType": "Special Operations Forces",
+        "uniqueTo": "The United States of America",
+        "replaces": "Airborne Forces",
+        "movement": 3,
+        "strength": 130,
+        "cost": 425,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "May Paradrop to [Land] tiles up to [35] tiles away <in [{Friendly} {Land}] tiles>",
+            "[+2] Sight",
+            "[1] additional attacks per turn",
+            "[+150]% Strength <when attacking>"
         ],
         "attackSound": "machinegun"
     },
@@ -4390,15 +4413,14 @@
         "name": "Arsenal Ship",
         "unitType": "Naval Ranged",
         "movement": 8,
-        "strength": 100,
-        "rangedStrength": 125,
-        "range": 3,
+        "strength": 75,
+        "rangedStrength": 75,
+        "range": 2,
         "cost": 500,
         "requiredTech": "Distributed Computing",
         "uniques": [
             "Can see invisible [Naval Submarine] units",
-            "[100]% chance to intercept air attacks",
-            "Can carry [4] [Missile] units"
+            "Can carry [10] [Missile] units"
         ],
         "attackSound": "shipguns"
     },
@@ -4434,13 +4456,13 @@
             "Can see invisible [Naval Submarine] units",
             "[100]% chance to intercept air attacks",
             "[+100]% Strength <vs [Naval Submarine] units>",
-            "Can carry [4] [Missile] units"
+            "Can carry [6] [Missile] units"
         ],
         "attackSound": "shipguns"
     },
     {
-        "name": "Intelligence Support Activity",
-        "unitType": "Special Forces",
+        "name": "Intelligence Support Activity (ISA)",
+        "unitType": "Special Operations Forces",
         "uniqueTo": "The United States of America",
         "movement": 3,
         "strength": 105,
@@ -4454,8 +4476,8 @@
         "attackSound": "machinegun"
     },
     {
-        "name": "Special Forces",
-        "unitType": "Special Forces",
+        "name": "Special Force",
+        "unitType": "Special Operations Forces",
         "movement": 3,
         "strength": 105,
         "cost": 450,
@@ -4463,12 +4485,12 @@
         "uniques": [
             "May enter foreign tiles without open borders"
         ],
-        "attackSound": "machinegun"
+        "attackSound": "shot"
     },
     {
-        "name": "Green Beret",
-        "unitType": "Special Forces",
-        "replaces": "Special Forces",
+        "name": "Army Special Forces (Green Beret)",
+        "unitType": "Special Operations Forces",
+        "replaces": "Special Force",
         "uniqueTo": "The United States of America",
         "movement": 3,
         "strength": 130,
@@ -4476,25 +4498,27 @@
         "requiredTech": "Globalization",
         "uniques": [
             "May enter foreign tiles without open borders",
-            "[+15]% Strength <on foreign continents>",
-            "[+25]% Strength bonus for [{Military} {Land}] units within [2] tiles"
+            "[+25]% Strength <on foreign continents>",
+            "[+25]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "[+25]% Strength <vs [Barbarian] units>",
+            "[+75]% Strength <when defending>"
         ],
         "attackSound": "machinegun"
     },
     {
-        "name": "Navy SEALs",
-        "unitType": "Special Forces",
-        "replaces": "Special Forces",
+        "name": "Navy SEAL",
+        "unitType": "Special Operations Forces",
         "uniqueTo": "The United States of America",
         "movement": 3,
         "strength": 130,
         "cost": 450,
         "requiredTech": "Globalization",
         "uniques": [
-            "May enter foreign tiles without open borders",
-            "[+25]% Strength bonus for [{Military} {Land}] units within [2] tiles"
+            "[+75]% Strength <when attacking>",
+            "[+1] Sight",
+            "[+25]% Strength <vs [Barbarian] units>"
         ],
-        "attackSound": "machinegun"
+        "attackSound": "shot"
     },
     {
         "name": "Supercarrier",
@@ -4515,7 +4539,6 @@
         "strength": 80,
         "cost": 525,
         "requiredTech": "Distributed Computing",
-        "obsoleteTech": "Cybernetics",
         "requiredResource": "Nanomaterial",
         "uniques": [
             "[+100]% Strength <vs [Heavy Cavalry] units>",
@@ -4858,6 +4881,36 @@
         "attackSound": "missile"
     },
     {
+        "name": "Switchblade 300",
+        "unitType": "Loitering Munitions",
+        "uniqueTo": "The United States of America",
+        "movement": 1,
+        "strength": 125,
+        "rangedStrength": 85,
+        "range": 2,
+        "cost": 30,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": [
+            "[-100]% maintenance costs"
+        ],
+        "attackSound": "missile"
+    },
+    {
+        "name": "Switchblade 600",
+        "unitType": "Loitering Munitions",
+        "uniqueTo": "The United States of America",
+        "movement": 1,
+        "strength": 125,
+        "rangedStrength": 95,
+        "range": 3,
+        "cost": 30,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": [
+            "[-100]% maintenance costs"
+        ],
+        "attackSound": "missile"
+    },
+    {
         "name": "Guided Missile",
         "unitType": "Missile",
         "movement": 1,
@@ -4918,7 +4971,7 @@
         "cost": 1300,
         "requiredTech": "Advanced Ballistics",
         "uniques": [
-            "Nuclear weapon of Strength [2]",
+            "Nuclear weapon of Strength [3]",
             "Only available <if [Manhattan Project] is constructed>",
             "Blast radius [2]",
             "Cannot be carried by [Aircraft Carrier] units",
@@ -4940,7 +4993,7 @@
         "uniques": [
             "Nuclear weapon of Strength [3]",
             "Only available <if [Manhattan Project] is constructed>",
-            "Blast radius [3]",
+            "Blast radius [4]",
             "[+100]% maintenance costs",
             "Cannot be carried by [Aircraft Carrier] units",
             "Cannot be carried by [LHD] units",
@@ -5117,8 +5170,8 @@
         "attackSound": "machinegun"
     },
     {
-        "name": "160th Special Operations Aviation Regiment (Night Stalkers)",
-        "unitType": "Helicopter",
+        "name": "160th Special Operations Aviation Regiment (SOAR) (Night Stalkers)",
+        "unitType": "Special Operations Forces",
         "uniqueTo": "The United States of America",
         "movement": 10,
         "strength": 110,
@@ -5126,9 +5179,10 @@
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "No defensive terrain bonus",
-            "Can carry [6] [Special Forces] units",
+            "Can carry [6] [Special Operations Forces] units",
             "Cannot attack",
             "Ignores Zone of Control",
+            "May travel on Water tiles without embarking",
             "Can pass through impassable tiles",
             "May travel on Water tiles without embarking"
         ],
@@ -5602,22 +5656,24 @@
         "attackSound": "shot"
     },
     {
-        "name": "Delta Force",
-        "unitType": "Special Forces",
+        "name": "1st Special Forces Operational Detachment–Delta (1st SFOD-D)-(Delta Force)",
+        "unitType": "Special Operations Forces",
         "uniqueTo": "The United States of America",
         "movement": 3,
         "strength": 130,
         "cost": 500,
-        "requiredTech": "Mobile Tactics",
+        "requiredTech": "Globalization",
         "uniques": [
             "Never appears as a Barbarian unit",
-            "May enter foreign tiles without open borders"
+            "May enter foreign tiles without open borders",
+            "[+25]% Strength <vs [Barbarian] units>",
+            "[+75]% Strength <when attacking>"
         ],
         "attackSound": "shot"
     },
     {
-        "name": "DEVGRU (SEAL Team 6)",
-        "unitType": "Special Forces",
+        "name": "Naval Special Warfare Development Group (DEVGRU) - (SEAL Team Six)",
+        "unitType": "Special Operations Forces",
         "uniqueTo": "The United States of America",
         "movement": 3,
         "strength": 130,
@@ -5625,7 +5681,10 @@
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "Never appears as a Barbarian unit",
-            "May enter foreign tiles without open borders"
+            "May enter foreign tiles without open borders",
+            "[+25]% Strength <vs [Barbarian] units>",
+            "[+100]% Strength <when defending> <when [Embarked]>",
+            "[+75]% Strength <when attacking>"
         ],
         "attackSound": "shot"
     },

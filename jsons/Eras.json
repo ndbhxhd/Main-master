@@ -239,7 +239,7 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Marine",
+        "startingMilitaryUnit": "Modern Marine",
         "startingGold": 400,
         "startingCulture": 600,
         "settlerPopulation": 1,
