@@ -358,10 +358,8 @@
             "Gain a free [Bio Lab] [in this city]",
             "[+300]% weight to this choice for AI decisions <hidden from users>"
         ],
-        "requiredTech": [
-            "Construction",
-            "Electricity"
-        ]
+        "requiredTech": 
+            "Construction"
     },
     {
         "name": "Classical Expansion",
