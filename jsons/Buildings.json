@@ -355,8 +355,7 @@
             "Only available <in cities without a [Zoo]>",
             "Gain a free [Barracks] [in this city]",
             "Gain a free [Colosseum] [in this city]",
-            "Gain a free [Zoo] [in this city]",
-            "[+300]% weight to this choice for AI decisions <hidden from users>"
+            "Gain a free [Zoo] [in this city]"
         ],
         "requiredTech": [
             "Construction",
