@@ -304,7 +304,10 @@
         "name": "B17",
         "unitType": "Bomber",
         "replaces": "Bomber",
-        "uniqueTo": "The United States of America",
+        "uniqueTo": [
+            "The United States of America",
+            "America"
+        ],
         "movement": 1,
         "strength": 70,
         "rangedStrength": 70,
@@ -5179,7 +5182,7 @@
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "No defensive terrain bonus",
-            "Can carry [6] [Special Operations Forces] units",
+            "Can carry [6] [Navy SEAL] units",
             "Cannot attack",
             "Ignores Zone of Control",
             "May travel on Water tiles without embarking",
@@ -5884,7 +5887,7 @@
         "name": "Great General",
         "unitType": "Civilian",
         "uniques": [
-            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "[+50]% Strength bonus for [{Military} {Land}] units within [3] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
             "Can be earned through combat <for [Land] units>",
             "Great Person - [War]",
@@ -5896,7 +5899,7 @@
         "name": "Great Admiral",
         "unitType": "Civilian Water",
         "uniques": [
-            "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+            "[+50]% Strength bonus for [{Military} {Water}] units within [5] tiles",
             "Uncapturable",
             "Can be earned through combat <for [Water] units>",
             "Can instantly construct a [Dry Dock] improvement <by consuming this unit>",

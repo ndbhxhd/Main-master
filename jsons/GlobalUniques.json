@@ -8,7 +8,7 @@
         "Cannot build [Settler] units <when below [-5] [Happiness]>",
         "Rebel units may spawn <when below [-15] [Happiness]>",
         "[+1] Sight <for [Embarked] units>",
-        "[+5 Production] from every [Mountain] <after discovering [Chemistry]>",
+        "[+10 Production] from every [Mountain] <after discovering [Chemistry]>",
         "Enables Open Borders agreements",
         "Enables Defensive Pacts",
         "Enables Research agreements",

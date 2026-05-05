@@ -14,7 +14,10 @@
             "American"
         ],
         "startBias": [
-            "Coast, River"
+            "Coast",
+            "River",
+            "Desert",
+            "Mountains"
         ],
         "preferredVictoryType": "Scientific",
         "personality": "George Washington",

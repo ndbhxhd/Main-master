@@ -347,8 +347,21 @@
     {
         "name": "Ancient Expansion",
         "cost": 260,
-        "uniques": [],
-        "requiredTech": "Electricity"
+        "uniques": [
+            "Unsellable",
+            "Comment [Only when all buildings in this package have not been built, this package is available.]",
+            "Only available <in cities without a [Physic Lab]>",
+            "Only available <in cities without a [Chemistry Lab]>",
+            "Only available <in cities without a [Bio Lab]>",
+            "Gain a free [Physic Lab] [in this city]",
+            "Gain a free [Chemistry Lab] [in this city]",
+            "Gain a free [Bio Lab] [in this city]",
+            "[+300]% weight to this choice for AI decisions <hidden from users>"
+        ],
+        "requiredTech": [
+            "Construction",
+            "Electricity"
+        ]
     },
     {
         "name": "Classical Expansion",
@@ -1226,7 +1239,7 @@
         "name": "Skynet",
         "isWonder": true,
         "uniques": [
-            "[+10]% Strength <for [All] units>"
+            "[+30]% Strength <for [All] units>"
         ],
         "requiredTech": "Artificial Intelligence"
     },
@@ -2204,7 +2217,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            "[+25]% Great Person generation [in this city]",
+            "[+25]% Great Person generation [in all cities]",
             "Cost increases by [30] per owned city",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
@@ -2550,7 +2563,14 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Civil Service",
-        "uniques": ["May buy [Standard Mercenary] units with [Gold] for [1] times their normal Production cost", "May buy [Experienced Mercenary] units with [Gold] for [1] times their normal Production cost", "May buy [Trained Mercenary] units with [Gold] for [1] times their normal Production cost","May buy [Modern Mercenaries] units with [Gold] for [1] times their normal Production cost","May buy [Professional Mercenaries] units with [Gold] for [1] times their normal Production cost","May buy [PMC] units with [Gold] for [1] times their normal Production cost"]
+        "uniques": [
+            "May buy [Standard Mercenary] units with [Gold] for [1] times their normal Production cost",
+            "May buy [Experienced Mercenary] units with [Gold] for [1] times their normal Production cost",
+            "May buy [Trained Mercenary] units with [Gold] for [1] times their normal Production cost",
+            "May buy [Modern Mercenaries] units with [Gold] for [1] times their normal Production cost",
+            "May buy [Professional Mercenaries] units with [Gold] for [1] times their normal Production cost",
+            "May buy [PMC] units with [Gold] for [1] times their normal Production cost"
+        ]
     },
     {
         "name": "Huey Teocalli",
@@ -4157,7 +4177,7 @@
             "Great Engineer": 2
         },
         "uniques": [
-            "[+10]% Strength <for [All] units>"
+            "[+50]% Strength <for [All] units>"
         ],
         "requiredTech": "Combined Arms",
         "quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"

@@ -27,6 +27,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Private Military Company",
+        "movementType": "Land"
+    },
+    {
         "name": "Infantry",
         "movementType": "Land"
     },
