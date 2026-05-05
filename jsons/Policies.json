@@ -13,7 +13,7 @@
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]",
+                    "[+1 Happiness] per [5] population [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -55,7 +55,9 @@
                     "[+2 Food] [in capital]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Legalism"],
+                "requires": [
+                    "Legalism"
+                ],
                 "row": 2,
                 "column": 2
             },
@@ -65,7 +67,9 @@
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Legalism"],
+                "requires": [
+                    "Legalism"
+                ],
                 "row": 2,
                 "column": 4
             },
@@ -109,13 +113,15 @@
                 "column": 4
             },
             {
-                "name": "Collective Rule",
+                "name": "Democracy",
                 "uniques": [
                     "[+55]% Production when constructing [Settler] units [in capital]",
                     "Free [Settler] appears",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Republic"],
+                "requires": [
+                    "Republic"
+                ],
                 "row": 2,
                 "column": 1
             },
@@ -127,7 +133,9 @@
                     "Empire enters golden age",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Citizenship"],
+                "requires": [
+                    "Citizenship"
+                ],
                 "row": 2,
                 "column": 3
             },
@@ -139,7 +147,9 @@
                     "[-10]% Unhappiness from [Population] [in all non-occupied cities]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Citizenship"],
+                "requires": [
+                    "Citizenship"
+                ],
                 "row": 2,
                 "column": 5
             },
@@ -213,7 +223,9 @@
                     "[+2 Happiness] from every [Courthouse]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Warrior Code"],
+                "requires": [
+                    "Warrior Code"
+                ],
                 "row": 2,
                 "column": 1
             },
@@ -225,7 +237,9 @@
                     "[+1 Food, +2 Science, +2 Culture] from every [Citadel]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Professional Army"],
+                "requires": [
+                    "Professional Army"
+                ],
                 "row": 2,
                 "column": 5
             },
@@ -237,7 +251,9 @@
                     "[50]% XP gained from combat <for [non-[Air]] units>",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Warrior Code"],
+                "requires": [
+                    "Warrior Code"
+                ],
                 "row": 2,
                 "column": 3
             },
@@ -304,7 +320,9 @@
                     "Triggers a [Reformation] event <upon founding a Religion> <hidden from users>",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Organized Religion"],
+                "requires": [
+                    "Organized Religion"
+                ],
                 "row": 2,
                 "column": 2
             },
@@ -316,7 +334,9 @@
                     "[+2 Science] from every [Temple]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Organized Religion"],
+                "requires": [
+                    "Organized Religion"
+                ],
                 "row": 2,
                 "column": 4
             },
@@ -368,7 +388,9 @@
                     "[+1 Culture] from every [Chateau]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Cultural Centers"],
+                "requires": [
+                    "Cultural Centers"
+                ],
                 "row": 2,
                 "column": 2
             },
@@ -384,7 +406,9 @@
                     "[+2 Science] from every [Landmark]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Cultural Centers"],
+                "requires": [
+                    "Cultural Centers"
+                ],
                 "row": 2,
                 "column": 4
             },
@@ -396,7 +420,9 @@
                     "Empire enters golden age",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Cultural Exchange"],
+                "requires": [
+                    "Cultural Exchange"
+                ],
                 "row": 3,
                 "column": 2
             },
@@ -406,7 +432,10 @@
                     "Gain a free [Fine Art Specialist] [in all cities]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Cultural Exchange", "Artistic Genius"],
+                "requires": [
+                    "Cultural Exchange",
+                    "Artistic Genius"
+                ],
                 "row": 3,
                 "column": 4
             },
@@ -448,7 +477,9 @@
                     "Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Merchant Confederacy"],
+                "requires": [
+                    "Merchant Confederacy"
+                ],
                 "row": 2,
                 "column": 1
             },
@@ -459,7 +490,9 @@
                     "[+55]% Happiness from luxury resources gifted by City-States",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Merchant Confederacy"],
+                "requires": [
+                    "Merchant Confederacy"
+                ],
                 "row": 2,
                 "column": 3
             },
@@ -470,7 +503,9 @@
                     "[-30]% City-State Influence degradation",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Merchant Confederacy"],
+                "requires": [
+                    "Merchant Confederacy"
+                ],
                 "row": 2,
                 "column": 5
             },
@@ -480,7 +515,9 @@
                     "Resting point for Influence with City-States is increased by [30]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Cultural Diplomacy"],
+                "requires": [
+                    "Cultural Diplomacy"
+                ],
                 "row": 3,
                 "column": 3
             },
@@ -551,7 +588,10 @@
                     "[+10]% Strength <for [Water] units>",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Maritime Infrastructure", "Naval Tradition"],
+                "requires": [
+                    "Maritime Infrastructure",
+                    "Naval Tradition"
+                ],
                 "row": 2,
                 "column": 3
             },
@@ -562,7 +602,9 @@
                     "[+1 Gold, +1 Production, +1 Food] from every [Ocean]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Navigation School"],
+                "requires": [
+                    "Navigation School"
+                ],
                 "row": 3,
                 "column": 3
             },
@@ -590,7 +632,7 @@
             {
                 "name": "Silk Road",
                 "uniques": [
-                    "[+20]% [Gold] from Trade Routes",
+                    "[+30]% [Gold] from Trade Routes",
                     "[+25]% Yield from every [Land Trade Route (Gold)]",
                     "[+25]% Yield from every [Sea Trade Route (Gold)]",
                     "Provides [1] [Policies]"
@@ -599,8 +641,10 @@
                 "column": 2
             },
             {
-                "name": "Mercenary Army",
-                "uniques": ["Provides [1] [Policies]"],
+                "name": "Private Property",
+                "uniques": [
+                    "Provides [1] [Policies]"
+                ],
                 "row": 1,
                 "column": 5
             },
@@ -612,7 +656,9 @@
                     "Provides [2] [Trade Route]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Silk Road"],
+                "requires": [
+                    "Silk Road"
+                ],
                 "row": 2,
                 "column": 1
             },
@@ -625,7 +671,9 @@
                     "[+2 Science] from every [Stock Exchange]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Silk Road"],
+                "requires": [
+                    "Silk Road"
+                ],
                 "row": 2,
                 "column": 3
             },
@@ -639,7 +687,9 @@
                     "[-1 Happiness] per [3] population [in all cities]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Mercantilism"],
+                "requires": [
+                    "Mercantilism"
+                ],
                 "row": 3,
                 "column": 3
             },
@@ -703,7 +753,10 @@
                     "Free [Great Scientist] appears",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Free Thought", "Sovereignty"],
+                "requires": [
+                    "Free Thought",
+                    "Sovereignty"
+                ],
                 "row": 2,
                 "column": 3
             },
@@ -713,13 +766,17 @@
                     "[+2 Science] from every specialist [in all cities]",
                     "Provides [1] [Policies]"
                 ],
-                "requires": ["Scientific Revolution"],
+                "requires": [
+                    "Scientific Revolution"
+                ],
                 "row": 3,
                 "column": 3
             },
             {
                 "name": "Rationalism Complete",
-                "uniques": ["[10]% [Science] <while the empire is happy>"]
+                "uniques": [
+                    "[10]% [Science] <while the empire is happy>"
+                ]
             }
         ]
     },
@@ -985,8 +1042,8 @@
             {
                 "name": "Volunteer Army",
                 "uniques": [
-                    "[3] free [Infantry] units appear",
-                    "[3] units cost no maintenance",
+                    "[5] free [Infantry] units appear",
+                    "[5] units cost no maintenance",
                     "[Infantry] units gain the [Morale] promotion",
                     "All newly-trained [Infantry] units [in all cities] receive the [Morale] promotion",
                     "Provides [1] [Level 1 Ideology]",
@@ -1391,7 +1448,9 @@
         "policies": [
             {
                 "name": "Ideology Complete",
-                "uniques": ["Comment [Report as error if you adopt this]"]
+                "uniques": [
+                    "Comment [Report as error if you adopt this]"
+                ]
             }
         ]
     }

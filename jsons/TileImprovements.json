@@ -303,30 +303,6 @@
         ]
     },
     {
-        "name": "Nuclear Missile Silo",
-        "terrainsCanBeBuiltOn": [
-            "Plains",
-            "Grassland",
-            "Desert",
-            "Tundra",
-            "Snow"
-        ],
-        "turnsToBuild": 10,
-        "techRequired": "Rocketry",
-        "uniques": [
-            "Can be built outside your borders"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Requires a Airfield Ground Unit on the tile to allow it to be loaded with new air units."
-            },
-            {
-                "text": "Airfield Ground Unit",
-                "link": "Units/Airfield Ground Unit"
-            }
-        ]
-    },
-    {
         "name": "Lumber mill",
         "terrainsCanBeBuiltOn": [
             "Forest"

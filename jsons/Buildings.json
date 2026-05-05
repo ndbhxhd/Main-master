@@ -2463,7 +2463,7 @@
     {
         "name": "Agri-Factory",
         "uniqueTo": "The United States of America",
-        "food": 1,
+        "food": 2,
         "specialistSlots": {
             "Engineer": 1
         },
@@ -2564,8 +2564,7 @@
             "May buy [Experienced Mercenary] units with [Gold] for [1] times their normal Production cost",
             "May buy [Trained Mercenary] units with [Gold] for [1] times their normal Production cost",
             "May buy [Modern Mercenaries] units with [Gold] for [1] times their normal Production cost",
-            "May buy [Professional Mercenaries] units with [Gold] for [1] times their normal Production cost",
-            "May buy [PMC] units with [Gold] for [1] times their normal Production cost"
+            "May buy [Professional Mercenaries] units with [Gold] for [1] times their normal Production cost"
         ]
     },
     {
@@ -3429,7 +3428,7 @@
     {
         "name": "Arms-Factory",
         "uniqueTo": "The United States of America",
-        "production": 2,
+        "production": 5,
         "maintenance": 2,
         "cost": 150,
         "specialistSlots": {
@@ -3447,7 +3446,7 @@
     {
         "name": "Proto-Factory",
         "uniqueTo": "The United States of America",
-        "production": 2,
+        "production": 5,
         "gold": 2,
         "maintenance": 2,
         "cost": 150,

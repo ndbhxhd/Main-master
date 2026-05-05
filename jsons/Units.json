@@ -45,25 +45,6 @@
         ]
     },
     {
-        "name": "Military Silo Ground Unit",
-        "unitType": "Civilian",
-        "movement": 3,
-        "cost": 600,
-        "requiredResource": "Oil",
-        "requiredTech": "Rocketry",
-        "uniques": [
-            "Can carry [0] [Nuclear Missile] units",
-            "Can build [Nuclear Missile Silo] improvements on tiles",
-            "Can carry [1] extra [Nuclear Missile] units <in [Airfield] tiles> <hidden from users>",
-            "Comment [Allows an airfield to be loaded with aircrafts when standing on one]"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Remarks from mod creator: This is not a moving aircraft carrier on land, but it builds Airfield tiles, and allows Airfield tiles to be loaded with new air units. Moving this unit away from airfield will leave the aircraft onto the airfield tile."
-            }
-        ]
-    },
-    {
         "name": "Missile Silo",
         "unitType": "Silo",
         "movement": 1,
@@ -139,7 +120,7 @@
         "attackSound": "shot"
     },
     {
-        "name": "82nd Airborne Division IRF",
+        "name": "82nd Airborne Division Immediate Response Force",
         "unitType": "Paratrooper",
         "replaces": "Modern Paratrooper",
         "uniqueTo": "The United States of America",
@@ -155,7 +136,7 @@
         "attackSound": "shot"
     },
     {
-        "name": "11th Airborne Division",
+        "name": "11th Airborne Division (Arctic Angels)",
         "unitType": "Paratrooper",
         "uniqueTo": "The United States of America",
         "movement": 3,
@@ -304,8 +285,7 @@
         "name": "B17",
         "unitType": "Bomber",
         "replaces": "Bomber",
-        "uniqueTo": 
-            "The United States of America",
+        "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 70,
         "rangedStrength": 70,
@@ -371,7 +351,7 @@
             "Cannot be carried by [LHD] units",
             "Cannot be carried by [LHA] units",
             "Cannot be carried by [Aircraft Carrier] units",
-            "[+7] Sight"
+            "[+5] Sight"
         ],
         "attackSound": "bombing"
     },
@@ -448,7 +428,7 @@
             "Can only attack [Water] tiles",
             "[+2] Sight",
             "Invisible to others",
-            "Can carry [4] [Missile] units"
+            "Can carry [6] [Missile] units"
         ],
         "attackSound": "torpedo"
     },
@@ -623,74 +603,64 @@
         "name": "Standard Mercenary",
         "unitType": "Mercenary",
         "movement": 2,
-        "strength": 15,
-        "cost": 90,
-        "requiredTech": "Civil Service",
+        "strength": 20,
+        "cost": 190,
+        "requiredTech": "Gunpowder",
         "uniques": [
             "No movement cost to pillage",
             "Unbuildable",
-            "[+20]% Strength <vs [Heavy Cavalry] units>",
-            "[+20]% Strength <vs [Light Cavalry] units>",
-            "[+20]% Strength <vs [Ranged Cavalry] units> <when attacking>",
             "Can move immediately once bought",
-            "[+50]% Strength <vs cities>"
+            "Earn [100]% of killed [Military] unit's [Strength] as [Gold]"
         ],
         "upgradesTo": "Experienced Mercenary",
-        "obsoleteTech": "Gunpowder",
+        "obsoleteTech": "r",
         "attackSound": "metalhit"
     },
     {
         "name": "Experienced Mercenary",
         "unitType": "Mercenary",
         "movement": 2,
-        "strength": 21,
-        "cost": 170,
-        "requiredTech": "Gunpowder",
+        "strength": 31,
+        "cost": 270,
+        "requiredTech": "Rifling",
         "uniques": [
             "No movement cost to pillage",
             "Unbuildable",
-            "[+20]% Strength <vs [Heavy Cavalry] units>",
-            "[+20]% Strength <vs [Light Cavalry] units>",
-            "[+20]% Strength <vs [Ranged Cavalry] units> <when attacking>",
-            "[+20]% Strength <vs [Counter Cavalry] units>",
             "Can move immediately once bought",
-            "[+50]% Strength <vs cities>"
+            "Earn [100]% of killed [Military] unit's [Strength] as [Gold]"
         ],
-        "obsoleteTech": "Rifling",
+        "obsoleteTech": "Replaceable Parts",
         "attackSound": "metalhit"
     },
     {
         "name": "Trained Mercenary",
         "unitType": "Mercenary",
         "movement": 2,
-        "strength": 21,
-        "cost": 170,
-        "requiredTech": "Military Science",
+        "strength": 45,
+        "cost": 370,
+        "requiredTech": "Replaceable Parts",
         "uniques": [
             "No movement cost to pillage",
             "Unbuildable",
-            "[+20]% Strength <vs [Heavy Cavalry] units>",
-            "[+20]% Strength <vs [Light Cavalry] units>",
-            "[+20]% Strength <vs [Ranged Cavalry] units> <when attacking>",
-            "[+20]% Strength <vs [Counter Cavalry] units>",
             "Can move immediately once bought",
-            "[+50]% Strength <vs cities>"
+            "Earn [100]% of killed [Military] unit's [Strength] as [Gold]"
         ],
-        "obsoleteTech": "Replaceable Parts",
+        "obsoleteTech": "Electronics",
         "attackSound": "metalhit"
     },
     {
         "name": "Modern Mercenaries",
         "unitType": "Mercenary",
         "movement": 2,
-        "strength": 55,
-        "cost": 275,
-        "requiredTech": "Pharmaceuticals",
+        "strength": 65,
+        "cost": 465,
+        "requiredTech": "Electronics",
+        "obsoleteTech": "Telecommunications",
         "uniques": [
             "No movement cost to pillage",
             "Unbuildable",
             "Can move immediately once bought",
-            "[+50]% Strength <vs cities>"
+            "Earn [100]% of killed [Military] unit's [Strength] as [Gold]"
         ],
         "attackSound": "metalhit"
     },
@@ -698,14 +668,14 @@
         "name": "Professional Mercenaries",
         "unitType": "Mercenary",
         "movement": 2,
-        "strength": 55,
-        "cost": 275,
-        "requiredTech": "Pharmaceuticals",
+        "strength": 75,
+        "cost": 475,
+        "requiredTech": "Telecommunications",
         "uniques": [
             "No movement cost to pillage",
             "Unbuildable",
             "Can move immediately once bought",
-            "[+50]% Strength <vs cities>"
+            "Earn [100]% of killed [Military] unit's [Strength] as [Gold]"
         ],
         "attackSound": "metalhit"
     },
@@ -3124,24 +3094,6 @@
         "attackSound": "metalhit"
     },
     {
-        "name": "Landsknecht",
-        "unitType": "Sword",
-        "movement": 3,
-        "strength": 16,
-        "cost": 45,
-        "requiredTech": "Civil Service",
-        "uniques": [
-            "[+50]% Strength <vs [Heavy Cavalry] units>",
-            "No movement cost to pillage",
-            "Can be purchased with [Gold] [in all cities]",
-            "Only available <after adopting [Mercenary Army]>",
-            "Mercenary",
-            "Unbuildable"
-        ],
-        "upgradesTo": "Lancer",
-        "attackSound": "metalhit"
-    },
-    {
         "name": "Galleass",
         "unitType": "Naval Ranged",
         "movement": 3,
@@ -3966,23 +3918,6 @@
         "attackSound": "shot"
     },
     {
-        "name": "Foreign Legion",
-        "unitType": "Infantry",
-        "movement": 3,
-        "strength": 72,
-        "cost": 270,
-        "requiredTech": "Replaceable Parts",
-        "upgradesTo": "Infantry",
-        "uniques": [
-            "[+20]% Strength <when fighting in [Foreign Land] tiles>",
-            "Can be purchased with [Gold] [in all cities]",
-            "Only available <after adopting [Mercenary Army]>",
-            "Mercenary",
-            "Unbuildable"
-        ],
-        "attackSound": "shot"
-    },
-    {
         "name": "Triplane",
         "unitType": "Fighter",
         "movement": 1,
@@ -4075,7 +4010,7 @@
         "name": "Wasp cl. Amphibious Assault Ship",
         "uniqueTo": "The United States of America",
         "unitType": "LHD",
-        "movement": 5,
+        "movement": 6,
         "strength": 90,
         "cost": 400,
         "requiredTech": "Electronics",
@@ -4089,7 +4024,7 @@
         "name": "America cl. Amphibious Assault Ship",
         "uniqueTo": "The United States of America",
         "unitType": "LHA",
-        "movement": 4,
+        "movement": 7,
         "strength": 90,
         "cost": 400,
         "requiredTech": "Electronics",
@@ -4305,7 +4240,7 @@
         "name": "Amphibious Combat Vehicle",
         "unitType": "Marines",
         "uniqueTo": "The United States of America",
-        "movement": 4,
+        "movement": 6,
         "strength": 105,
         "cost": 575,
         "requiredTech": "Mobile Tactics",
@@ -4313,7 +4248,7 @@
             "May travel on Water tiles without embarking",
             "Can transform to [US Marine]"
         ],
-        "attackSound": "shot"
+        "attackSound": "tankshot"
     },
     {
         "name": "Fighter",
@@ -4421,7 +4356,7 @@
         "requiredTech": "Distributed Computing",
         "uniques": [
             "Can see invisible [Naval Submarine] units",
-            "Can carry [10] [Missile] units"
+            "Can carry [12] [Missile] units"
         ],
         "attackSound": "shipguns"
     },
@@ -4609,7 +4544,7 @@
         "unitType": "Naval Submarine",
         "uniqueTo": "The United States of America",
         "movement": 10,
-        "strength": 80,
+        "strength": 130,
         "rangedStrength": 100,
         "range": 4,
         "cost": 625,
@@ -4618,6 +4553,7 @@
         "uniques": [
             "[+10] Sight",
             "Invisible to others",
+            "May enter foreign tiles without open borders",
             "Can only attack [Water] tiles",
             "Can carry [10] [Missile] units"
         ],
@@ -5077,7 +5013,7 @@
     {
         "name": "Helicopter Gunship",
         "unitType": "Helicopter",
-        "movement": 8,
+        "movement": 6,
         "strength": 65,
         "cost": 510,
         "requiredTech": "Computers",
@@ -5163,7 +5099,6 @@
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "No defensive terrain bonus",
-            "Cannot attack",
             "Ignores Zone of Control",
             "Can pass through impassable tiles",
             "May travel on Water tiles without embarking"
@@ -5175,16 +5110,16 @@
         "unitType": "Special Operations Forces",
         "uniqueTo": "The United States of America",
         "movement": 10,
-        "strength": 110,
+        "strength": 120,
         "cost": 200,
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "No defensive terrain bonus",
-            "Can carry [6] [Navy SEAL] units",
-            "Cannot attack",
             "Ignores Zone of Control",
             "May travel on Water tiles without embarking",
             "Can pass through impassable tiles",
+            "May enter foreign tiles without open borders",
+            "[+30]% Strength bonus for [Special Operations Forces] units within [3] tiles",
             "May travel on Water tiles without embarking"
         ],
         "attackSound": "machinegun"
@@ -5214,7 +5149,7 @@
         "uniqueTo": "The United States of America",
         "replaces": "Nuclear Submarine",
         "movement": 7,
-        "strength": 60,
+        "strength": 120,
         "rangedStrength": 85,
         "range": 4,
         "cost": 810,
@@ -5223,6 +5158,7 @@
         "uniques": [
             "Can only attack [Water] tiles",
             "[+1] Sight",
+            "May enter foreign tiles without open borders",
             "Invisible to others",
             "Can carry [8] [Nuclear Missile] units"
         ],
@@ -5259,7 +5195,7 @@
         "uniqueTo": "The United States of America",
         "replaces": "Mechanized Infantry",
         "movement": 4,
-        "strength": 100,
+        "strength": 110,
         "cost": 650,
         "requiredTech": "Mobile Tactics",
         "uniques": [
@@ -5891,7 +5827,7 @@
             "Great Person - [War]",
             "Unbuildable"
         ],
-        "movement": 5
+        "movement": 4
     },
     {
         "name": "Great Admiral",
@@ -5904,7 +5840,7 @@
             "Great Person - [Navy]",
             "Unbuildable"
         ],
-        "movement": 6
+        "movement": 8
     },
     {
         "name": "Khan",
