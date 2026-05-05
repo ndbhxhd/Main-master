@@ -304,10 +304,8 @@
         "name": "B17",
         "unitType": "Bomber",
         "replaces": "Bomber",
-        "uniqueTo": [
+        "uniqueTo": 
             "The United States of America",
-            "America"
-        ],
         "movement": 1,
         "strength": 70,
         "rangedStrength": 70,

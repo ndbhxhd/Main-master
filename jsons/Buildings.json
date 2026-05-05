@@ -357,8 +357,7 @@
             "Gain a free [Colosseum] [in this city]",
             "Gain a free [Zoo] [in this city]"
         ],
-        "requiredTech": 
-            "Construction"
+        "requiredTech": "Construction"
     },
     {
         "name": "Classical Expansion",
