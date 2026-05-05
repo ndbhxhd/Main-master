@@ -39,6 +39,12 @@
         ],
         "uniqueName": "American Exceptionalism",
         "uniques": [
+            "[+3 Production] [in all cities]",
+            "[+3 Gold] [in all cities]",
+            "[+3 Food] [in all cities]",
+            "[+3 Happiness] [in all cities]",
+            "[+2 Happiness] from every specialist [in all cities]",
+            "[+2 Food] from every specialist [in all cities]",
             "[Military] units gain the [Absolute Resolve] promotion <hidden from users>",
             "[Bomber] units gain the [Infrastructure Attack] promotion <hidden from users>",
             "[Military] units gain the [Foreign Security] promotion <hidden from users>",
