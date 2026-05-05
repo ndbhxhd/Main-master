@@ -3853,8 +3853,7 @@
     {
         "name": "Terrorist Strength",
         "uniques": [
-            "May capture killed [Military] units <with [90]% chance>",
-            "Can upgrade to [Explorer]"
+            "[+10]% Strength"
         ]
     },
     {
@@ -3862,6 +3861,53 @@
         "uniques": [
             "[+5]% Strength <when defending>",
             "[+1] Sight"
+        ]
+    },
+    {
+        "name": "No Suicide",
+        "uniques": [
+            "Can only attack [Civilian] units",
+            "Can only attack [Military] units",
+            "[+25]% Strength when stacked with [Worker]",
+            "Heals [25] damage if it kills a unit",
+            "This Unit upgrades for free including special upgrades <upon entering the [Classical era]> <with [25]% chance>",
+            "This Unit upgrades for free including special upgrades <upon entering the [Medieval era]> <with [25]% chance>",
+            "This Unit upgrades for free including special upgrades <upon entering the [Renaissance era]> <with [25]% chance>",
+            "This Unit upgrades for free including special upgrades <upon entering the [Industrial era]> <with [50]% chance>",
+            "This Unit upgrades for free including special upgrades <upon entering the [Modern era]> <with [50]% chance>",
+            "This Unit upgrades for free including special upgrades <upon entering the [Atomic era]> <with [75]% chance>",
+            "This Unit upgrades for free including special upgrades <upon entering the [Information era]> <with [100]% chance>"
+        ]
+    },
+    {
+        "name": "Barbarian Civilian",
+        "uniques": [
+            "Can move after attacking",
+            "Ignores Zone of Control",
+            "Can pass through impassable tiles",
+            "Invisible to non-adjacent units",
+            "Unit will heal every turn, even if it performs an action",
+            "Destroys tile improvements when attacking",
+            "All tiles cost 1 movement"
+        ]
+    },
+    {
+        "name": "WWV",
+        "uniques": [
+            "Instantly provides [8] [War Weariness] <upon being defeated> <vs [non-[Barbarians]] units> <in [Friendly Land] tiles> <when at war>",
+            "Instantly provides [20] [War Weariness] <upon being defeated> <vs [non-[Barbarians]] units> <in [non-[Friendly Land]] tiles> <when at war>",
+            "Instantly provides [150] [War Weariness] <upon conquering a city>",
+            "Instantly consumes [16] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Friendly Land] tiles>",
+            "Instantly consumes [8] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Foreign Land] tiles>"
+        ]
+    },
+    {
+        "name": "Fearless",
+        "uniques": [
+            "Instantly provides [50] [War Weariness] <upon conquering a city>",
+            "Instantly consumes [30] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Friendly Land] tiles>",
+            "Instantly consumes [20] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [non-[Friendly Land]] tiles>",
+            "[+33]% Strength <when attacking> <in [Friendly Land] tiles> <with [33]% chance>"
         ]
     }
 ]

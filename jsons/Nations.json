@@ -5697,7 +5697,15 @@
             "[+2] Sight <for [Scout] units>",
             "[+2] Movement <for [Scout] units>",
             "[+50]% Strength <for [All] units>",
-            "[Scout] units gain the [Seek and Capture] promotion"
+            "[Scout] units gain the [Seek and Capture] promotion",
+            "[+33]% Strength <for [Military] units>",
+            "[{Land} {Melee}] units gain the [No Suicide] promotion",
+            "No movement cost to pillage <for [Military] units>",
+            "[+33]% Strength <for [Military] units> <starting from the [Medieval era]>",
+            "When defeating a [non-air] unit, earn [0] Gold and recruit it <with [100]% chance>",
+            "[+33]% Strength <within [3] tiles of a [Barbarian encampment]> <when defending> <starting from the [Industrial era]>",
+            "[+33]% Strength <within [2] tiles of a [Barbarian encampment]> <when defending> <starting from the [Industrial era]>",
+            "[+33]% Strength <within [1] tiles of a [Barbarian encampment]> <when defending> <starting from the [Industrial era]>"
         ]
     }
 ]

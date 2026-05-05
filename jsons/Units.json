@@ -14,6 +14,17 @@
         "cost": 48
     },
     {
+        "name": "Tunnel Worker",
+        "unitType": "Civilian",
+        "movement": 3,
+        "cost": 150,
+        "requiredTech": "Dynamite",
+        "uniques": [
+            "Turn this tile into a [Mountain Tunnel] tile <by consuming this unit> <in [Mountain] tiles>",
+            "Can pass through impassable tiles <hidden from users>"
+        ]
+    },
+    {
         "name": "Merchant",
         "unitType": "Civilian",
         "uniques": [
@@ -131,6 +142,21 @@
         "uniques": [
             "May Paradrop to [Land] tiles up to [45] tiles away <in [{Friendly} {Land}] tiles>",
             "[1] additional attacks per turn",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "shot"
+    },
+    {
+        "name": "101st Airborne Division (Screaming Eagle)",
+        "unitType": "Light Infantry",
+        "uniqueTo": "The United States of America",
+        "movement": 3,
+        "strength": 100,
+        "cost": 450,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "[1] additional attacks per turn",
+            "Can transform to [CH-47 Chinook]",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "shot"
@@ -280,6 +306,26 @@
             "Damage taken from interception reduced by [10]%"
         ],
         "attackSound": "nuke"
+    },
+    {
+        "name": "Suicider",
+        "unitType": "Heavy Cavalry",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 32,
+        "rangedStrength": 32,
+        "range": 1,
+        "cost": 150,
+        "requiredTech": "Atomic Theory",
+        "uniques": [
+            "[+400]% Strength <vs cities> <when attacking>",
+            "[-40]% Strength <vs [Military] units> <when defending>",
+            "Can only attack [City] units",
+            "Self-destructs when attacking",
+            "Nuclear weapon of Strength [1]",
+            "Blast radius [5]"
+        ],
+        "attackSound": "shot"
     },
     {
         "name": "B17",
@@ -613,7 +659,7 @@
             "Earn [100]% of killed [Military] unit's [Strength] as [Gold]"
         ],
         "upgradesTo": "Experienced Mercenary",
-        "obsoleteTech": "r",
+        "obsoleteTech": "Rifling",
         "attackSound": "metalhit"
     },
     {
@@ -4956,7 +5002,7 @@
         "attackSound": "missile"
     },
     {
-        "name": "Nuclear Hypersonic Missile",
+        "name": "Thermonuclear ICBM",
         "unitType": "Nuclear Missile",
         "cost": 1300,
         "strength": 500,
@@ -4965,7 +5011,7 @@
         "requiredTech": "Nuclear Fusion",
         "uniques": [
             "Nuclear weapon of Strength [5]",
-            "Blast radius [2]",
+            "Blast radius [3]",
             "Only available <if [Manhattan Project] is constructed>",
             "Cannot be carried by [Aircraft Carrier] units",
             "Cannot be carried by [Naval Submarine] units",
@@ -5060,9 +5106,8 @@
         "uniqueTo": "The United States of America",
         "movement": 10,
         "strength": 110,
-        "cost": 2000,
+        "cost": 200,
         "requiredTech": "Mobile Tactics",
-        "requiredResource": "Aluminum",
         "uniques": [
             "No defensive terrain bonus",
             "Can move after attacking",
@@ -5082,6 +5127,7 @@
         "requiredTech": "Mobile Tactics",
         "uniques": [
             "No defensive terrain bonus",
+            "Can transform to [101st Airborne Division (Screaming Eagle)]",
             "Cannot attack",
             "Ignores Zone of Control",
             "Can pass through impassable tiles",

@@ -345,6 +345,39 @@
         ]
     },
     {
+        "name": "War Weariness Value",
+        "cost": 1,
+        "isNationalWonder": true,
+        "replacementTextForUniques": "Triggers War Weariness mechanism",
+        "uniques": [
+            "Provides [-75] [War Weariness] <when above [50] [War Weariness]> <every [1] turns> <when not at war>",
+            "Provides [-30] [War Weariness] <when above [1000] [War Weariness]> <every [1] turns> <when at war>",
+            "Provides [-150] [War Weariness] <when above [50] [War Weariness]> <every [1] turns> <when not at war> <for [City-States] Civilizations>",
+            "Provides [-50] [War Weariness] <when above [50] [War Weariness]> <every [1] turns> <when at war> <for [City-States] Civilizations>",
+            "Provides [-100] [War Weariness] <when above [500] [War Weariness]> <for [3] turns> <when not at war>",
+            "Instantly provides [250] [War Weariness] <upon declaring war with a major Civilization>",
+            "Provides [-25] [War Weariness] <upon declaring friendship> <for [1] turns>",
+            "Provides [-20] [War Weariness] <upon declaring friendship> <for [2] turns>",
+            "Provides [-15] [War Weariness] <upon declaring friendship> <for [3] turns>",
+            "Provides [-10] [War Weariness] <upon declaring friendship> <for [4] turns>",
+            "Provides [-5] [War Weariness] <upon declaring friendship> <for [5] turns>",
+            "Instantly consumes [300] [War Weariness] <upon declaring a defensive pact>",
+            "Destroyed when the city is captured",
+            "Moves to new capital when capital changes"
+        ]
+    },
+    {
+        "name": "War Memorial",
+        "maintenance": 3,
+        "uniques": [
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in annexed cities]",
+            "Provides [-10] [War Weariness] <when above [0] [War Weariness]> <every [1] turns> <when not at war>",
+            "Provides [-5] [War Weariness] <when above [500] [War Weariness]> <every [1] turns> <when at war>",
+            "Instantly provides [75] [War Weariness] <upon declaring war with a major Civilization>"
+        ]
+    },
+    {
         "name": "Ancient Expansion",
         "cost": 260,
         "uniques": [
@@ -933,7 +966,6 @@
         "cost": 780,
         "hurryCostModifier": 160,
         "uniques": [
-            "[+25]% Production when constructing [Biotrooper] units [in this city]",
             "Only available <in cities without a [Cyberclinic]>",
             "Only available <in cities with a [Biofactory]>"
         ],
