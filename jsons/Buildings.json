@@ -273,19 +273,13 @@
         "name": "Art Hall",
         "culture": 3,
         "faith": 2,
-        "uniques": [
-            "Unbuildable",
-            "Unsellable"
-        ]
+        "uniques": ["Unbuildable", "Unsellable"]
     },
     {
         "name": "Writing Auditorium",
         "culture": 2,
         "science": 1,
-        "uniques": [
-            "Unbuildable",
-            "Unsellable"
-        ]
+        "uniques": ["Unbuildable", "Unsellable"]
     },
     {
         "name": "Vocal Chamber",
@@ -294,10 +288,7 @@
         "specialistSlots": {
             "Musician": 1
         },
-        "uniques": [
-            "Unbuildable",
-            "Unsellable"
-        ]
+        "uniques": ["Unbuildable", "Unsellable"]
     },
     {
         "name": "Fine Art Specialist",
@@ -328,11 +319,7 @@
         "cityStrength": 7,
         "cityHealth": 50,
         "hurryCostModifier": 25,
-        "uniques": [
-            "Unsellable",
-            "Unbuildable",
-            "Cannot be purchased"
-        ]
+        "uniques": ["Unsellable", "Unbuildable", "Cannot be purchased"]
     },
     {
         "name": "Governor's Mansion",
@@ -379,67 +366,150 @@
     },
     {
         "name": "Ancient Expansion",
-        "cost": 260,
+        "cost": 180,
         "uniques": [
             "Unsellable",
             "Comment [Only when all buildings in this package have not been built, this package is available.]",
+            "Only available <in cities without a [Monument]>",
+            "Only available <in cities without a [Granary]>",
+            "Only available <in cities without a [Shrine]>",
+            "Only available <in cities without a [Library]>",
+            "Only available <in cities without a [Walls]>",
             "Only available <in cities without a [Barracks]>",
-            "Only available <in cities without a [Colosseum]>",
-            "Only available <in cities without a [Zoo]>",
-            "Gain a free [Barracks] [in this city]",
-            "Gain a free [Colosseum] [in this city]",
-            "Gain a free [Zoo] [in this city]"
+            "Gain a free [Monument] [in this city]",
+            "Gain a free [Granary] [in this city]",
+            "Gain a free [Shrine] [in this city]",
+            "Gain a free [Library] [in this city]",
+            "Gain a free [Walls] [in this city]",
+            "Gain a free [Barracks] [in this city]"
         ],
-        "requiredTech": "Construction"
+        "requiredTech": "Chivalry"
     },
     {
         "name": "Classical Expansion",
-        "cost": 180,
-        "uniques": [],
-        "requiredTech": "Electricity",
-        "hurryCostModifier": -25
+        "cost": 450,
+        "uniques": [
+            "Unsellable",
+            "Comment [Only when all buildings in this package have not been built, this package is available.]",
+            "Only available <in cities without a [Lighthouse]>",
+            "Only available <in cities without a [Caravansary]>",
+            "Only available <in cities without a [Colosseum]>",
+            "Only available <in cities without a [Temple]>",
+            "Only available <in cities without a [Amphitheater]>",
+            "Only available <in cities without a [Market]>",
+            "Only available <in cities without a [Aqueduct]>",
+            "Gain a free [Lighthouse] [in this city]",
+            "Gain a free [Caravansary] [in this city]",
+            "Gain a free [Colosseum] [in this city]",
+            "Gain a free [Temple] [in this city]",
+            "Gain a free [Amphitheater] [in this city]",
+            "Gain a free [Market] [in this city]",
+            "Gain a free [Aqueduct] [in this city]"
+        ],
+        "requiredTech": "Economics",
+        "requiredBuilding": "Ancient Expansion"
     },
     {
         "name": "Medieval Expansion",
-        "cost": 220,
-        "uniques": [],
-        "requiredTech": "Electricity",
-        "hurryCostModifier": -25
+        "cost": 505,
+        "uniques": [
+            "Unsellable",
+            "Comment [Only when all buildings in this package have not been built, this package is available.]",
+            "Only available <in cities without a [Mercenary Office]>",
+            "Only available <in cities without a [Workshop]>",
+            "Only available <in cities without a [Harbor]>",
+            "Only available <in cities without a [University]>",
+            "Only available <in cities without a [Castle]>",
+            "Only available <in cities without a [Armory]>",
+            "Gain a free [Mercenary Office] [in this city]",
+            "Gain a free [Workshop] [in this city]",
+            "Gain a free [Harbor] [in this city]",
+            "Gain a free [University] [in this city]",
+            "Gain a free [Castle] [in this city]",
+            "Gain a free [Armory] [in this city]"
+        ],
+        "requiredTech": "Industrialization",
+        "requiredBuilding": "Classical Expansion"
     },
     {
         "name": "Renaissance Expansion",
-        "cost": 340,
-        "uniques": [],
-        "requiredTech": "Electricity",
-        "hurryCostModifier": -25
+        "cost": 730,
+        "uniques": [
+            "Unsellable",
+            "Comment [Only when all buildings in this package have not been built, this package is available.]",
+            "Only available <in cities without a [Observatory]>",
+            "Only available <in cities without a [Opera House]>",
+            "Only available <in cities without a [Bank]>",
+            "Only available <in cities without a [Constabulary]>",
+            "Only available <in cities without a [Zoo]>",
+            "Only available <in cities without a [Seaport]>",
+            "Only available <in cities without a [Windmill]>",
+            "Only available <in cities without a [Arsenal]>",
+            "Gain a free [Observatory] [in this city]",
+            "Gain a free [Opera House] [in this city]",
+            "Gain a free [Bank] [in this city]",
+            "Gain a free [Constabulary] [in this city]",
+            "Gain a free [Zoo] [in this city]",
+            "Gain a free [Seaport] [in this city]",
+            "Gain a free [Windmill] [in this city]",
+            "Gain a free [Arsenal] [in this city]"
+        ],
+        "requiredTech": "Replaceable Parts",
+        "requiredBuilding": "Medieval Expansion"
     },
     {
         "name": "Industrial Expansion",
-        "cost": 365,
-        "uniques": [],
-        "requiredTech": "Electricity",
-        "hurryCostModifier": -25
+        "cost": 425,
+        "uniques": [
+            "Unsellable",
+            "Comment [Only when all buildings in this package have not been built, this package is available.]",
+            "Only available <in cities without a [Museum]>",
+            "Only available <in cities without a [Public School]>",
+            "Only available <in cities without a [Military Academy]>",
+            "Only available <in cities without a [Hospital]>",
+            "Only available <in cities without a [Stock Exchange]>",
+            "Only available <in cities without a [Police Station]>",
+            "Gain a free [Museum] [in this city]",
+            "Gain a free [Public School] [in this city]",
+            "Gain a free [Military Academy] [in this city]",
+            "Gain a free [Hospital] [in this city]",
+            "Gain a free [Stock Exchange] [in this city]",
+            "Gain a free [Police Station] [in this city]"
+        ],
+        "requiredTech": "Nuclear Fission",
+        "requiredBuilding": "Renaissance Expansion"
     },
     {
         "name": "Modern Expansion",
-        "cost": 365,
-        "uniques": [],
-        "requiredTech": "Electricity",
-        "hurryCostModifier": -25
-    },
-    {
-        "name": "Atomic Expansion",
-        "cost": 280,
-        "uniques": [],
-        "requiredTech": "Electricity",
-        "hurryCostModifier": -25
+        "cost": 500,
+        "uniques": [
+            "Unsellable",
+            "Comment [Only when all buildings in this package have not been built, this package is available.]",
+            "Only available <in cities without a [Stadium]>",
+            "Only available <in cities without a [Broadcast Tower]>",
+            "Only available <in cities without a [Military Base]>",
+            "Only available <in cities without a [Coastal Artillery]>",
+            "Only available <in cities without a [Research Lab]>",
+            "Gain a free [Stadium] [in this city]",
+            "Gain a free [Broadcast Tower] [in this city]",
+            "Gain a free [Military Base] [in this city]",
+            "Gain a free [Coastal Artillery] [in this city]",
+            "Gain a free [Research Lab] [in this city]"
+        ],
+        "requiredTech": "Robotics",
+        "requiredBuilding": "Industrial Expansion"
     },
     {
         "name": "Information Expansion",
-        "cost": 315,
-        "uniques": [],
-        "requiredTech": "Education",
-        "hurryCostModifier": -25
+        "cost": 300,
+        "uniques": [
+            "Unsellable",
+            "Comment [Only when all buildings in this package have not been built, this package is available.]",
+            "Only available <in cities without a [Bomb Shelter]>",
+            "Gain a free [Bomb Shelter] [in this city]"
+        ],
+        "requiredTech": "Orbital Development",
+        "requiredBuilding": "Modern Expansion"
     },
     {
         "name": "Palace",
@@ -589,9 +659,7 @@
         "percentStatBonus": {
             "production": 15
         },
-        "uniques": [
-            "Must have an owned [Mountain] within [3] tiles"
-        ],
+        "uniques": ["Must have an owned [Mountain] within [3] tiles"],
         "requiredBuilding": "Factory",
         "requiredTech": "Environmentalism"
     },
@@ -653,9 +721,7 @@
         "percentStatBonus": {
             "production": 15
         },
-        "uniques": [
-            "Must be next to [Coast]"
-        ],
+        "uniques": ["Must be next to [Coast]"],
         "requiredBuilding": "Factory",
         "requiredTech": "Environmentalism"
     },
@@ -679,9 +745,7 @@
         "name": "VR Training Centre",
         "cost": 660,
         "hurryCostModifier": 160,
-        "uniques": [
-            "New [Military] units start with [20] XP [in this city]"
-        ],
+        "uniques": ["New [Military] units start with [20] XP [in this city]"],
         "requiredBuilding": "Military Academy",
         "requiredTech": "Memetics"
     },
@@ -758,10 +822,7 @@
         "name": "Converter",
         "cost": 660,
         "hurryCostModifier": 160,
-        "requiredNearbyImprovedResources": [
-            "Coal",
-            "Oil"
-        ],
+        "requiredNearbyImprovedResources": ["Coal", "Oil"],
         "uniques": [
             "[+2 Gold] from [Coal] tiles [in this city]",
             "[+2 Gold] from [Oil] tiles [in this city]",
@@ -916,18 +977,14 @@
             "production": 20
         },
         "production": 7,
-        "uniques": [
-            "[+1 Production] per [4] population [in this city]"
-        ],
+        "uniques": ["[+1 Production] per [4] population [in this city]"],
         "requiredBuilding": "Nuclear Plant",
         "requiredTech": "Nuclear Fusion"
     },
     {
         "name": "Aerospace Complex",
         "hurryCostModifier": 25,
-        "uniques": [
-            "Can carry [6] extra [Air] units"
-        ],
+        "uniques": ["Can carry [6] extra [Air] units"],
         "requiredTech": "Arcologies"
     },
     {
@@ -1125,9 +1182,7 @@
         "percentStatBonus": {
             "science": 100
         },
-        "uniques": [
-            "[+1 Science] per [3] population [in this city]"
-        ],
+        "uniques": ["[+1 Science] per [3] population [in this city]"],
         "requiredTech": "Particle Physics"
     },
     {
@@ -1171,10 +1226,7 @@
             "Great Merchant": 2
         },
         "culture": 2,
-        "uniques": [
-            "Gain [1000] [Gold]",
-            "[+2 Gold] from every [Merchant]"
-        ],
+        "uniques": ["Gain [1000] [Gold]", "[+2 Gold] from every [Merchant]"],
         "requiredTech": "Globalization"
     },
     {
@@ -1183,9 +1235,7 @@
         "gold": 3,
         "culture": 2,
         "happiness": 4,
-        "uniques": [
-            "[+1 Gold, +1 Culture] from every [Broadcast Tower]"
-        ],
+        "uniques": ["[+1 Gold, +1 Culture] from every [Broadcast Tower]"],
         "requiredTech": "Memetics"
     },
     {
@@ -1236,9 +1286,7 @@
     {
         "name": "Mnemosyne Facility",
         "isWonder": true,
-        "uniques": [
-            "New [Military] units start with [50] XP [in this city]"
-        ],
+        "uniques": ["New [Military] units start with [50] XP [in this city]"],
         "requiredTech": "Cybernetics"
     },
     {
@@ -1266,9 +1314,7 @@
     {
         "name": "Skynet",
         "isWonder": true,
-        "uniques": [
-            "[+30]% Strength <for [All] units>"
-        ],
+        "uniques": ["[+30]% Strength <for [All] units>"],
         "requiredTech": "Artificial Intelligence"
     },
     {
@@ -1293,9 +1339,7 @@
         "percentStatBonus": {
             "culture": 20
         },
-        "uniques": [
-            "Free [Great Artist] appears"
-        ],
+        "uniques": ["Free [Great Artist] appears"],
         "requiredTech": "Cognitive Technology"
     },
     {
@@ -1489,9 +1533,7 @@
         "cost": 40,
         "hurryCostModifier": 40,
         "maintenance": 1,
-        "uniques": [
-            "Destroyed when the city is captured"
-        ]
+        "uniques": ["Destroyed when the city is captured"]
     },
     {
         "name": "Town Square",
@@ -1501,9 +1543,7 @@
         "happiness": 1,
         "cost": 30,
         "maintenance": 1,
-        "uniques": [
-            "Destroyed when the city is captured"
-        ]
+        "uniques": ["Destroyed when the city is captured"]
     },
     {
         "name": "Granary",
@@ -1558,9 +1598,7 @@
         "cost": 40,
         "maintenance": 1,
         "requiredTech": "Pottery",
-        "uniques": [
-            "Only available <when religion is enabled>"
-        ]
+        "uniques": ["Only available <when religion is enabled>"]
     },
     {
         "name": "Community Hall",
@@ -1572,9 +1610,7 @@
         "cost": 30,
         "maintenance": 1,
         "requiredTech": "Pottery",
-        "uniques": [
-            "Destroyed when the city is captured"
-        ]
+        "uniques": ["Destroyed when the city is captured"]
     },
     {
         "name": "Pyramid",
@@ -1585,9 +1621,7 @@
         "cost": 40,
         "maintenance": 1,
         "requiredTech": "Pottery",
-        "uniques": [
-            "Only available <when religion is enabled>"
-        ]
+        "uniques": ["Only available <when religion is enabled>"]
     },
     {
         "name": "Temple of Artemis",
@@ -1598,9 +1632,7 @@
         "greatPersonPoints": {
             "Great Engineer": 1
         },
-        "uniques": [
-            "Only available <after adopting [Honor]>"
-        ],
+        "uniques": ["Only available <after adopting [Honor]>"],
         "requiredTech": "Archery",
         "quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
     },
@@ -1608,11 +1640,7 @@
         "name": "Stone Works",
         "happiness": 1,
         "production": 1,
-        "requiredNearbyImprovedResources": [
-            "Marble",
-            "Stone",
-            "Obsidian"
-        ],
+        "requiredNearbyImprovedResources": ["Marble", "Stone", "Obsidian"],
         "maintenance": 1,
         "hurryCostModifier": 0,
         "uniques": [
@@ -1641,9 +1669,7 @@
         "name": "Library",
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": [
-            "[+1 Science] per [2] population [in this city]"
-        ],
+        "uniques": ["[+1 Science] per [2] population [in this city]"],
         "requiredTech": "Writing"
     },
     {
@@ -1654,9 +1680,7 @@
         "culture": 1,
         "cost": 30,
         "maintenance": 1,
-        "uniques": [
-            "[+1 Science] per [2] population [in this city]"
-        ],
+        "uniques": ["[+1 Science] per [2] population [in this city]"],
         "requiredTech": "Writing"
     },
     {
@@ -1665,9 +1689,7 @@
         "uniqueTo": "China",
         "hurryCostModifier": 25,
         "gold": 2,
-        "uniques": [
-            "[+1 Science] per [2] population [in this city]"
-        ],
+        "uniques": ["[+1 Science] per [2] population [in this city]"],
         "requiredTech": "Writing"
     },
     {
@@ -1746,9 +1768,7 @@
         "food": 2,
         "production": 1,
         "hurryCostModifier": 25,
-        "uniques": [
-            "Must be on [River]"
-        ],
+        "uniques": ["Must be on [River]"],
         "requiredTech": "The Wheel"
     },
     {
@@ -1774,9 +1794,7 @@
         "cityHealth": 50,
         "hurryCostModifier": 25,
         "requiredTech": "Masonry",
-        "uniques": [
-            "Destroyed when the city is captured"
-        ]
+        "uniques": ["Destroyed when the city is captured"]
     },
     {
         "name": "Walls of Babylon",
@@ -1787,9 +1805,7 @@
         "cityHealth": 100,
         "hurryCostModifier": 25,
         "requiredTech": "Masonry",
-        "uniques": [
-            "Destroyed when the city is captured"
-        ]
+        "uniques": ["Destroyed when the city is captured"]
     },
     {
         "name": "The Pyramids",
@@ -1930,11 +1946,7 @@
     {
         "name": "Stable",
         "maintenance": 1,
-        "requiredNearbyImprovedResources": [
-            "Horses",
-            "Sheep",
-            "Cattle"
-        ],
+        "requiredNearbyImprovedResources": ["Horses", "Sheep", "Cattle"],
         "hurryCostModifier": 25,
         "uniques": [
             "[+1 Production] from [Cattle] tiles [in this city]",
@@ -1948,11 +1960,7 @@
         "replaces": "Stable",
         "uniqueTo": "Argentina",
         "maintenance": 1,
-        "requiredNearbyImprovedResources": [
-            "Horses",
-            "Sheep",
-            "Cattle"
-        ],
+        "requiredNearbyImprovedResources": ["Horses", "Sheep", "Cattle"],
         "hurryCostModifier": 25,
         "uniques": [
             "[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
@@ -1965,11 +1973,7 @@
         "name": "Ducal Stable",
         "replaces": "Stable",
         "uniqueTo": "Poland",
-        "requiredNearbyImprovedResources": [
-            "Horses",
-            "Sheep",
-            "Cattle"
-        ],
+        "requiredNearbyImprovedResources": ["Horses", "Sheep", "Cattle"],
         "hurryCostModifier": 25,
         "uniques": [
             "[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
@@ -1985,9 +1989,7 @@
         "happiness": 5,
         "culture": 1,
         "isNationalWonder": true,
-        "uniques": [
-            "Cost increases by [30] per owned city"
-        ],
+        "uniques": ["Cost increases by [30] per owned city"],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -2130,9 +2132,7 @@
         "percentStatBonus": {
             "science": 50
         },
-        "uniques": [
-            "Cost increases by [30] per owned city"
-        ],
+        "uniques": ["Cost increases by [30] per owned city"],
         "requiredTech": "Philosophy"
     },
     {
@@ -2165,9 +2165,7 @@
             "Great Scientist": 1
         },
         "isWonder": true,
-        "uniques": [
-            "Free Social Policy"
-        ],
+        "uniques": ["Free Social Policy"],
         "requiredTech": "Philosophy",
         "quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
     },
@@ -2378,11 +2376,7 @@
     {
         "name": "Mint",
         "gold": 2,
-        "requiredNearbyImprovedResources": [
-            "Gold Ore",
-            "Silver",
-            "Copper"
-        ],
+        "requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Copper"],
         "hurryCostModifier": 25,
         "uniques": [
             "[+2 Gold] from [Gold Ore] tiles [in this city]",
@@ -2479,11 +2473,7 @@
         "cost": 75,
         "culture": 2,
         "maintenance": 1,
-        "requiredNearbyImprovedResources": [
-            "Incense",
-            "Tobacco",
-            "Perfume"
-        ],
+        "requiredNearbyImprovedResources": ["Incense", "Tobacco", "Perfume"],
         "hurryCostModifier": 25,
         "uniques": [
             "[+1 Culture] from [Incense] tiles [in this city]",
@@ -2577,9 +2567,7 @@
             "Great Engineer": 1
         },
         "isWonder": true,
-        "uniques": [
-            "[+50]% Golden Age length"
-        ],
+        "uniques": ["[+50]% Golden Age length"],
         "requiredTech": "Civil Service",
         "quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
     },
@@ -2696,9 +2684,7 @@
         "name": "Forge",
         "maintenance": 1,
         "hurryCostModifier": 25,
-        "requiredNearbyImprovedResources": [
-            "Iron"
-        ],
+        "requiredNearbyImprovedResources": ["Iron"],
         "requiredTech": "Metal Casting",
         "uniques": [
             "[+15]% Production when constructing [Land] units [in this city]",
@@ -2754,9 +2740,7 @@
             "Scientist": 2
         },
         "requiredBuilding": "Library",
-        "uniques": [
-            "[+2 Science] from [Jungle] tiles [in this city]"
-        ],
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
         "requiredTech": "Education"
     },
     {
@@ -2827,9 +2811,7 @@
             "Great Scientist": 1
         },
         "isWonder": true,
-        "uniques": [
-            "Gain a free [University] [in this city]"
-        ],
+        "uniques": ["Gain a free [University] [in this city]"],
         "requiredTech": "Education",
         "quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
     },
@@ -2840,9 +2822,7 @@
         "hurryCostModifier": 25,
         "requiredBuilding": "Walls",
         "requiredTech": "Chivalry",
-        "uniques": [
-            "Destroyed when the city is captured"
-        ]
+        "uniques": ["Destroyed when the city is captured"]
     },
     {
         "name": "Mughal Fort",
@@ -2867,9 +2847,7 @@
         "percentStatBonus": {
             "culture": 20
         },
-        "uniques": [
-            "Gain a free [Castle] [in this city]"
-        ],
+        "uniques": ["Gain a free [Castle] [in this city]"],
         "requiredTech": "Chivalry",
         "quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
     },
@@ -2899,9 +2877,7 @@
         "production": 8,
         "culture": 1,
         "isNationalWonder": true,
-        "uniques": [
-            "Cost increases by [30] per owned city"
-        ],
+        "uniques": ["Cost increases by [30] per owned city"],
         "requiredTech": "Machinery"
     },
     {
@@ -3174,9 +3150,7 @@
         "name": "Leaning Tower of Pisa",
         "culture": 1,
         "isWonder": true,
-        "uniques": [
-            "[+20]% Great Person generation [in all cities]"
-        ],
+        "uniques": ["[+20]% Great Person generation [in all cities]"],
         "requiredTech": "Printing Press",
         "quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
     },
@@ -3304,9 +3278,7 @@
         "culture": 1,
         "happiness": 4,
         "isWonder": true,
-        "uniques": [
-            "Empire enters golden age"
-        ],
+        "uniques": ["Empire enters golden age"],
         "requiredTech": "Architecture",
         "quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
     },
@@ -3415,12 +3387,7 @@
         "cost": 100,
         "production": 1,
         "maintenance": 2,
-        "requiredNearbyImprovedResources": [
-            "Cotton",
-            "Silk",
-            "Dyes",
-            "Furs"
-        ],
+        "requiredNearbyImprovedResources": ["Cotton", "Silk", "Dyes", "Furs"],
         "hurryCostModifier": 25,
         "uniques": [
             "[+2 Production] from [Dyes] tiles [in this city]",
@@ -3438,9 +3405,7 @@
         "hurryCostModifier": 25,
         "requiredBuilding": "Castle",
         "requiredTech": "Metallurgy",
-        "uniques": [
-            "Destroyed when the city is captured"
-        ]
+        "uniques": ["Destroyed when the city is captured"]
     },
     {
         "name": "Red Fort",
@@ -3451,9 +3416,7 @@
             "Great Scientist": 1
         },
         "isWonder": true,
-        "uniques": [
-            "[+45]% City Strength from defensive buildings"
-        ],
+        "uniques": ["[+45]% City Strength from defensive buildings"],
         "requiredTech": "Metallurgy",
         "quote": "'When we build, let us think that we build forever.' - John Ruskin"
     },
@@ -3788,14 +3751,10 @@
     },
     {
         "name": "Oil Refinery",
-        "requiredNearbyImprovedResources": [
-            "Oil"
-        ],
+        "requiredNearbyImprovedResources": ["Oil"],
         "cost": 200,
         "hurryCostModifier": 25,
-        "uniques": [
-            "[+3 Production, +3 Gold] from [Oil] tiles [in this city]"
-        ],
+        "uniques": ["[+3 Production, +3 Gold] from [Oil] tiles [in this city]"],
         "requiredTech": "Biology"
     },
     {
@@ -3826,9 +3785,7 @@
         },
         "hurryCostModifier": 15,
         "requiredBuilding": "Bank",
-        "uniques": [
-            "[+1 Gold] from [River] tiles [in this city]"
-        ],
+        "uniques": ["[+1 Gold] from [River] tiles [in this city]"],
         "requiredTech": "Electricity"
     },
     {
@@ -3869,9 +3826,7 @@
         },
         "isWonder": true,
         "requiredTech": "Electricity",
-        "uniques": [
-            "Gain a free [Stock Exchange] [in this city]"
-        ],
+        "uniques": ["Gain a free [Stock Exchange] [in this city]"],
         "quote": "'Greed, for lack of a better word, is good.'— Gordon Gekko"
     },
     {
@@ -3888,9 +3843,7 @@
         "happiness": 3,
         "culture": 3,
         "cost": 250,
-        "uniques": [
-            "[+2 Gold] from [Mountain] tiles [in this city]"
-        ],
+        "uniques": ["[+2 Gold] from [Mountain] tiles [in this city]"],
         "requiredTech": "Electricity"
     },
     {
@@ -3942,9 +3895,7 @@
             "Great Merchant": 2
         },
         "isWonder": true,
-        "uniques": [
-            "Gain a free [Broadcast Tower] [in this city]"
-        ],
+        "uniques": ["Gain a free [Broadcast Tower] [in this city]"],
         "requiredTech": "Radio",
         "quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
     },
@@ -4035,9 +3986,7 @@
         "hurryCostModifier": 25,
         "requiredBuilding": "Arsenal",
         "requiredTech": "Replaceable Parts",
-        "uniques": [
-            "Destroyed when the city is captured"
-        ]
+        "uniques": ["Destroyed when the city is captured"]
     },
     {
         "name": "Coastal Artillery",
@@ -4142,9 +4091,7 @@
         "name": "Cristo Redentor",
         "culture": 7,
         "isWonder": true,
-        "uniques": [
-            "[-17]% Culture cost of adopting new Policies"
-        ],
+        "uniques": ["[-17]% Culture cost of adopting new Policies"],
         "requiredTech": "Plastics",
         "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
     },
@@ -4203,9 +4150,7 @@
         "greatPersonPoints": {
             "Great Engineer": 2
         },
-        "uniques": [
-            "[+50]% Strength <for [All] units>"
-        ],
+        "uniques": ["[+50]% Strength <for [All] units>"],
         "requiredTech": "Combined Arms",
         "quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
     },
@@ -4281,9 +4226,7 @@
         "maintenance": 3,
         "requiredResource": "Uranium",
         "requiredTech": "Nuclear Fission",
-        "uniques": [
-            "Only available <in cities without a [Solar Plant]>"
-        ]
+        "uniques": ["Only available <in cities without a [Solar Plant]>"]
     },
     {
         "name": "Apollo Program",
@@ -4388,9 +4331,7 @@
         "production": 6,
         "isNationalWonder": true,
         "requiredTech": "Computers",
-        "uniques": [
-            "Provides [3] [Secret Project]"
-        ]
+        "uniques": ["Provides [3] [Secret Project]"]
     },
     {
         "name": "Bomb Shelter",
