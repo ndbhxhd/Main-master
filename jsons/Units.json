@@ -21,7 +21,7 @@
         "requiredTech": "Dynamite",
         "uniques": [
             "Turn this tile into a [Mountain Tunnel] tile <by consuming this unit> <in [Mountain] tiles>",
-            "Can pass through impassable tiles <hidden from users>"
+"Can pass through impassable tiles"
         ]
     },
     {
