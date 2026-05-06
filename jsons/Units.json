@@ -21,7 +21,7 @@
         "requiredTech": "Dynamite",
         "uniques": [
             "Turn this tile into a [Mountain Tunnel] tile <by consuming this unit> <in [Mountain] tiles>",
-"Can pass through impassable tiles"
+            "Can pass through impassable tiles"
         ]
     },
     {
@@ -802,7 +802,7 @@
         "strength": 18,
         "cost": 120,
         "requiredTech": "Chivalry",
-        "obsoleteTech": "Gunpowder",
+        "obsoleteTech": "Military Science",
         "upgradesTo": "Cavalry",
         "requiredResource": "Horses",
         "uniques": [
@@ -1443,7 +1443,7 @@
         "range": 3,
         "cost": 375,
         "requiredTech": "Ballistics",
-        "obsoleteTech": "Rocketry",
+        "obsoleteTech": "Advanced Ballistics",
         "upgradesTo": "Rocket Artillery",
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
@@ -2532,7 +2532,7 @@
         "cost": 375,
         "requiredTech": "Ballistics",
         "upgradesTo": "Mobile SAM",
-        "obsoleteTech": "Rocketry",
+        "obsoleteTech": "Advanced Ballistics",
         "uniques": [
             "[+150]% Strength <vs [Helicopter] units>"
         ],
@@ -3875,7 +3875,7 @@
         "cost": 320,
         "requiredTech": "Dynamite",
         "upgradesTo": "Rocket Artillery",
-        "obsoleteTech": "Rocketry",
+        "obsoleteTech": "Advanced Ballistics",
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
@@ -4170,7 +4170,7 @@
         "cost": 410,
         "requiredTech": "Ballistics",
         "upgradesTo": "Mobile SAM",
-        "obsoleteTech": "Rocketry",
+        "obsoleteTech": "Advanced Ballistics",
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+150]% Strength <vs [Air] units>",
