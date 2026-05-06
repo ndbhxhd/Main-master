@@ -376,7 +376,7 @@
             "Gain a free [Walls] [in this city]",
             "Gain a free [Barracks] [in this city]"
         ],
-        "requiredTech": "Chivalry"
+        "requiredTech": "Construction"
     },
     {
         "name": "Classical Expansion",
@@ -391,7 +391,7 @@
             "Gain a free [Market] [in this city]",
             "Gain a free [Aqueduct] [in this city]"
         ],
-        "requiredTech": "Economics",
+        "requiredTech": "Civil Service",
         "requiredBuilding": "Ancient Expansion"
     },
     {
@@ -406,7 +406,7 @@
             "Gain a free [Castle] [in this city]",
             "Gain a free [Armory] [in this city]"
         ],
-        "requiredTech": "Industrialization",
+        "requiredTech": "Printing Press",
         "requiredBuilding": "Classical Expansion"
     },
     {
@@ -423,7 +423,7 @@
             "Gain a free [Windmill] [in this city]",
             "Gain a free [Arsenal] [in this city]"
         ],
-        "requiredTech": "Replaceable Parts",
+        "requiredTech": "Industrialization",
         "requiredBuilding": "Medieval Expansion"
     },
     {
@@ -438,7 +438,7 @@
             "Gain a free [Stock Exchange] [in this city]",
             "Gain a free [Police Station] [in this city]"
         ],
-        "requiredTech": "Nuclear Fission",
+        "requiredTech": "Replaceable Parts",
         "requiredBuilding": "Renaissance Expansion"
     },
     {
@@ -452,7 +452,7 @@
             "Gain a free [Coastal Artillery] [in this city]",
             "Gain a free [Research Lab] [in this city]"
         ],
-        "requiredTech": "Robotics",
+        "requiredTech": "Pharmaceuticals",
         "requiredBuilding": "Industrial Expansion"
     },
     {
