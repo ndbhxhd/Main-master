@@ -150,7 +150,6 @@
     {
         "name": "Loitering Munitions",
         "uniques": [
-            "Kamikaze Drone",
             "Self-destructs when attacking"
         ],
         "movementType": "Air"
