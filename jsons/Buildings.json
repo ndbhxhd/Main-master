@@ -463,6 +463,118 @@
         "requiredBuilding": "Modern Expansion"
     },
     {
+        "name": "Manufacturing City",
+        "cost": 400,
+        "production": 5,
+        "percentStatBonus": { "production": 100 },
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Only available <in cities without a [Economic City]>",
+            "Only available <in cities without a [Cultural City]>",
+            "Only available <in cities without a [Religious City]>",
+            "Only available <in cities without a [Scientific City]>",
+            "Only available <in cities without a [Military City]>",
+            "Only available <in cities without a [Agricultural City]>"
+        ],
+        "requiredTech": "Construction"
+    },
+    {
+        "name": "Economic City",
+        "cost": 400,
+        "gold": 5,
+        "percentStatBonus": { "gold": 100 },
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Only available <in cities without a [Manufacturing City]>",
+            "Only available <in cities without a [Cultural City]>",
+            "Only available <in cities without a [Religious City]>",
+            "Only available <in cities without a [Scientific City]>",
+            "Only available <in cities without a [Military City]>",
+            "Only available <in cities without a [Agricultural City]>"
+        ],
+        "requiredTech": "Currency"
+    },
+    {
+        "name": "Cultural City",
+        "cost": 400,
+        "culture": 5,
+        "percentStatBonus": { "culture": 100 },
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Only available <in cities without a [Economic City]>",
+            "Only available <in cities without a [Manufacturing City]>",
+            "Only available <in cities without a [Religious City]>",
+            "Only available <in cities without a [Scientific City]>",
+            "Only available <in cities without a [Military City]>",
+            "Only available <in cities without a [Agricultural City]>"
+        ],
+        "requiredTech": "Philosophy"
+    },
+    {
+        "name": "Religious City",
+        "cost": 400,
+        "faith": 5,
+        "percentStatBonus": { "faith": 100 },
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Only available <in cities without a [Economic City]>",
+            "Only available <in cities without a [Cultural City]>",
+            "Only available <in cities without a [Manufacturing City]>",
+            "Only available <in cities without a [Scientific City]>",
+            "Only available <in cities without a [Military City]>",
+            "Only available <in cities without a [Agricultural City]>"
+        ],
+        "requiredTech": "Calendar"
+    },
+    {
+        "name": "Scientific City",
+        "cost": 300,
+        "science": 5,
+        "percentStatBonus": { "science": 100 },
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Only available <in cities without a [Economic City]>",
+            "Only available <in cities without a [Cultural City]>",
+            "Only available <in cities without a [Religious City]>",
+            "Only available <in cities without a [Manufacturing City]>",
+            "Only available <in cities without a [Military City]>",
+            "Only available <in cities without a [Agricultural City]>"
+        ],
+        "requiredTech": "Education"
+    },
+    {
+        "name": "Agricultural City",
+        "cost": 400,
+        "food": 5,
+        "percentStatBonus": { "food": 100 },
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Only available <in cities without a [Economic City]>",
+            "Only available <in cities without a [Cultural City]>",
+            "Only available <in cities without a [Religious City]>",
+            "Only available <in cities without a [Scientific City]>",
+            "Only available <in cities without a [Military City]>",
+            "Only available <in cities without a [Manufacturing City]>"
+        ],
+        "requiredTech": "Agriculture"
+    },
+    {
+        "name": "Military City",
+        "cost": 400,
+        "uniques": [
+            "[+100]% Production when constructing [Military] units [in this city]",
+            "New [Military] units start with [30] XP [in this city]",
+            "Destroyed when the city is captured",
+            "Only available <in cities without a [Economic City]>",
+            "Only available <in cities without a [Cultural City]>",
+            "Only available <in cities without a [Religious City]>",
+            "Only available <in cities without a [Scientific City]>",
+            "Only available <in cities without a [Agriculture City]>",
+            "Only available <in cities without a [Manufacturing City]>"
+        ],
+        "requiredTech": "Iron Working"
+    },
+    {
         "name": "Palace",
         "isNationalWonder": true,
         "production": 1,
@@ -1133,7 +1245,7 @@
         "percentStatBonus": {
             "science": 100
         },
-        "uniques": ["[+1 Science] per [3] population [in this city]"],
+        "uniques": ["[+1 Science] per [3] population [in all cities]"],
         "requiredTech": "Particle Physics"
     },
     {
@@ -1143,7 +1255,7 @@
             "Great Engineer": 2
         },
         "uniques": [
-            "[+1 Gold, +1 Production] from [Desert] tiles [in this city]",
+            "[+1 Gold, +1 Production] from [Desert] tiles [in all cities]",
             "[+100]% Yield from every [Solar Plant]",
             "Gain a free [Solar Plant] [in this city]",
             "Must be next to [Desert]"
@@ -1177,7 +1289,7 @@
             "Great Merchant": 2
         },
         "culture": 2,
-        "uniques": ["Gain [1000] [Gold]", "[+2 Gold] from every [Merchant]"],
+        "uniques": ["Gain [500] [Gold]", "[+3 Gold] from every [Merchant]"],
         "requiredTech": "Globalization"
     },
     {
@@ -1228,8 +1340,8 @@
         },
         "uniques": [
             "[+2 Gold] from every [Server Hub]",
-            "[+2 Culture, +2 Science] from [Tundra] tiles [in this city]",
-            "[+2 Culture, +2 Science] from [Snow] tiles [in this city]",
+            "[+2 Culture, +2 Science] from [Tundra] tiles [in all cities]",
+            "[+2 Culture, +2 Science] from [Snow] tiles [in all cities]",
             "Must be next to [Tundra]"
         ],
         "requiredTech": "Neural Interface"
@@ -1237,7 +1349,7 @@
     {
         "name": "Mnemosyne Facility",
         "isWonder": true,
-        "uniques": ["New [Military] units start with [50] XP [in this city]"],
+        "uniques": ["New [Military] units start with [50] XP [in all cities]"],
         "requiredTech": "Cybernetics"
     },
     {
@@ -1332,9 +1444,9 @@
             "Great Scientist": 3
         },
         "uniques": [
-            "[+3 Culture, +3 Gold] from [Coast] tiles [in this city]",
-            "[+3 Culture, +3 Gold] from [Ocean] tiles [in this city]",
-            "[+2 Culture, +2 Gold, +1 Food, +1 Production] from [Atoll] tiles [in this city]",
+            "[+3 Culture, +3 Gold] from [Coast] tiles [in all cities]",
+            "[+3 Culture, +3 Gold] from [Ocean] tiles [in all cities]",
+            "[+2 Culture, +2 Gold, +1 Food, +1 Production] from [Atoll] tiles [in all cities]",
             "Must be next to [Coast]",
             "Hyperstructure",
             "Consumes [2] [Nanomaterial]",
@@ -1385,7 +1497,7 @@
         },
         "happiness": 10,
         "uniques": [
-            "[+2] population [in all cities]",
+            "[+4] population [in all cities]",
             "Hyperstructure",
             "Consumes [2] [Nanomaterial]",
             "Only available <in cities without a [Hyperstructure]>"
@@ -1405,8 +1517,7 @@
         "uniques": [
             "[+15]% [Production] from every [Geothermal Plant]",
             "[+1 Production, +1 Gold] from every [Mine]",
-            "Only available <in cities with a [Geothermal Plant]>",
-            "Cost increases by [30] per owned city"
+            "Only available <in cities with a [Geothermal Plant]>"
         ],
         "requiredTech": "Autonomous Systems"
     },
@@ -1418,8 +1529,7 @@
             "[+6 Culture] from every [Information Hub]",
             "[+6 Production] from every [Distribution Hub]",
             "[+6 Gold] from every [Metroplex Hub]",
-            "Only available <in [Capital] cities>",
-            "Cost increases by [30] per owned city"
+            "Only available <in [Capital] cities>"
         ],
         "requiredTech": "Autonomous Systems"
     },
@@ -1435,11 +1545,10 @@
             "Scientist": 2
         },
         "uniques": [
-            "[+15]% Production when constructing [Air] units [in this city]",
-            "[+15]% Production when constructing [Missile] units [in this city]",
-            "[+15]% Production when constructing [Helicopter] units [in this city]",
-            "Consumes [2] [Aluminum]",
-            "Cost increases by [30] per owned city"
+            "[+25]% Production when constructing [Air] units [in all cities]",
+            "[+25]% Production when constructing [Missile] units [in all cities]",
+            "[+25]% Production when constructing [Helicopter] units [in all cities]",
+            "Consumes [2] [Aluminum]"
         ],
         "requiredTech": "Stealth"
     },
@@ -1456,8 +1565,7 @@
             "[+6 Production] from every [Fusion Reactor]",
             "[+6 Gold] from every [Comm Module]",
             "Only available <in cities with a [Space Station]>",
-            "Consumes [2] [Nanomaterial]",
-            "Cost increases by [30] per owned city"
+            "Consumes [2] [Nanomaterial]"
         ],
         "requiredTech": "Energy Theory"
     },
@@ -1473,8 +1581,7 @@
             "Free [Great Scientist] appears",
             "[+2 Gold] from every [Academy]",
             "[+2 Science] from every [Academy] <after discovering [Artificial Intelligence]>",
-            "[+2 Gold] from every [Academy] <after discovering [Energy Theory]>",
-            "Cost increases by [30] per owned city"
+            "[+2 Gold] from every [Academy] <after discovering [Energy Theory]>"
         ],
         "requiredTech": "Particle Physics"
     },
@@ -1576,9 +1683,9 @@
     },
     {
         "name": "Temple of Artemis",
-        "culture": 3,
-        "gold": 3,
-        "production": 3,
+        "culture": 5,
+        "gold": 5,
+        "production": 5,
         "isWonder": true,
         "greatPersonPoints": {
             "Great Engineer": 1
@@ -1782,9 +1889,9 @@
         "isWonder": true,
         "uniques": [
             "Gain [100] [Gold] <upon expending a [Great Person] unit>",
-            "[+2 Gold] from [Marble] tiles [in this city]",
-            "[+2 Gold] from [Stone] tiles [in this city]",
-            "[+2 Gold] from [Obsidian] tiles [in this city]"
+            "[+2 Gold] from [Marble] tiles [in all cities]",
+            "[+2 Gold] from [Stone] tiles [in all cities]",
+            "[+2 Gold] from [Obsidian] tiles [in all cities]"
         ],
         "requiredTech": "Masonry",
         "quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
@@ -1844,7 +1951,7 @@
         "culture": 3,
         "isWonder": true,
         "uniques": [
-            "[+15]% Production when constructing [Military] units [in this city]",
+            "[+25]% Production when constructing [Military] units [in all cities]",
             "[+10]% Strength <for [All] units> <vs cities> <when attacking>"
         ],
         "requiredTech": "Bronze Working",
@@ -1875,7 +1982,7 @@
         "uniques": [
             "Must be next to [Coast]",
             "[+1] Movement <for [{Military} {Water}] units>",
-            "[+1 Gold] from [Water] tiles [in this city]",
+            "[+1 Gold] from [Water] tiles [in all cities]",
             "[+1] Sight <for [{Military} {Water}] units>",
             "Gain a free [Lighthouse] [in this city]",
             "Free [Quinquereme] appears"
@@ -1938,9 +2045,8 @@
         "name": "Circus Maximus",
         "cost": 125,
         "happiness": 5,
-        "culture": 1,
+        "culture": 5,
         "isNationalWonder": true,
-        "uniques": ["Cost increases by [30] per owned city"],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -2083,7 +2189,6 @@
         "percentStatBonus": {
             "science": 50
         },
-        "uniques": ["Cost increases by [30] per owned city"],
         "requiredTech": "Philosophy"
     },
     {
@@ -2130,8 +2235,8 @@
         },
         "isWonder": true,
         "uniques": [
-            "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion",
-            "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
+            "All newly-trained [Great Prophet] units [in all cities] receive the [Devout] promotion",
+            "All newly-trained [Missionary] units [in all cities] receive the [Devout] promotion",
             "Only available <after adopting [Piety]>"
         ],
         "requiredTech": "Philosophy",
@@ -2195,7 +2300,6 @@
         "isNationalWonder": true,
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
-            "Cost increases by [30] per owned city",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
         "requiredTech": "Drama and Poetry"
@@ -2216,6 +2320,7 @@
         "name": "Writer Guild",
         "cost": 150,
         "maintenance": 1,
+        "culture": 3,
         "greatPersonPoints": {
             "Great Writer": 1
         },
@@ -2345,7 +2450,7 @@
         },
         "uniques": [
             "Must be next to [Desert]",
-            "[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city]",
+            "[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in all cities]",
             "[+6 Culture] [in this city] <after discovering [Archaeology]>",
             "Provides [1] [Trade Route]",
             "Free [Caravan] appears"
@@ -2383,7 +2488,6 @@
         "isNationalWonder": true,
         "uniques": [
             "All newly-trained [Military] units [in all cities] receive the [Morale] promotion",
-            "Cost increases by [30] per owned city",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
         "requiredTech": "Iron Working"
@@ -2411,8 +2515,8 @@
         "isWonder": true,
         "uniques": [
             "Must be next to [Coast]",
-            "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
-            "[+2 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
+            "[+2 Gold] from [Land Trade Route (Gold)] tiles [in all cities]",
+            "[+2 Gold] from [Sea Trade Route (Gold)] tiles [in all cities]",
             "Free [Cargo Ship] appears",
             "Provides [1] [Trade Route]"
         ],
@@ -2467,7 +2571,6 @@
         "culture": 1,
         "faith": 8,
         "uniques": [
-            "Cost increases by [30] per owned city",
             "[+270]% Natural religion spread [in this city]",
             "Only available <when religion is enabled>",
             "Can only be built <in [Holy] cities>"
@@ -2484,7 +2587,6 @@
         "faith": 17,
         "uniques": [
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
-            "Cost increases by [30] per owned city",
             "[+170]% Natural religion spread [in this city]",
             "Only available <when religion is enabled>",
             "Can only be built <in [Holy] cities>",
@@ -2547,7 +2649,7 @@
         "isWonder": true,
         "uniques": [
             "Must be next to [Lakes]",
-            "[+2 Culture, +2 Food] from [Lakes] tiles [in this city]"
+            "[+2 Culture, +2 Food] from [Lakes] tiles [in all cities]"
         ],
         "requiredTech": "Civil Service"
     },
@@ -2582,10 +2684,9 @@
         },
         "isNationalWonder": true,
         "uniques": [
-            "Cost increases by [30] per owned city",
             "Provides [1] [Trade Route]",
-            "[+3 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
-            "[+3 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+            "[+3 Gold] from [Land Trade Route (Gold)] tiles [in all cities]",
+            "[+3 Gold] from [Sea Trade Route (Gold)] tiles [in all cities]"
         ],
         "requiredTech": "Guilds"
     },
@@ -2593,6 +2694,7 @@
         "name": "Artist Guild",
         "cost": 150,
         "maintenance": 1,
+        "culture": 3,
         "greatPersonPoints": {
             "Great Artist": 2
         },
@@ -2651,7 +2753,7 @@
         },
         "uniques": [
             "Must be next to [Tundra]",
-            "[+1 Culture, +1 Production] from [Tundra] tiles [in this city]"
+            "[+1 Culture, +1 Production] from [Tundra] tiles [in all cities]"
         ],
         "requiredTech": "Metal Casting"
     },
@@ -2723,7 +2825,6 @@
         "isNationalWonder": true,
         "uniques": [
             "Free Technology",
-            "Cost increases by [30] per owned city",
             "Comment [Has [2] Great Work of Writing Slots]"
         ],
         "requiredTech": "Education"
@@ -2828,7 +2929,6 @@
         "production": 8,
         "culture": 1,
         "isNationalWonder": true,
-        "uniques": ["Cost increases by [30] per owned city"],
         "requiredTech": "Machinery"
     },
     {
@@ -2948,6 +3048,7 @@
         "name": "Musician Guild",
         "cost": 200,
         "maintenance": 1,
+        "culture": 3,
         "greatPersonPoints": {
             "Great Musician": 3
         },
@@ -3179,10 +3280,7 @@
         },
         "culture": 5,
         "isNationalWonder": true,
-        "uniques": [
-            "Cost increases by [30] per owned city",
-            "Comment [Has [3] Great Work of Art Slots]"
-        ],
+        "uniques": ["Comment [Has [3] Great Work of Art Slots]"],
         "requiredTech": "Architecture"
     },
     {
@@ -3555,7 +3653,6 @@
         "requiredTech": "Scientific Theory",
         "uniques": [
             "Destroyed when the city is captured",
-            "Cost increases by [30] per owned city",
             "Provides [2] [Secret Project]"
         ]
     },
@@ -3620,7 +3717,7 @@
         },
         "isWonder": true,
         "uniques": [
-            "[Gold] cost of purchasing items in cities [-15]%",
+            "[Gold] cost of purchasing items in cities [-25]%",
             "Only available <after adopting [Commerce]>"
         ],
         "requiredTech": "Industrialization",
@@ -3911,7 +4008,7 @@
         "uniques": [
             "Only available <when espionage is enabled>",
             "Gain an extra spy",
-            "[-10]% enemy spy effectiveness [in all cities]"
+            "[-25]% enemy spy effectiveness [in all cities]"
         ],
         "requiredTech": "Radio"
     },
@@ -4001,7 +4098,7 @@
         "uniques": [
             "Must be next to [Coast]",
             "Free [Great Merchant] appears",
-            "[+3 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+            "[+3 Gold] from [Sea Trade Route (Gold)] tiles [in all cities]"
         ],
         "requiredTech": "Railroads"
     },
@@ -4041,6 +4138,10 @@
     {
         "name": "Cristo Redentor",
         "culture": 7,
+        "happiness": 7,
+        "food": 7,
+        "production": 7,
+        "faith": 7,
         "isWonder": true,
         "uniques": ["[-17]% Culture cost of adopting new Policies"],
         "requiredTech": "Plastics",
@@ -4269,7 +4370,7 @@
         "requiredTech": "Particle Physics",
         "cityHealth": 200,
         "uniques": [
-            "Population loss from nuclear attacks [-100]% [in this city]",
+            "Population loss from nuclear attacks [-100]% [in all cities]",
             "Consumes [1] [Secret Project]",
             "Will not be displayed in Civilopedia",
             "Only available <with [Secret Project]>"
@@ -4302,7 +4403,7 @@
         },
         "uniques": [
             "Gain a free [Recycling Center] [in this city]",
-            "[+200]% Production when constructing [Spaceship part] units [in this city]"
+            "[+150]% Production when constructing [Spaceship part] units [in all cities]"
         ],
         "requiredTech": "Satellites",
         "quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"

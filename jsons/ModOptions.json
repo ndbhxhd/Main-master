@@ -19,11 +19,20 @@
         "minimalCityDistanceOnDifferentContinents": 1,
         "cityWorkRange": 3,
         "cityExpandRange": 3,
+        "cityStateElectionTurns": 10,
+        "spyRankSkillPercentBonus": 25,
         "minimumWarDuration": 1,
         "Allow raze holy city": true,
         "Allow raze capital": true,
         "Can convert gold to science with sliders": true,
-        "Can trade civilization introductions for [500] Gold": true
+        "Can trade civilization introductions for [500] Gold": true,
+        "unitUpgradeCost": {
+            "base": 10,
+            "perProduction": 2,
+            "eraMultiplier": 0.5,
+            "exponent": 1,
+            "roundTo": 5
+        }
     },
     "isBaseRuleset": true
 }
